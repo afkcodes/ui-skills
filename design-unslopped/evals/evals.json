@@ -1,0 +1,23 @@
+{
+  "skill_name": "design-unslopped",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We need a new 'Payments' screen for our business banking web app. Customers need to see upcoming and past payments, approve ones that need approval, and start a new payment. Can you design it? We have a design system called Alchemy.",
+      "expected_output": "Asks about platform (confirms web app, asks about mobile), the one idea (approvals vs history), what exists, and data edge cases, offering defaults. Then a design brief, a structure (hero = items needing approval; tabs Inbox/Needs approval/Scheduled/Paid; full table anatomy with sort/filter/pagination; status chip vocabulary; new-payment entry as the single filled primary), a visual system block mapped to Alchemy tokens, and screens including an empty state and a failed-payment row. Reviews against anti-slop before presenting.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Here's our mobile app home screen, it looks really generic and dated. Make it look modern and premium. It's a personal banking app, shows balance, recent transactions and a few buttons.",
+      "expected_output": "Asks for the current screen (screenshot/Figma), platform details (iOS/Android/both), what must not change, and tone adjectives, with defaults. Gives an honest critique of the existing screen against the anti-slop tells. Proposes a structure (account selector above the hero balance with privacy toggle, 4 verb quick actions, one alert row, day-grouped transactions with fixed row slots, tab bar), a restrained palette with one accent and semantic green/red, and renders mobile screens at 390px with no device frames. Cites 2-3 references by number.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "design a landing page and a dashboard for a new spend-management product for SMEs. web + mobile. go.",
+      "expected_output": "Because the user said 'go', states its defaults in one line each rather than asking a long list (may ask the single most important open question). Produces a shared component vocabulary first, then a marketing hero (headline, subhead, filled+outlined CTAs, real product UI as the visual, logo strip), a desktop dashboard (KPI strip as one connected card, hero chart with selection callout, breakdown as segment bar + legend, table with footer pagination) and a mobile home at 390px using the same chips and row anatomy. One accent, semantic colours only for meaning, no gradient wash, proofread copy, and a short 'what I chose not to do' list.",
+      "files": []
+    }
+  ]
+}
