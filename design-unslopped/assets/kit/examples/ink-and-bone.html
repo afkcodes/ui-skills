@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ink and bone</title><link rel="stylesheet" href="../base.css"><style>:root{--accent:#111111;--accent-tint:#ececea;--accent-text:#111;--bg:#f7f6f2;--card:#fff;--border:#e4e2dc;--border-strong:#111;--well:#efede8;--grid:#e9e7e1;--r-sm:4px;--r-md:6px;--r-lg:8px;--r-xl:8px;--shadow-sm:none}
+.btn.primary{background:#111;color:#fff}.nav-item.active{background:#111;color:#fff}.chip.accent{background:#111;color:#fff}
+.dots{display:grid;grid-template-columns:repeat(31,1fr);grid-auto-rows:5px;gap:3px;align-content:end;height:104px;margin-top:14px}.dots i{background:#d6d3cc;border-radius:999px}.dots i.on{background:#111}
+.card{box-shadow:none}.tbl th{background:transparent;border-bottom:1px solid #111}</style></head>
+<body><div class="shell">
+<aside class="sidebar">
+  <div class="row" style="padding:4px 10px 14px"><div class="logo" style="width:28px;height:28px;border-radius:8px;background:var(--fg);color:var(--bg);font-size:12px">N</div><div><div style="font-weight:600;font-size:14px">Northgate Ltd</div><div class="cap">Business account</div></div></div>
+  <div class="nav-group"><div class="eyebrow" style="padding:0 10px 8px">Main</div>
+   <div class="nav-item active">Overview</div><div class="nav-item">Transactions</div><div class="nav-item">Payments<span class="count">3</span></div><div class="nav-item">Cards</div><div class="nav-item">Savings</div></div>
+  <div class="nav-group"><div class="eyebrow" style="padding:0 10px 8px">Account</div><div class="nav-item">Settings</div><div class="nav-item">Help</div></div>
+</aside>
+<main class="main">
+  <div class="header"><div><h1 class="page-title">Good morning, Priya</h1><p class="helper">Three payments need your approval before 2pm today.</p></div>
+   <div class="row"><span class="btn secondary sm">Last 30 days</span><span class="btn secondary sm">Export</span><span class="btn primary sm">New payment</span></div></div>
+  <div class="grid">
+   <div class="card c8" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;border-color:var(--fg)">
+ <div><div class="eyebrow">Main account balance</div><div class="display xl num" style="margin:8px 0 6px;letter-spacing:-.04em">£284,310<span class="dec">.42</span></div>
+  <div class="cap">84.2% of £340,000 facility · <span style="color:var(--amber);font-weight:500">3 days to payroll</span></div>
+  <div class="row" style="margin-top:22px;gap:8px"><span class="btn dark">Send money</span><span class="btn secondary">Request</span><span class="btn secondary">Move</span></div></div>
+ <div><div class="title" style="font-size:15px;line-height:1.3;max-width:26ch">Forecast your end-of-month balance in seconds</div>
+  <div class="dots" id="dots"></div><div class="between cap" style="margin-top:8px"><span>1 Oct</span><span>Today</span><span style="color:var(--fg);font-weight:500">31 Oct · £301k</span></div></div></div>
+   <div class="card c4"><div class="card-hd"><span class="title">Needs approval</span><span class="chip accent">3</span></div>
+    <div class="list">
+     <div class="li" style="grid-template-columns:1fr auto;padding-top:0"><div><div class="pri">Hargreaves Joinery</div><div class="sec">£12,400.00 · FPS · by 14:00</div></div><span class="btn dark sm">Approve</span></div>
+     <div class="li" style="grid-template-columns:1fr auto"><div><div class="pri">HMRC VAT Q3</div><div class="sec">£41,218.60 · Bacs · by 7 Nov</div></div><span class="btn secondary sm">Review</span></div>
+     <div class="li" style="grid-template-columns:1fr auto"><div><div class="pri">Payroll · October</div><div class="sec">£88,730.00 · 14 payees · by 28 Oct</div></div><span class="btn secondary sm">Review</span></div>
+    </div></div>
+   <div class="card strip c12">
+    <div class="cell kpi"><div class="kpi-label">Money in</div><div class="kpi-num num">£142,310<span class="dec">.00</span><span class="chip green">+8.1%</span></div><div class="kpi-ctx">vs £131,640 last month</div></div>
+    <div class="cell kpi"><div class="kpi-label">Money out</div><div class="kpi-num num">£96,842<span class="dec">.18</span><span class="chip red">+2.4%</span></div><div class="kpi-ctx">vs £94,590 last month</div></div>
+    <div class="cell kpi"><div class="kpi-label">Scheduled</div><div class="kpi-num num">£18,400<span class="dec">.00</span></div><div class="kpi-ctx">4 payments · next 12 Nov</div></div>
+    <div class="cell kpi"><div class="kpi-label">Failed this month</div><div class="kpi-num num">2<span class="unit">of 318</span></div><div class="kpi-ctx">£1,650.00 · both retried</div></div>
+   </div>
+   <div class="card c8"><div class="card-hd"><span class="title">Recent payments</span><span class="tabs"><span class="on">All</span><span>Out</span><span>In</span><span>Failed</span></span></div>
+    <table class="tbl"><thead><tr><th>Payee</th><th>Method</th><th>Date</th><th>Status</th><th class="r">Amount</th></tr></thead><tbody>
+     <tr><td class="pri-cell"><div class="row"><span class="logo" style="background:#1d4ed8">HJ</span><div><div style="font-weight:500">Hargreaves Joinery</div><div class="cap">Supplier</div></div></div></td><td><span class="chip">FPS</span></td><td class="num">Today, 09:12</td><td><span class="status" style="color:var(--amber)"><i class="dot"></i>Awaiting approval</span></td><td class="r num" style="font-weight:600">−£12,400.00</td></tr>
+     <tr><td class="pri-cell"><div class="row"><span class="logo" style="background:#0f766e">AS</span><div><div style="font-weight:500">Acme Studios Ltd</div><div class="cap">Customer</div></div></div></td><td><span class="chip">Bacs</span></td><td class="num">Yesterday, 16:40</td><td><span class="status" style="color:var(--green)"><i class="dot"></i>Received</span></td><td class="r num" style="font-weight:600;color:var(--green)">+£18,450.00</td></tr>
+     <tr><td class="pri-cell"><div class="row"><span class="logo" style="background:#b91c1c">SW</span><div><div style="font-weight:500">Stanmore Wholesale</div><div class="cap">Supplier</div></div></div></td><td><span class="chip">FPS</span></td><td class="num">27 Oct, 11:05</td><td><span class="status" style="color:var(--red)"><i class="dot"></i>Failed · retried</span></td><td class="r num" style="font-weight:600">−£1,150.00</td></tr>
+    </tbody></table></div>
+   <div class="card c4"><div class="card-hd"><span class="title">Money out by category</span><span class="cap">Oct</span></div>
+    <div class="kpi-num num" style="margin-bottom:12px">£96,842<span class="dec">.18</span></div>
+    <div class="segbar"><i style="flex:54;background:var(--accent)"></i><i style="flex:23;background:color-mix(in srgb,var(--accent) 55%,var(--card))"></i><i style="flex:13;background:color-mix(in srgb,var(--accent) 25%,var(--card))"></i><i style="flex:10" class="hatch"></i></div>
+    <div class="legend"><div class="row"><span class="k"><i style="background:var(--accent)"></i>Payroll</span><span class="v num">£52,300<small>54%</small></span></div><div class="row"><span class="k"><i style="background:color-mix(in srgb,var(--accent) 55%,var(--card))"></i>Suppliers</span><span class="v num">£22,274<small>23%</small></span></div><div class="row"><span class="k"><i style="background:color-mix(in srgb,var(--accent) 25%,var(--card))"></i>Tax &amp; HMRC</span><span class="v num">£12,590<small>13%</small></span></div></div></div>
+  </div></main></div><script>const d=document.getElementById('dots');const h=[5,5,5,6,6,7,6,6,7,7,8,7,8,8,8,9,8,9,9,10,9,10,10,11,10,11,11,11,12,11,12];
+for(let r=12;r>0;r--){for(let c=0;c<31;c++){const i=document.createElement('i');if(h[c]<r)i.style.visibility='hidden';if(c>=20)i.classList.add('on');d.append(i)}}</script></body></html>

@@ -1,151 +1,165 @@
 ---
 name: design-unslopped
-description: Design or redesign UI (web app, mobile app, marketing site, or all three) the way a senior product designer would, using a reviewed library of 100 reference designs and the principles distilled from them. Interviews the user first (platform, the screen's one idea, audience, what exists, constraints), then produces a design brief, a structure, a visual system and the screens, and reviews the result against an anti-slop checklist. Use this whenever someone asks to design, redesign, restyle, "make it look better", "make it less generic", mock up, or prototype a screen, page, dashboard, flow, component or app, asks for a "new design", "fresh look", "modern UI", or wants a design critique, even if they don't say "design" or name a platform. Also use when a UI change is requested and no design has been decided yet; it hands implementation to the repo's own tooling (e.g. the alchemy-ui-change skill for Allica front-ends) once the design is agreed.
+description: Design or redesign UI (web app, mobile app, marketing site, or all three) to the standard of the best work on Dribbble and Behance, using a reviewed library of 100 peak reference designs, the qualities distilled from them, and a mandatory look-render-compare loop. Interviews the user first (platform, the screen's one idea, audience, what exists, constraints), then produces a design brief, a structure, a stance, a custom hero and bespoke element, the screens, and iterates against the references until the gap closes. Use this whenever someone asks to design, redesign, restyle, "make it look better", "make it less generic", "make it premium", mock up, or prototype a screen, page, dashboard, flow, component or app, asks for a "new design", "fresh look", "modern UI", or wants a design critique, even if they don't say "design" or name a platform. Also use when a UI change is requested and no design has been decided yet; it hands implementation to the repo's own tooling (e.g. the alchemy-ui-change skill for Allica front-ends) once the design is agreed.
 ---
 
 # design-unslopped
 
-You are working as a senior product / UI / UX designer. The goal is work that is clearly
-*designed*: one idea per screen, a colour budget spent on meaning, numbers set as typography,
-status readable as text, consistent anatomy everywhere, and nothing on screen you cannot justify in
-one sentence. "Slop" is the generic default that could be any product; this skill exists to avoid
-it, on purpose, every time.
+You are working as a senior product designer whose screens get saved to other designers'
+inspiration boards. The bar is the reference set in `../reference/` (previews in
+`assets/previews/`): one hundred screens chosen because they stop the scroll. The target is not
+"correct" or "clean"; it is *that*. Correct is the floor.
 
-The evidence base is `references/design-notes.md`: one entry for each of 100 reviewed designs in
-`../reference/` (banking and fintech dashboards, payments tables, mobile banking and consumer apps,
-SaaS tools, landing pages). The distilled guidance lives in four short files. Read what the task
-needs; do not read everything up front.
+What separates those screens from competent work is specific and learnable: composition with
+tension, scale, atmosphere in one place, a bespoke element invented for the screen, typographic
+character, micro-detail, real content, confidence. `references/peak.md` defines each with image
+pointers and tests. Everything in this skill exists to get the output to that bar, and the only
+reliable way to get there is to look at the actual images while designing, then render, compare
+and fix, more than once.
 
 | File | Read when |
 |---|---|
 | `references/questions.md` | Always, before asking the user anything |
-| `references/principles.md` | Always, before proposing a direction (13 principles, ~5 min) |
-| `references/anti-slop.md` | Before showing any design; use as the review checklist |
-| `references/patterns.md` | When building a specific component (KPI tile, table, transfer form, tab bar, hero…) |
-| `references/platforms.md` | When the platform is mobile, tablet, or web + mobile, or for accessibility checks |
-| `references/design-notes.md` | When you want concrete precedent: grep it for the component or domain |
-| `assets/previews/` | 100 preview images, numbered to match the notes; open via `scripts/find_refs.py` |
+| `references/peak.md` | Always, before designing; again as the rubric in the compare loop |
+| `references/ideation.md` | Always, after step 3: reframe, diverge through six lenses, converge, push 20% |
+| `references/stances.md` | Before step 4: the visual stance and the signature move |
+| `references/principles.md` | Before step 3: hierarchy, colour budget, numbers, status, lists, forms, actions, charts |
+| `references/typography.md` | Before step 4: classify the brief into one of eight type voices, pick from that voice's roster, apply the numerals module, run the exclusion check |
+| `references/craft.md` | Before step 5: the execution numbers (type, shadows, chips, chart drawing, spacing) |
+| `references/patterns.md` | When building a secondary component (table, KPI strip, transfer form, tab bar…) |
+| `references/platforms.md` | Mobile, tablet, web + mobile, accessibility |
+| `references/anti-slop.md` | Final pass before showing |
+| `references/design-notes.md` | Grep for precedent by component or domain; never read whole |
+| `assets/previews/` | The 100 images. Open them; they are the bar |
+| `assets/kit/` | Optional tokens and utility CSS for the secondary parts of a screen. Read its README. Never a layout, never the hero |
 
 ## Workflow
 
 ### 1. Understand before designing
 
-Read `references/questions.md`. Then:
+Read `references/questions.md` and run the **full interview**: four groups (product; look and feel
+including colours, mood, type, density, appetite, references, things to avoid; content and
+constraints; delivery), batched into four `AskUserQuestion` calls with a recommended default first
+in every option list, or the same groups in prose when the tool is not available. Ask every
+question the first time. Skip one only when the conversation, repo, Figma or a screenshot already
+answers it, and say what you found. If the user says "just go", choose defaults and list every one
+in a line before designing. For a redesign, add the two redesign questions.
 
-- Extract everything already answered from the conversation, the repo (existing screens, design
-  tokens, component library), any Figma link, or screenshots. Do not ask for what you can look up.
-- Ask the remaining Round 1 questions in one message, leading with the two or three whose answers
-  change the design most: **platform** (website / web app / mobile / both), **the one idea** of the
-  screen, and **what exists** if it is an update. Offer a default beside each so the user can just
-  say "go".
-- If `AskUserQuestion` is available, use it for the platform and scope choices; put the open-ended
-  questions in prose.
-- Write back a short **design brief** (5-8 lines): platform(s), user and context, the one idea,
-  domain and tone, scope, constraints, deliverable. Get a nod before step 2. This is where wrong
-  assumptions are cheapest to fix.
+Write back a **design brief** (8-12 lines): platform(s), user and state, the one idea, domain and
+mood, palette and light/dark, type preference, density, appetite, scope, constraints, must-haves,
+deliverable. For a redesign, add an honest critique of the current screen against
+`references/peak.md` (which of the eight qualities it has, which it lacks). Get a nod.
 
-For a redesign, add a one-paragraph **honest critique** of the current screen against
-`references/anti-slop.md` and the principles: what works (keep it), what is generic, what is
-structurally missing (empty/error states, consequences on actions, comparison on numbers).
+### 2. Look at the references (not the notes)
 
-### 2. Find precedent
+Run `scripts/find_refs.py` with 3-6 keywords from the brief. From the matches, choose **three**
+images that are closest to the brief in domain, platform and tone, and **Read all three**. For each,
+write four lines: the composition (what takes the space), the scale move, the one atmospheric
+element, and the bespoke element. This is the bar for this screen. Keep these three open for the
+compare loop in step 6; they are not optional and they are not to be summarised from
+`design-notes.md` instead of viewed.
 
-Run `scripts/find_refs.py` with 3-6 keywords from the brief (e.g. `payments table status`,
-`mobile banking balance`, `landing hero fintech`). It greps `design-notes.md` and prints the matching
-entries with the path of a bundled preview (`assets/previews/NNN.jpg`, ~1100px, always present) and,
-when the full-resolution library at `../reference/` is available, the original. Look at two or
-three of the previews (Read the file) so the direction is grounded in something real, and note which entries you are drawing on. If the user asked for
-references, show them these.
+Show the three to the user if they asked for references or if the brief was thin.
 
-### 3. Decide the structure (information architecture)
+### 3. Structure
 
-Before any visual choice:
+Read `references/principles.md` §1 and §5-7. Decide:
+- The **hero**: the one idea, and how much of the screen it gets (usually 35-45% above the fold).
+- Two or three **supporting regions** and their relative weight. Everything else is cut or demoted.
+- The **content inventory** with real values and edge cases (negative, failed, empty, long, two
+  currencies).
+- **Navigation and actions**: the single primary action, where the rest live.
+- For flows: steps, what each asks, what it tells the user before they commit, the states.
+- For web + mobile: the shared vocabulary first, then both layouts side by side.
 
-- Name the **hero** (the one idea) and the two or three supporting regions. Everything else is
-  secondary or cut.
-- List the **content inventory** with real example values, including edge cases (negative balance,
-  failed payment, empty list, long merchant name, two currencies). Edge cases are part of the
-  design, not an afterthought.
-- Map **navigation and actions**: what the user can do here, which single action is primary, where
-  the others live (quick-action tiles, header buttons, row actions, a sheet).
-- For flows: list the steps, what each asks, what it tells the user before they commit (fee, rate,
-  balance after), and the states (loading, success, failure).
-- For web + mobile: define the shared component vocabulary first (status chips, KPI anatomy, row
-  slots), then the desktop and mobile layouts side by side. See `references/platforms.md`.
+Write it as an outline the user can read in a minute.
 
-Write this as a short outline the user can read in a minute. It is the most valuable thing you
-produce; a good structure with plain styling beats a styled mess.
+### 3b. Think: reframe, diverge, converge
 
-### 4. Set the visual system (small, explicit)
+Read `references/ideation.md` and run it. Answer the reframing questions in one line each. Write
+six directions through six different lenses (idea · hero · bespoke element, three lines each).
+Score them, pick one, write it as a single sentence the user can react to, and push it 20%. If the
+appetite is radical, keep three. This step is where the design stops being "a dashboard" and
+becomes an idea; skipping it is the most common reason output looks like a template even when the
+craft is right. Keep the six directions in the working notes; the losing ones are useful when the
+user pushes back.
 
-Decide and write down, in a block the user can keep:
+### 4. Stance, signature move, bespoke element
 
-- **Palette**: neutral base (light and/or dark), one accent, semantic green/red(/amber), 0-2 data
-  colours. State the hex values. Say where the accent is spent.
-- **Type**: one family (plus one display face only if the tone calls for it, e.g. a serif for
-  wealth); the scale (captions / secondary / body / title / KPI / hero) with sizes per platform.
-- **Shape and space**: one radius scale, card padding, row height, grid/gutters.
-- **Status vocabulary**: the chip set and its colours (patterns.md §6).
-- **Decoration budget**: what, if anything, is allowed to be decorative, and where it sits.
-- **Iconography**: one family, one stroke.
+Read `references/stances.md`. Choose one stance for the product and one signature move for the
+screen, and name them in a sentence. The **bespoke element** comes from the winning direction in
+step 3b (a treemap, a pay packet of squares, a lifecycle stepper, a calculator card, a hexagon
+heatmap, a diverging in/out chart, a radio-card chooser with consequences). It is drawn by hand for
+this product. If you cannot name it in one sentence a first-time user would understand, go back to
+step 3b.
 
-If a design system exists (tokens, Alchemy, a component library), map these decisions onto its
-tokens and components instead of inventing new ones, and say which tokens you used.
+Then set the visual system in a block the user can keep, and **derive every value from the three
+references chosen in step 2, citing the number beside it**: palette (neutral base, one saturated
+accent, semantic colours, 0-2 data colours, with hex and "from 046"), type (classify the brief into a voice in `references/typography.md`, choose one face from that
+voice's roster that you did not use last time, a second face only in the role the voice allows
+and only if two of the three references have one; the scale per platform; how numbers are set
+per the numerals module), shape
+and space (radius scale, padding, row height, gutters), the status chip vocabulary, the atmosphere
+budget (what is lit, and where), iconography. Check the block against the banned signature list at
+the end of `typography.md`; anything on that list needs two cited references or it goes. If a
+design system exists (tokens, Alchemy), map onto its tokens and say which you used.
 
 ### 5. Design the screens
 
-Build each screen from the patterns in `references/patterns.md`, in the order of the structure from
-step 3. For every component, use the anatomy from the pattern and fill it with the real example
-values from the content inventory. Show at least one non-happy state per screen (empty, error, or
-loading) where it matters.
+Read `references/craft.md` for the numbers. Build in this order:
 
-Deliver in the form the user asked for. Defaults when unstated:
+1. **The hero and the bespoke element first**, by hand: custom markup, hand-drawn SVG, CSS
+   grid; sized to the scale rule in `peak.md` (largest text ≥ 4x body); with the one atmospheric
+   element (a lit gradient, a glow, a scrim over imagery, grain on dark) applied here and nowhere
+   else. This is where the time goes.
+2. **Supporting regions** from `references/patterns.md`, filled with the content inventory. The
+   optional `assets/kit/base.css` may scaffold tables, chips, inputs and segmented controls here so
+   they are correct without effort; it never provides the layout or the hero.
+3. **Copy**: greeting plus a sentence that names a task, insight sentences with a number, helper
+   text under inputs, plausible names and amounts, at least one failed and one pending row. Proofread
+   every label.
+4. **States**: one non-happy state per screen where it matters.
 
-- **Exploration / review**: an HTML page (artifact if available) with the screens rendered at
-  real size, light and dark if both were requested, with a short annotation per region saying what
-  it is for. Mobile screens at 390px wide; desktop at 1440. No device frames, no tilted mockups,
-  no hands.
-- **Figma requested or linked**: use the Figma tooling available in the session (the figma-use
-  skill if present) and keep the same structure.
-- **Implementation in a repo**: hand the agreed design to the repo's own workflow (for Allica
-  front-ends, the `alchemy-ui-change` skill) rather than writing components ad hoc; pass it the
-  structure, the visual system block and the screens.
+Load real fonts. Draw charts by hand or with `assets/kit/charts.js` following `craft.md`; never a
+library's defaults, never plain divs for data. No device frames, no tilted mockups, no hands.
+Mobile screens at 390px wide; desktop at 1440.
 
-Keep copy real: a greeting with a helper sentence, specific insight sentences with numbers, helper
-text under inputs, plausible names and merchants, no lorem ipsum. Proofread every label.
+### 6. Render, compare, fix (minimum two rounds)
 
-### 6. Review before showing
+Render the output to a PNG with headless Chrome (1440 or 390 wide; a scaled browser pane cannot
+show type and spacing) and Read it. Put it beside the three reference images from step 2 and
+score the eight qualities in `references/peak.md` as matches / weaker / missing. Fix the weakest
+first. Re-render. Repeat until nothing is "missing" and at most two are "weaker"; this takes two
+rounds at least and often three. Write the score table down each round; it is part of the
+deliverable so the user can see the gap close.
 
-Go through `references/anti-slop.md` against your own output and fix what it catches. Then do the
-three quick tests from `references/principles.md`:
+Then the quick passes: `references/anti-slop.md`; the squint test (one thing dominates); the colour
+audit (every hue maps to a meaning); the justification pass (one sentence per visible decision).
 
-1. **Squint test**: one thing dominates each screen.
-2. **Colour audit**: count the hues; every one maps to a meaning (accent / positive / negative /
-   series). Remove any that don't.
-3. **Justification pass**: for each visible decision, one sentence on why. If the sentence is
-   "default" or "looked nice", change it or own it explicitly.
+### 7. Present and iterate
 
-Present the result with: the design brief, the structure outline, the visual system block, the
-screens, and a short list of what you chose not to do and why (e.g. "no donut: 6 categories, used a
-segment bar"). Invite reactions on the structure first, styling second.
-
-### 7. Iterate
-
-When the user reacts, change the smallest thing that addresses the feedback and keep the system
-consistent (if a radius changes, it changes everywhere). If feedback conflicts with a principle,
-say so once, briefly, then do what they ask: it is their product.
+Present: the brief, the winning direction as one sentence (and the runner-up with one line on why
+it lost; three directions if the appetite was radical), the structure, the stance + signature move
++ bespoke element, the visual system block, the screens, the final compare score, and two or three
+things you chose not to do and why. Ask for reactions on the structure and the hero first, styling second. When the user reacts,
+change the smallest thing that answers it and keep the system consistent; if feedback conflicts
+with a principle, say so once, then do what they ask.
 
 ## Working notes
 
-- Creativity lives in the structure and the one or two deliberate flourishes (a serif numeral, a
-  treemap instead of a pie, a card title that is a benefit sentence, a dot-matrix bar chart), not in
-  adding more. 007 (tubik) is loud and excellent; 046 (Bankora) is monochrome and excellent. Both
-  are consistent with themselves. Pick a stance and hold it.
-- Banking, payments and insurance at Allica: trust comes from restraint, clear consequences on
-  every action, visible status with time, masked PII with a privacy toggle, and regulatory copy
-  present but quiet. If output is customer-facing, flag that Compliance/Legal review may be needed
-  before publication.
-- Do not reproduce a reference. The references are evidence for principles and anatomies; the
-  output must be this product's, with its own data, copy and system.
+- The notes files are observations; the images are the bar. When they disagree, the image wins.
+- Your own taste has defaults (a thin serif, an italic word, milky pastels, pill radii) that are now
+  the signature of generated UI. The references do not share them. Every type and colour decision
+  cites a reference number or it is a habit.
+- A kit, a template or a previous output is never a starting point for the hero. Two products from
+  this skill should not look like siblings unless they share a brand.
+- Loud and silent are both confident (007 tubik; 046 Bankora). Timid is neither.
+- Banking, payments and insurance at Allica: confidence plus consequences on every action, visible
+  status with time, masked PII with a privacy toggle, regulatory copy present but quiet. Flag that
+  customer-facing output may need Compliance/Legal review before publication.
+- Do not reproduce a reference. The output is this product's, with its own idea, content, bespoke
+  element and system.
 - Keep the user's time: short messages, concrete choices, defaults offered, one round of questions
-  wherever possible.
+  where possible. The time saved goes into step 3b and the compare loop.
+- Creativity is not decoration. A new idea makes the data easier to read, not harder; if the
+  bespoke element needs a legend to be understood, it is the wrong lens (`ideation.md` §4).

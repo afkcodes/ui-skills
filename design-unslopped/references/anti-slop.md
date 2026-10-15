@@ -31,6 +31,14 @@ and against template work like 028. Scan a design against this list before showi
 | Centered everything on desktop | Reads as a slide, not a tool | Left-align content; centre only hero headlines on marketing pages |
 | Placeholder avatars and "John Doe" in every row | Unconvincing | Varied, plausible names and real-looking merchants/logos |
 
+## The generated-UI typographic signature
+
+Thin display serif (Instrument Serif, Playfair) at 60px+; a greyed currency symbol; an italic word in
+a product headline; Plus Jakarta paired with a serif; lilac/mint/peach pastels; four equal display
+numbers in a row; pill radii on everything; a bento grid with icons; glass on every card. The full
+list with the evidence is in `typography.md`. Any of these is allowed only when two of the three
+references chosen for the brief do it, cited by number.
+
 ## Structural tells (harder to see, more damaging)
 
 - **No empty, loading, or error state considered.** A design that only shows the happy path with
@@ -47,6 +55,29 @@ and against template work like 028. Scan a design against this list before showi
 - **Identical structure for different content.** Every card is title + number + chart even when the
   content is a list, a form, or a sentence. Let the content choose the component.
 - **Density mismatch.** Hero at 10% density, table at 90%. Choose one and hold it.
+- **Same card six times.** Below the hero, every card has the same anatomy and height, and a trick
+  that worked once (a sentence title, a sparkline) is repeated until it is wallpaper. Vary height,
+  device and density; compress the third and fourth cards.
+- **Saying it twice.** An alert card that repeats a row further down ("Gym+ renews tomorrow" as a
+  banner and again in the subscriptions list). One of them goes.
+- **Quick-action tiles next to a FAB.** If a floating + already owns the primary verb, four identical
+  outlined tiles underneath the hero are filler. Keep the one or two verbs that matter as a chip row,
+  or drop them.
+- **A reading drawn as a control.** A slider handle, a toggle, a knob used to *show* a value implies
+  the user can change it. Readings are dots on a track, bars, or figures; controls are for input.
+- **Legend over five items.** The chart is carrying too many encodings to be read at a glance. Keep
+  the two or three the eye needs; explain the rest in a footnote ("Faded = in progress") or the
+  methodology block, or split the chart.
+- **Secondary chart squeezed under the primary.** When two charts share an axis, the second is often
+  left 60-80px tall and its slices unreadable. Give it at least 40% of the height, or simplify its
+  encoding to what fits.
+- **Unbalanced short numbers.** "7 s typical" at display size next to "10.5 min": a one-digit figure
+  with a trailing unit and word looks broken. Set number + unit together at display size, the
+  qualifier on the line below, same anatomy as its neighbours.
+- **A headline that promises what the hero doesn't deliver.** A two-sentence headline whose second
+  sentence is answered only below the fold needs a link or a second beat; otherwise cut it.
+- **Signs that read backwards.** "↑ $4/day vs plan" (up = good or bad?); "You owe −$38" (the label
+  already carries the sign). Write the comparison in words and let the label carry the sign.
 
 ## What "unslopped" does NOT mean
 

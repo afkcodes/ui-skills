@@ -136,7 +136,9 @@ The honest charts in the set share habits:
   054/059, dot-matrix bars 040, diverging in/out bars 049) are used because the data has that
   shape, and each is used once.
 
-Remove any chart that restates a number already on screen (the three-slice pie in 001).
+Remove any chart that restates a number already on screen (the three-slice pie in 001). Keep
+legends to five items or fewer; past that, split the chart or move encodings to a footnote. Never
+draw a reading as a control (a slider handle for "7 s typical"): readings are dots, bars or figures.
 
 ## 9. Chrome is quiet so content isn't
 
