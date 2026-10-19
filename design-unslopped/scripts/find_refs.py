@@ -32,8 +32,18 @@ def load_blocks():
 
 
 def load_image_paths():
-    """Map note number -> (preview path, full-res path or None)."""
+    """Map note number -> (preview path, full-res path or None). Uses assets/previews/map.txt
+    (number -> reference-relative path) when present; falls back to folder order."""
     previews = {int(p.stem): p for p in PREVIEWS.glob("[0-9][0-9][0-9].jpg")} if PREVIEWS.is_dir() else {}
+    mp = PREVIEWS / "map.txt"
+    if mp.is_file():
+        full = {}
+        for line in mp.read_text(encoding="utf-8").splitlines():
+            parts = line.strip().split(" ", 1)
+            if len(parts) == 2 and parts[0].isdigit():
+                cand = REF_DIR / parts[1]
+                full[int(parts[0])] = cand if cand.is_file() else None
+        return {n: (previews.get(n), full.get(n)) for n in set(previews) | set(full)}
     order = [
         "app-designs/dribbble", "app-designs/behance", "website-designs/dribbble-dashboards",
         "website-designs/dribbble", "website-designs/behance", "website-designs/awwwards",

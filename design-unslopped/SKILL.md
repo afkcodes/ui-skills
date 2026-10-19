@@ -22,6 +22,7 @@ and fix, more than once.
 | `references/questions.md` | Always, before asking the user anything |
 | `references/peak.md` | Always, before designing; again as the rubric in the compare loop |
 | `references/ideation.md` | Always, after step 3: reframe, diverge through six lenses, converge, push 20% |
+| `references/tools-and-analytics.md` | When the brief is a tool: product analytics, observability, admin, ops, dev tools. Read right after `peak.md`; it swaps the hero/scale/atmosphere targets and the review rubric |
 | `references/stances.md` | Before step 4: the visual stance and the signature move |
 | `references/principles.md` | Before step 3: hierarchy, colour budget, numbers, status, lists, forms, actions, charts |
 | `references/typography.md` | Before step 4: classify the brief into one of eight type voices, pick from that voice's roster, apply the numerals module, run the exclusion check |
@@ -44,6 +45,12 @@ in every option list, or the same groups in prose when the tool is not available
 question the first time. Skip one only when the conversation, repo, Figma or a screenshot already
 answers it, and say what you found. If the user says "just go", choose defaults and list every one
 in a line before designing. For a redesign, add the two redesign questions.
+
+Classify the product as **consumer app**, **marketing site**, or **tool** (analytics, admin, ops,
+observability, developer tools, internal dashboards). Tools run in **tool mode**: read
+`references/tools-and-analytics.md` after `peak.md`; its §1 table replaces the hero, scale,
+atmosphere and colour targets, and its §10 rubric replaces the eight qualities in step 6. Say which
+mode you are in, in the brief.
 
 Write back a **design brief** (8-12 lines): platform(s), user and state, the one idea, domain and
 mood, palette and light/dark, type preference, density, appetite, scope, constraints, must-haves,
@@ -128,7 +135,10 @@ Mobile screens at 390px wide; desktop at 1440.
 
 Render the output to a PNG with headless Chrome (1440 or 390 wide; a scaled browser pane cannot
 show type and spacing) and Read it. Put it beside the three reference images from step 2 and
-score the eight qualities in `references/peak.md` as matches / weaker / missing. Fix the weakest
+score the eight qualities in `references/peak.md` as matches / weaker / missing (in tool mode,
+score the eight items in `tools-and-analytics.md` §10 instead). Run the structural checks in
+`references/anti-slop.md` in the same round, not after; most of them are cheaper to fix before
+the second render. Fix the weakest
 first. Re-render. Repeat until nothing is "missing" and at most two are "weaker"; this takes two
 rounds at least and often three. Write the score table down each round; it is part of the
 deliverable so the user can see the gap close.

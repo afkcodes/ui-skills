@@ -12,7 +12,8 @@ bare hero, a splash or title cover, or a tilted / hand-held mockup went to `_rej
 
 | Folder | What it is | Files |
 |---|---|---|
-| `website-designs/dribbble-dashboards/` | Web-app dashboards: banking, fintech, payments, business banking, SaaS, analytics | 60 |
+| `website-designs/dribbble-dashboards/` | Web-app dashboards: banking, fintech, payments, business banking, SaaS (incl. 1 negative) | 27 |
+| `website-designs/dribbble-analytics/` | Product/web/marketing analytics tools: funnels, cohorts, event feeds, experiments, web vitals (incl. 2 negatives) | 18 |
 | `website-designs/dribbble/` | Top web shots of the year (marketing sites, enterprise SaaS) | 11 |
 | `website-designs/behance/` | Top website / landing-page projects | 3 |
 | `website-designs/awwwards/` | Sites of the Day (almost all art-directed heroes, so only 1 passed) | 1 |

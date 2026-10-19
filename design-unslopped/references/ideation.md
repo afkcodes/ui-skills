@@ -12,11 +12,11 @@ Answer in one line each. The answers often contain the idea.
 - What question are they really asking? ("can I afford this?" not "what is my balance")
 - What would they do with the answer in the next ten seconds?
 - What is the data's natural shape? (a composition → area; a sequence → timeline; a flow → Sankey;
-  a count → units; a position → map; a limit → gauge; a comparison → paired bars)
+ a count → units; a position → map; a limit → gauge; a comparison → paired bars)
 - What physical object from this domain already solves this? (pay packet, till receipt, passbook,
-  cheque stub, ledger, meter, boarding pass, timetable, dial, ticket, seed tray, lap counter)
+ cheque stub, ledger, meter, boarding pass, timetable, dial, ticket, seed tray, lap counter)
 - What is the one sentence this screen should say if it could talk? (046: "Forecast your end-of-
-  month balance in seconds." 025: "Nice work! You saved €26 this week.")
+ month balance in seconds." 025: "Nice work! You saved €26 this week.")
 - What is everyone else's version of this screen, and what do they all get wrong?
 
 ## 2. Diverge: six directions, fast
@@ -28,42 +28,42 @@ workflow.
 
 Lenses (pick six that fit; the reference beside each shows the lens working):
 1. **Lead with the change, not the state.** The hero is the delta or the insight; the balance is
-   secondary. (092 "+2.6%" at 64px; 066 orange insight card)
+ secondary. (092 "+2.6%" at 64px; orange insight card)
 2. **Make the data a countable thing.** Units, squares, dots, portions, coins. (040 dot-matrix;
-   014 calorie portions; 046 barcode bars; 030 cohort dots)
+ 014 calorie portions; 046 barcode bars; 030 cohort dots)
 3. **Composition as area.** Treemap, mosaic, stacked blocks. (023 treemap of contracts; 069 order
-   status as three wide blocks)
+ status as three wide blocks)
 4. **Map it onto its real shape.** A circuit, a floor plan, a body, a country, a calendar grid.
-   (010 drivers on the track; 039 Australia heat map; 024 body silhouette; 016 avatars on dates)
+ (010 drivers on the track; Australia heat map; 024 body silhouette; 016 avatars on dates)
 5. **The screen answers a question.** A calculator, a simulator, a slider with live result. (046
-   cash-flow calculator; 063 strategy sliders; 040 keypad transfer)
-6. **Time as the spine.** Timeline, stepper, lifecycle, "now" line. (017 payment lifecycle; 079
-   calendar with the now line; 054 relative times)
+ cash-flow calculator; 063 strategy sliders; 040 keypad transfer)
+6. **Time as the spine.** Timeline, stepper, lifecycle, "now" line. (017 payment lifecycle; 
+ calendar with the now line; 054 relative times)
 7. **One object, big.** The product, the card, the car, the device, rendered and centred; data
-   around it. (015 car; 006 lamp dial; 025 Cubee device)
+ around it. (015 car; 006 lamp dial; 025 Cubee device)
 8. **Sentences instead of widgets.** Card titles that say what they do; insights as prose with the
-   number inside. (046; 060 "Improve 32% in morning engagement…"; 032)
+ number inside. (046; 060 "Improve 32% in morning engagement…"; )
 9. **Invert one surface.** One dark card on a light page or one light card on dark, and it is the
-   action. (092 exchange panel; 046 calculator; 077 tax alert)
+ action. (092 exchange panel; 046 calculator; tax alert)
 10. **Texture as encoding.** Hatching, dots, stripes for projected / pending / other instead of a
-    colour. (011 hatched bars; 059 hatched potential; 035 hatched segments)
+ colour. (011 hatched bars; 059 hatched potential; hatched segments)
 11. **Steal a print idea.** Ledger rules, small-caps eyebrows, a ticket stub, a receipt tear-off, a
-    stamped status, a numbered index. (046 Swiss ledger; 023 boxed grid; 017 "Transactions." as a
-    magazine title)
+ stamped status, a numbered index. (046 Swiss ledger; 023 boxed grid; 017 "Transactions." as a
+ magazine title)
 12. **Strip it to numbers on the page.** No cards; hairlines; the numbers are the layout. (093; 069)
 13. **A single saturated colour on nothing.** Everything grey except the one thing that matters.
-    (029 lime; 040 yellow card; 072 yellow nav)
+ (029 lime; 040 yellow card; 072 yellow nav)
 14. **The brand is a character.** Illustration, voice, a mascot, loud type. (007 tubik)
 15. **Split the screen by meaning.** State above (dark), activity below (light); summary left,
-    action right. (004; 040; 024)
+ action right. (004; 040; 024)
 16. **Make the status physical.** Coloured header strips, stamps, rings, progress you can read from
-    across the room. (061 rent strips; 023 "B+" grade; 068 limits as bars)
+ across the room. ( rent strips; 023 "B+" grade; 068 limits as bars)
 17. **Give it a voice.** Notifications and empty states that sound like a person with a number.
-    (025 "You saved €26 this week"; 075 recommendation cards)
+ (025 "You saved €26 this week"; 075 recommendation cards)
 18. **Borrow from another domain.** A bank statement as a boarding pass; a budget as a seed tray;
-    savings as a thermometer; approvals as a kanban. (044 cases as kanban; 014 scan as AR labels)
+ savings as a thermometer; approvals as a kanban. ( cases as kanban; 014 scan as AR labels)
 19. **Remove the obvious component.** No tab bar, no donut, no KPI row; what replaces it? (093 has
-    no cards; 069 has no KPI tiles)
+ no cards; 069 has no KPI tiles)
 20. **Make the empty state the hero.** Design for zero first; the full state inherits its idea.
 
 Random stimulus, when stuck: pick a reference number at random that is *outside* the brief's domain
@@ -85,15 +85,15 @@ money went; the number left is the hero." Present the top two to the user when t
 ## 4. Push, then protect ◆
 
 - **Push 20%.** Whatever the winning idea is, make it bigger, bolder or more literal than feels
-  comfortable: the hero number one size up, the bespoke element taking the full card, the colour
-  fully saturated. The references all sit slightly past comfortable (076's full-bleed gradient; 092's
-  64px delta; 023's edge-to-edge treemap).
+ comfortable: the hero number one size up, the bespoke element taking the full card, the colour
+ fully saturated. The references all sit slightly past comfortable (076's full-bleed gradient; 092's
+ 64px delta; 023's edge-to-edge treemap).
 - **Protect the idea.** Everything that is not the idea gets quieter to make room: fewer colours,
-  plain tables, standard chips. One idea per screen; the second-best idea goes to the next screen or
-  the bin.
+ plain tables, standard chips. One idea per screen; the second-best idea goes to the next screen or
+ the bin.
 - **Keep it honest.** Novelty that makes the data harder to read is decoration. If the treemap
-  needs a legend to be understood, it is the wrong lens. Test: can a first-time user say what the
-  bespoke element means without being told?
+ needs a legend to be understood, it is the wrong lens. Test: can a first-time user say what the
+ bespoke element means without being told?
 
 ## 5. Creative appetite (from the brief) ◆
 
@@ -101,7 +101,7 @@ Ask it in Round 1 of `questions.md` and design to it:
 - **Evolutionary**: keep the current structure and system; one signature move; craft fixes.
 - **Confident** (default): new structure, one stance, one bespoke element, pushed 20%.
 - **Radical**: run all 20 lenses, present three directions, allow the hero to be something the
-  category has not done; expect a second round.
+ category has not done; expect a second round.
 State the appetite you designed to in the brief so the user can move the dial.
 
 ## 6. Signs the thinking was skipped

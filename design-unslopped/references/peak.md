@@ -26,7 +26,7 @@ device (portions, a grid, a chart), and cut what repeats what the hero already s
 The hero number or headline is bigger than feels safe: 56-84px on desktop, 36-44px on mobile, with
 the unit, decimals or eyebrow at a fifth of that size. Contrast of scale is what makes it premium.
 - 081 Vanta, 093 Portal, 049 Nueansa (digits with letter-spacing), 092 (+2.6% at ~64px with a two-line
-  explanation beneath), 011 (£24,769 with the pence shrunk).
+ explanation beneath), 011 (£24,769 with the pence shrunk).
 Test: the largest text on screen should be at least 4x the body size. If it is 2x, double it.
 
 ## 3. Atmosphere
@@ -35,8 +35,8 @@ Flat hex colours on white are correct and dead. The references have light and de
 - A gradient with a visible light source (076, 083 red→orange; 017 deep blue; 020 violet).
 - A glow anchored to one edge or corner (012, 025, 037, 050).
 - A photo or render behind a dark scrim with data in the clear (010, 033, 024).
-- Material: glass that reads as glass because something sits behind it (020 action tiles, 062, 076's
-  card stack), or a 3D card render with a real reflection (027, 073).
+- Material: glass that reads as glass because something sits behind it (020 action tiles, 076's
+ card stack), or a 3D card render with a real reflection (027).
 - Grain or noise at 2-4% on a dark surface so black is not flat (033, 037).
 Atmosphere is applied to the hero region only; everything else stays matte. Test: is there a single
 place on the screen that looks lit? If not, add one; if there are three, remove two.
@@ -58,10 +58,10 @@ competitor could not have. If none, you have not designed yet.
 ## 5. Typographic character
 
 - Character comes first from how the body sans is set (weight contrast, tight tracking, scale), not
-  from adding a second face. Where a second face appears it has exactly one role: a serif page title
-  (017 "Transactions."), serif numerals in two references only (071, 081, both heavy), an italic
-  word in a marketing headline (013, 074, 086), or condensed uppercase (007). See
-  `typography.md` before choosing one; a thin display serif is now a generated-UI tell.
+ from adding a second face. Where a second face appears it has exactly one role: a serif page title
+ (017 "Transactions."), serif numerals in two references only (081, both heavy), an italic
+ word in a marketing headline (013, 086), or condensed uppercase (007). See
+ `typography.md` before choosing one; a thin display serif is now a generated-UI tell.
 - Letter-spaced small-caps eyebrows above every big number (001, 046, 076).
 - Mixed weight inside one line: bold greeting + regular question (021), bold value + light unit.
 - Faded decimals, shrunk units, tabular figures everywhere.
@@ -82,7 +82,7 @@ Test: zoom to 200% on any card. If nothing new appears, add two details that car
 Peak screens read as a live product: plausible company names, mixed amounts with sensible
 precision, one failed and one pending row, dates in sequence, a greeting that names a task,
 insight sentences with a specific number, a disclaimer where one belongs. Lorem, "John Doe",
-round numbers and uniform rows break the spell instantly (028, 041, 053 show the cost of typos).
+round numbers and uniform rows break the spell instantly (028, show the cost of typos).
 
 ## 8. Confidence
 
@@ -90,6 +90,13 @@ The screen commits. One stance, held everywhere; no hedging between light and da
 default blue; buttons are black or the accent, never grey-blue; the hero is not apologetic. 007 is
 loud and 046 is silent and both are confident. Test: could this screen be the first image on the
 product's website? If it needs a caption, it is not confident.
+
+## Tool mode
+
+Product analytics, observability, admin and developer tools are judged differently: the user lives
+in them, builds their own layout, and reads many series at once. For those briefs the hero, scale and
+atmosphere tests above are replaced by the table in `tools-and-analytics.md` §1 and the rubric in
+its §10. The quiet references (036, 052) are the bar there, not the lit ones.
 
 ## The compare rubric
 

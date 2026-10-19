@@ -169,11 +169,6 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Headline metric "Saved this month €75" with a 3D device render below; stat tiles: ring gauge "82% powered by your solar today", "Producing 12.4 kW", "Saved today €2.50". Money + energy both as big-number tiles.
 - Notification cards floating outside the phone show the system's voice: "Nice work! You saved €26 this week." Friendly, specific, numeric.
 - Monochrome green palette (one hue, many shades) — a strong example of one-hue dark UI.
-## 026 Team comms (Conceptzilla) — desktop, Slack-like
-- Three-pane: icon rail → channel tree (nested with ↳) → thread → right info panel. Four columns and still calm because only text weight and 1px separators do the work.
-- Right panel "Main info" as key-value rows with icons (Creator, Date, Status chip, Tags 13 ›, Tasks 4 ›); "Thread activity" as a tiny green heatmap strip; Members list with role chips tinted by department.
-- Unread counts as small grey numbers right-aligned in the tree. Numbers, not red dots, for low-urgency counts.
-- Message composer at the bottom with ghost "Discard" + solid black "Send".
 ## 027 Bankio banking dashboard (Catalystco) — desktop, banking, forest green
 - Classic 3-zone layout: sidebar (Main menu / Others groups, active item filled dark green) · main · right rail. Active nav item is the only filled element in the sidebar.
 - Card Overview: physical card render + 4 stat tiles (Main Balance, Net Worth, Investment with a mini donut + legend). Each tile: eyebrow, big number, delta chip "from last month".
@@ -196,18 +191,6 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - "Target Sales Breakdown": big number + three labelled progress bars (35.1% · 64.640 ticket) + area chart with a dark tooltip containing a mini stacked bar. Tooltip carries its own mini-chart.
 - Country table with flags; retention cohort as a dot-matrix grid with a right-side % axis. Dense but all in one type size.
 - Workspace switcher (Global Connect · 37 Members) under the logo: tenant context near the brand.
-## 031 FinSight (SpineEdge) — desktop, banking, sage green
-- Monochrome sage palette; bars in two greens (income darker, expense lighter). Delta chips tinted green/red are the only non-green colours.
-- Three KPI tiles with an icon in a tinted circle top-right and "Since Last Week" + chip. Card tile (My Card) is a pale green tile with chip icon, name, balance, EXP/CVV small.
-- Four square action buttons under the card (Top Up / Transfer / Request / History), outlined.
-- Daily Limit: "$2,500.00 spent of $20,000.00" + progress bar + 57%. Budget widget pattern.
-- Transaction table has a "Note" column with 2-line grey descriptions and status chips (Failed red tint, Completed green tint). Sidebar groups with chevrons for Payments/Cards; Inbox has a count badge "21".
-## 032 NeuroBank (Phenomenon) — desktop, dark navy + electric blue
-- Sidebar has a profile card with date eyebrow ("MONDAY, MARCH 24") and greeting; nav below; promo card at the bottom. Sidebar as a mini-profile column.
-- Top toolbar: "This Month" period chip left, "Manage Widgets" + solid blue "Add new Widget" right. Customisable dashboards expose widget management in the header.
-- AI Insights card with a one-sentence insight ("Your Transaction Volume has increased by 5%") and dots pagination: insight cards are sentences, not charts.
-- Balance Overview: number, delta chip, two meta chips (44 transactions, 12 categories), mini area chart with the current 3 days highlighted. Earnings: semicircle gauge with legend (Current / Month goal).
-- Transactions table on dark: logo + merchant, masked card, date, amount; positive in green. Spending: category icons row + "+8".
 ## 033 Borea AI stock prediction (Ramotion) — desktop, dark, data viz
 - Stat strip at top: four label/value pairs in one translucent bar (Market Cap 735.75B · Day's Range 284-289 ...). Horizontal key stats row.
 - Chart card header: toggle "Prediction", Day/Week segmented, calendar icon; legend right: solid orange "Actual", dashed blue "Borea AI Prediction", two accuracy stats. Legend doubles as a scorecard.
@@ -215,17 +198,6 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Y-axis labels right-aligned on the right edge; current value marker "142" in an orange tag. Financial-chart conventions respected.
 - Fluid red/blue background art is contained BEHIND a dark card so the data layer stays flat. Decoration behind, data in front.
 - Disclaimer copy bottom-left in small grey: legal text present but quiet.
-## 034 Recruitment rounds (Olack-like) — desktop, HR SaaS, dusty rose
-- Top bar as a row of soft grey chip-buttons (Search, Add person, Notifications, ⋯) + language + date picker + solid black "Create →". Toolbar actions as chips, one black primary.
-- Breadcrumb above a big page title "Round"; filter chips right (All Departments ▾, Export, Filter).
-- Round cards: metadata chips row (date range, 10 candidates, Completed/In progress with dot), title, avatars +5, black "View candidates →" button.
-- Question list: numbered rows with edit/delete/drag handles; expanded item becomes an inline form (Prompt, Competencies ▾, Time, Level ▾, Guidelines textarea) with "Insert From Library" ghost + rose "Create New Prompt" filled. Inline edit-in-place pattern.
-- Right rail: notifications list with icons, assigned interviewers avatars, draggable "Sections" list with duration/question counts. Department colours as small squares in the sidebar.
-## 035 Payment dashboard widgets (Black Bulls) — dark violet, crypto
-- Widget set on black: donut with hatched empty segment and a floating label chip; bar chart with hatched bars and a highlighted solid bar + tooltip; line chart card with Buy/Sell buttons; glass credit card; Exchange panel (two amount fields with currency selectors, swap button between, rate/fee rows, one violet CTA).
-- Hatching used for "empty/other" everywhere — a texture, not a colour, for the inactive portion. Very good dark-mode trick.
-- Exchange form: "Your Send / Your received" with Available balances right-aligned, swap icon on the seam. Standard but tidy.
-- Weak: "Storage Statistic" in a finance set is filler.
 ## 036 Sypher logistics ERP (Conceptzilla) — desktop, white, green/red/black data
 - Horizontal top nav with the active tab underlined; a thin meta strip under it ("Changes: Last month ▾ · Last update: 3 min ago" / "Manage layout"). Data freshness stated in the chrome.
 - KPI micro-visuals: fleet utilization as a bar strip, on-time rate as a gradient segmented bar, deliveries as a sparkline. Three KPIs, three different glyphs, one row.
@@ -238,46 +210,18 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Asset tiles ETH/EURO/YEN with sparkline + delta; a dashed-border "Add another currency" tile as the 4th. Dashed empty-state tile = add affordance.
 - Sankey (Total assets → currencies) and a GitHub-style activity grid for Net Cashflow; a 21-day number strip under the line chart. Unusual charts used appropriately.
 - Vertical bars drawn as rounded capsule tracks with a filled portion — bar-as-progress.
-## 038 Ollo Bank (Plainthing) — desktop, white, orange dot system
-- Every card title has a small orange square bullet: a tiny repeated brand mark that unifies all cards.
-- Sidebar: icon rail + text sidebar with section labels (HOME / FINANCE OVERVIEW / WEALTH STRATEGY) in small caps grey. Nested groups with chevrons.
-- Balance card: number, black "Withdraw" button inline, delta chip, three currency pills with flags and %. Quick Actions as 4 bordered tiles with icon+label.
-- Line chart with dual series and a dark tooltip (date, two values with coloured labels); range tabs 1D/1Week/1Month/1Year under the chart.
-- Recent Activity rows: avatar, "To/From name", "Show Tracking ▾", amount, status chip (IN PROGRESS blue / COMPLETED green / CANCELED red) in uppercase micro text.
-- Contract tiles with logos and "● Active"; "Create Contract" with three radio-card options (Fixed Rated / Pay As You Go / Milestone Based) each with a one-line description. Radio cards with descriptions > plain radios.
-## 039 Borrower stats (Sogee?) — desktop, lending, heat gradients
-- Arc gauge coloured by a red→green gradient with legend rows (state, dotted leader, amount). Dotted leaders between label and value keep rows aligned without a table.
-- Choropleth heat map of Australia with a +/−/expand control stack and a 3-step legend (<60% / <40% / <20%). Map zoom controls as a vertical button stack.
-- Funnel as a flowing gradient ribbon with % callouts above/below at three stages — a "stream" funnel. Pretty; legibility ok because labels are explicit.
-- New Request Trend: three S-curves ending in coloured pills that name the series at the line end (Development / Investment / Build and Hold). Direct labelling at line ends beats a legend.
-- KPI strip top-right: "120 req." with a small grey chip "$22.5 M" — count + money chip.
 ## 040 Personal banking (Nixtio) — desktop, mint + yellow
 - Mint background, yellow balance card (the only saturated element), white everything else. The hero number gets the one loud colour.
 - Balance card with currency conversion hint (1 USD = EUR 0.95 = GBP 0.79) and an eye-off icon; three text-buttons under it (Pay/Transfer/Receive) separated by hairlines.
 - Currency tiles (Euro 0.97 / British Pound 0.82 / Swiss Franc 1.10) with coloured glyph circles.
 - Dot-matrix bar chart ("Total Rate") with the selected column in yellow and a yellow callout — bars drawn as dot columns is a distinctive but readable texture.
 - Right panel = a transfer flow: card selector pill, recipient row with "Change", big amount, meta rows (exchange rate, balance after transfer, fee $0.00 (free transfer)), note field, 3x4 numeric keypad, black "Send". Keypad on desktop is odd but the meta-rows are exemplary.
-## 041 Payment widgets (Roohi) — dark + orange, crypto
-- Same family as 035 but orange. "Premium Plan" gradient tile with white CTA, two small KPI tiles with chips, wallet card with currency dropdown, area chart, 4 tiny asset stats.
-- Activity: Monthly/Yearly segmented + five day bars with % inside each bar. Portfolio tokens with chip filters and "Withers" buttons (typo). Exchange panel repeated.
-- Lesson: a widget library should show the same component in two brand accents (035 violet, 041 orange) and otherwise be identical — that's a theming test.
 ## 042 Kanto client metrics (Gnyadek) — desktop, lavender, editorial
 - Editorial header: small eyebrow "Unified Client Metrics" + huge display "All Client Data" left; a floating insight card right with a sentence in two weights ("This quarter, optimized workflows reduced manual checks by 27%"). Dashboard with a magazine headline.
 - Date range as two date chips + "All Accounts ▾" right-aligned on the header row.
 - Weekly stacked bars with a hover tooltip listing three categories with counts; "+31%" chip floating top-right of the chart.
 - Three metric cards with a % and a status dot (green ✓, orange ✕), then a two-ended bar (Auto-cleared ↔ Under Review) with counts at both ends. Two-ended bar for a split.
 - AI Assistant panel: chat with a file-upload bubble, model picker chips (GPT-5 / Docs AI / Finance AI), "+" and input with send. Assistant lives in the right column as a peer widget.
-## 043 Shopeers e-commerce (Dipa) — desktop, blue, classic SaaS
-- Header row: title left; date range chip, "Last 30 days ▾", "Add widget", solid blue "Export" right. The standard dashboard header formula.
-- KPI tiles: title + icon top row, big number + delta chip, "vs. 14,653 last period" grey meta. Four identical.
-- Total Profit card with a line chart and a nested "Customers" sub-card showing 3 segments with coloured underlines (blue/green/orange). Sub-card inside a card for breakdown.
-- Most Day Active: 7 rounded bars with the max labelled above. Repeat Customer Rate: segmented semicircle gauge "68% On track for 80% target" + "Show details" button.
-- Sidebar with collapsible "Finances" group (Invoices/Transactions/Reports indented with a vertical guide line) and a blue "Upgrade" promo card bottom. Orders badge "46" in green tint.
-## 044 SugarCRM cases (RonDesignLab) — desktop, kanban, grey glass
-- Kanban with 4 columns as outlined pill headers; cards = avatar + title + wait-time subline + a right-side icon (⋯ / clock / check) that changes by column. Column semantics expressed in the card's trailing icon.
-- Pill tab filter (Pipelines / In Progress / Completed / Expired) with the active one black.
-- Left icon rail with tooltipped icons; theme toggle (moon/sun) at the bottom of the rail.
-- Bottom row: donut "Top Case Drivers" with legend %; three gauges "Case Metrics". Soft frosted-glass panels on a grey gradient — fashionable, slightly low contrast.
 ## 045 Finexy (Oripio) — desktop, white + lime green
 - Greeting + one-line helper text ("Stay on top of your tasks, monitor progress, and track status.") under the title.
 - Total Balance card: currency dropdown top-right (USD ▾ with flag), number, delta, two buttons (lime filled "Transfer", outlined "Request"), then a Wallets sub-section with 3 currency mini-cards (flag, code, amount, limit line, Active/Inactive status).
@@ -289,17 +233,6 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Balance tile with a tall thin-bar histogram, expenses trend with hatched vs solid bars, outgoing payments as a segmented bar with a 3-row legend of % values.
 - Black "Cash flow calculator" panel with two inputs (Weekly spending, Scheduled payments) and a "Calculate →" button: a calculator widget on the dashboard.
 - Icon-only centre nav in the header (5 icons, active one black). Lesson: monochrome forces hierarchy through size, weight and black fills — and it works for banking.
-## 047 Fundora (Sujon Hossain) — desktop, blue, clean SaaS
-- Sidebar with search (⌘K), grouped nav (MAIN MENU / FEATURES / GENERAL), active item black pill, badge count on Analytics, red "Log out", plan card at the bottom. Textbook sidebar.
-- Earning/Spending overview cards with (i) info icons and "This Month ▾" period pickers per card. Spending Breakdown as a 3-segment bar with a legend of label + amount above.
-- Cash Flow: filter chips (Income filled / Expense / Savings), bar chart with the hovered month highlighted and a tooltip "August 2025 : $8,689.20".
-- Upcoming Bill & Payment: logo, name, date, chevron, amount, "Scheduled" chip; "View All" outlined. Tables use dot+word status chips tinted.
-## 048 Salezy (Sajibur) — desktop, blue, e-commerce
-- Nearly identical structure to 047 (same author family): KPI tiles with icon-in-circle + title + (i), number, delta chip + "From the Last month:". Shows the house template.
-- Revenue Insights: Monthly/Yearly toggle (active black pill), hatched bars with the selected one solid blue + tooltip. Hatch = inactive months.
-- Sales Overview: segmented arc gauge "70.8% Sales Growth", with Sales $ vs Target $ and a thin progress bar. Gauge + target row.
-- Table toolbar: title left; search field, "All Category ▾", "Filter" right, inside a grey toolbar band. Status chips (Pending amber / Completed green).
-- Tools section in sidebar lists integrations with logos (HubSpot, Zoho, Zendesk) + "Add New Tool".
 ## 049 Nueansa (Sogee) — desktop, warm white + orange, serif-ish numerals
 - Greeting with date line; "Total Revenue $210,550" set extra large with digit spacing (", " spaced) — numerals as typography.
 - Three KPI cards share one row: label, big number, "Growth Rate ↑ 4.1%" footer row. Footer-row for the delta (consistent with 029).
@@ -313,22 +246,12 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Spend by Category table on dark: sortable headers (CATEGORY ⇅ SPEND ⇅…), a "proc. cycle" column with a tiny line + marker + "11 days" — micro-visual in a table cell.
 - Chart-type toggle icons (bar / table) next to period tabs. Red "Upgrade" banner with a radial glow — promo kept to one strip.
 - Round icon rail left with a round search button at top. Pill primary nav with the active tab filled red.
-## 051 Personal finance (Orbix) — desktop, periwinkle, playful
-- Header: logo, search "Search or jump to ⌘K", right "Move Money ▾" + bell + avatar. Then greeting left and SIX action chips right (Send filled, Request, Transfer, Deposit, Pay Bill, Create Invoice). Actions as a chip row in the header, primary filled.
-- Stacked cards widget: three coloured card edges peeking (Euro/Naira/Dollar with amounts) + "4 cards" chip + "+" button; wallet balance + delta. Card stack as a visual metaphor done compactly.
-- Overview: two smooth lines (current/last year) with a dual-value tooltip; Monthly spending limit as a striped progress bar; Quick transfer avatars with the selected one ringed, amount + "Send".
-- Transaction list as a plain 4-col text table without chips; Money movement bars with a date pill tooltip.
-- Weak: pastel gradients + glow on the nav icon drift toward "pretty"; density is low for the screen size.
 ## 052 Alignify revenue analytics (Wolfpixel) — desktop, white + coral
 - Five KPIs in one connected card divided by hairlines: icon, label, number; footer row with "↑ +3.5% vs last Year" in green/red. One card, five cells — stronger than five floating tiles.
 - "Last updated: Feb 28, 2024 ⟳" chip in the header. Data freshness again.
 - Cashflow line with a tooltip and a legend chip "■ Reimbursed $5,133"; "Time Interval: Monthly ▾".
 - Revenue by Product Category: total, delta, a 3-segment bar, then legend rows (coloured pill, label, amount (%)). Segment bar + legend rows with amounts — the canonical breakdown widget.
 - Donut with external leader-line labels; Sales Calendar with day tabs and meeting cards; horizontal bars with % right-aligned. Coral used in 3 tints (dark/mid/light) = monochrome data palette.
-## 053 Payment widgets (Roohi 2) — dark + orange
-- Billing & invoice rows: date, invoice id + amount stacked, client, status chip (Pending amber / Paid green), chevron. Stacked id/amount in one cell saves a column.
-- Activity as a bubble matrix (size = volume) across M–S. Credit cards carousel with the centre card in focus.
-- Same Exchange panel for the third time: the pattern is clearly a "house component". Weak typo "This Munt".
 ## 054 Financial analytics (Outcrowd) — desktop, DARK, blue accent, calendar
 - Rounded-capsule bar chart: each month is a dark capsule track; the selected month filled blue with a "+12%" chip above and "$1048" inside. Capsule bars with in-bar value label.
 - Period segmented (Weekly/Monthly/Yearly/Range) + a filter icon button. Calendar widget with today highlighted and a KPI "$1,434 ↑12.4%" beneath it.
@@ -336,23 +259,11 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Spending donut with legend; a one-sentence insight footer ("Most expenses come from Activity and Meals…"). Insight sentence under the chart = good practice.
 - Invoices: "Payment Score" as a thin barcode-style meter with 76; rows with date + relative time ("in 1 week"), status chip, name, amount.
 - Left icon rail with the active icon in a white rounded square. Dark grey (#1a1a1a) not pure black; borders are 1px lighter grey.
-## 055 Payline transactions (Outcrowd) — desktop, white + lime
-- Quick transfer widget: avatars, "From William Grace (You) 275.00 €▾", conversion line "1 € = 1.18 $", "To Anabel Smith 324.50 $▾", and a "Drag to continue sending" slider. Slide-to-confirm on desktop is odd but the from/to/rate layout is excellent.
-- History table: sortable headers (Merchant ⇅ / Transaction Date ⇅ / Amount ⇅ / Status), merchant logo + name + category subline, full datetime, signed amount (red for negative failed), status chips with icons (✓ Completed teal / ✕ Failed red / ⏱ Pending amber), kebab. Chips with glyphs are faster to scan than colour alone.
-- Payment volume: purple capsule bars with a tooltip. Lime used only for the active nav icon and "See All" link.
-## 056 Finexa scheduled payments (Confidency) — desktop, white + violet
-- Top nav as a pill group (active black); page title + two header actions: ghost "+ Create New Payment" and a gradient "✦ Ask Finexa" AI button. AI entry as a header button.
-- Summary card: "Total Scheduled Amount −$3,089.99" with an eyebrow + helper line, then THREE nested mini-tiles (Upcoming This Month / Recurring 14 Active / Overdue 2 Payments) inside a grey well. Sub-tiles in a well, not floating.
-- Donut with a dark tooltip (Subscriptions $2,325) and a legend of dots. Table toolbar: search + Export + Filter; status chips Complete/Pending; Actions ⋯. Monthly-subscription descriptions in the Type column.
 ## 057 Payments inbox (Orbix) — desktop, white, dense table
 - Workspace switcher (Agency / Orbix Studio Team) at the top of the sidebar; nav groups with nested sub-items under Payments (Requests, Recipients, Wire Drawdowns, ACH Authorizations); "Workflows" section. IA for business payments.
 - Page header: title + helper, right: ghost "Send Money" + black "Upload Bill". Tabs Inbox / Needs Approval / Scheduled / Paid; a forwarding email chip ("jamiesmith@gmail.com") and settings gear on the tab row.
 - Table: due date, status chip (Completed green / Overdue red / Not due yet grey), recipient with a card icon, amount, invoice no, last update (date + time stacked). Rows 44px, hairline separators, zero decoration. The purest "work table" in the set.
 - Promo card bottom-left (GlobalLink) with one black CTA.
-## 058 Ficopay (Mohammad Ali) — desktop, lavender gradient tints
-- Balance card with a soft gradient tint, delta chip top-left, eye-off toggle, Income/Expenses sub-tiles. "AI Insights" card: two plain-language sentences with a bulb icon each + "View More Insights" button. Insights as short sentences again.
-- Quick actions as three tiles with a circular icon and label; Expense Breakdown donut with rainbow gradient (weak: gradient donut segments are hard to map to the legend).
-- Sidebar has a "Recent Transaction" people list (avatars + names with presence dots) — contacts in the sidebar.
 ## 059 Leads overview (Outcrowd) — desktop, DARK, orange+violet+green
 - Three-colour categorical palette (orange/violet/green) used consistently across capsule bars, donut, chips, and mini stat tiles. Capsules stacked = multi-series bars.
 - Conversion card: three KPIs in a row with tiny ▲▼ triangles only (no chips), then an area chart with month pills under it (active month filled). Month selector as pills under the chart.
@@ -364,39 +275,11 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Line chart with a vertical highlight band and a value pill (101k) on the selected day; day numbers as the x-axis with the selected one in a pill.
 - Violet "Insights" callout card with a highlighted figure inside the sentence ("Improve 32% in…") and a progress dots row. Donut with dotted leader legend; segmented arc "Quality Score 64%".
 - Dark UI done right: #1c1c1e surfaces, 1px lighter borders, one hue + semantic green/red only.
-## 061 Payr rent payments (Outcrowd) — web + widget, light blue
-- Tenancy widget: rows with a coloured header strip ("Rent Day: 24th — Due" pink / "Rent Day: 11th — Paid" blue / green Paid / amber Due), property name, amount + card dot, "Pay now" button. Row header strip coloured by status.
-- Compact 2x2 variant with pagination "4 of 7 ‹ ›" and "Add a new tenancy +" footer. Widget designed in two densities.
-- Dashboard: hero card "£2,050 · Rent Day: 11th · Pay now" with soft radial tint; points card "24.600"; Payments table with card logos and status chips (Processing / Failed / Succes[sic]).
-- Tenancy filter at the card header: "Tenancy: ● Tenancy 2, ● Walker st, 3+ ▾" — multi-select summarised inline with coloured dots.
-## 062 Payal payments (VALMAX) — desktop, DARK blue glass
-- Hero band: huge "Total balance $375,928.00" with the decimals faded; four glass KPI tiles right (Net revenue, Revenue growth, Payment success rate 92.8%, Chargeback rate 0.72%). Payments KPIs that matter.
-- Chargebacks bar chart with the selected bar in blue gradient + "1.0%" pill; Refunds gauge; Revenue area. Transactions: a segmented semicircle gauge coloured by outcome with a 4-item legend (Successful 90.6% / Hard declines / Soft declines / Disputed) — payments funnel as a gauge.
-- Recent rows: card brand logo, masked number, date, signed amount. Three blue action buttons (Transfer ↗ / Request ↘ / Swap ⇄). Blue gradient background with light streaks is decorative but contained under the cards.
 ## 063 Buildly growth analytics (Delisas) — desktop, DARK, orange
 - Workspace dropdown "Growth Team" at top of sidebar; nav with count badges (Data Sources 12, Alerts 3). Header: search, orange "+ Add Data", bell with badge.
 - Five KPI tiles: icon square top-left, delta chip top-right, label, number, "Prev: $210,450" grey. Prev-value instead of a % is clearer for finance.
 - Dual-axis line chart (Revenue $ left, Conversion % right) with a legend below and range pills (24H/7D/30D/90D). Dual axes labelled on both sides.
 - "Strategy Simulator" card with three sliders (Price Change, Ad Budget, Traffic Increase) and live values — what-if controls on a dashboard. "AI Recommendations" as three cards with a confidence % chip and an "Impact" line in green/red.
-## 064 FlowMail (Confidency) — desktop, white + violet
-- KPI tiles with a kebab, number + delta chip inside a tinted pill (chip sits in a grey well). Header: ghost "New Campaign" + gradient "Create Automation"; "✦ Get AI Insight" button in the top bar.
-- Campaign Performance: 3-series step/line chart with a dashed cursor and a tooltip listing three values; Campaign Types donut with a centre label callout; Top Automations as mini cards with % and a progress bar + two counts.
-- Audience Growth bars with the selected one filled and a value pill; Recent Campaigns table with status chips (Active/Scheduled/Completed). AI Insights: two tip cards (icon, title, one-line) + "Open AI Assistant".
-## 065 NadaPay payments table (Jubed) — desktop, white + lime
-- Header: greeting + helper; right: avatar with "Business Account" role. Page title row with FOUR actions: outlined "Export" + three lime filled (Swap/FX, Payment Route, New Payment) — too many primaries; one should be filled.
-- Tabs (All Payments active black / History / Payment Routes); search + "Add Filter" right.
-- Table: checkbox, Payment ID (sortable), Customer (avatar+name), Amount in ₦ with negative shown with a minus, Payment Method as plain text, Date & Time, Status chip (Success / Failed / Pending / Unpaid in four tints), row actions (edit, print). Footer: "Page 2 of 16" left, numbered pagination centre, "7 / page ▾" right. Full pagination anatomy.
-- Sidebar groups: MAIN MENU / CARDS & TREASURY / DEVELOPER (API Keys, SDKs, Support, Sandbox) — developer section in a payments product.
-## 066 Elegostra (Outcrowd) — desktop + mobile companion, blue/orange
-- Four KPIs in one connected card with drag handles (⋮⋮) on each cell — a hint that the dashboard is rearrangeable. Icon squares in brand colours on the right of each KPI.
-- Balance Trend with a vertical highlight band on the selected month; Cash Flow as three mini stat rows (value + delta chip + label + "vs prev period"); Financial Growth as two labelled progress bars with a value pill on the bar ("72%").
-- Spending Breakdown: bars with % above and amounts under, the top one filled blue with a label chip ("Food & Drink"). Orange "Insights" card with one sentence + ↗ button.
-- Mobile companion panel shows the same data at phone width: Transaction history grouped "Today · 4 transactions", Cards Overview with card art + two mini stats + a spending-limit line + black "Manage Cards". Designing both widths from one system.
-## 067 TalentOS (Orix) — desktop, lavender, recruitment
-- Status bar top-right: credits "● 3,212", "● All systems operational", "Share Feedback", lavender "✦ Start a Search". System health in the header.
-- Job cards: icon, title, 1-line description, then a small key-value table (Status chip / Candidates "87 Shortlisted" / Created by). Mini table inside a card.
-- KPI tiles with a title, icon, huge number, one-line meaning ("Total pools created"). Sidebar "Collections" with coloured dot categories and a plan card with a usage bar ("3 days remaining").
-- Recent Candidates: avatar + name in a pill + presence dot, role right, chevron. Pill-wrapped names as tags.
 ## 068 Cascade transactions (Outcrowd) — desktop widgets, white, blue/orange
 - Quick Transfer widget: recipient avatars (selected name in blue), card selector dropdown, amount input with the recipient avatar inside the field and an "Available to send: $62,690.67" helper line, black "Transfer", text link "Make scheduled 📅". Form helper text under the amount is essential for payments.
 - Recurring transactions: a 5x6 grid of checkboxes-as-calendar with a count "12 Recurring" and a list of subscriptions with date squares and frequency chips (Monthly/Yearly).
@@ -412,25 +295,12 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Canvas toolbar: undo/redo, zoom "− 100% +", layout icons, "View Logs". Floating bottom tool palette (select, hand, settings, link, grid) with the active tool black.
 - Nodes: icon + title + subtitle, "Draft" chip, a footer of tiny counters (⎘ 11 · ⬡ 27 · ♥ 41 · ⚡ 72). Edges labelled with pill labels on the line ("Initialize Data", "Execute Triggered"). Coloured edges by path.
 - Right inspector: Real-time Metrics (two sparklines), Model Status, Environment dropdown, collapsible sections (+/−), read-only code block with copy, a slider with min/max, Dependency Tree with a mapping diagram, violet "Apply Normalization" CTA. Inspector = stack of collapsible labelled sections.
-## 071 Novera (Nixtio) — tablet, lilac, serif headings
-- Serif display for card titles (Total balance, Saving, My goal, Quick transfer, Budget) + sans for data. Chips for deltas are outlined, not tinted ("+ 12%", "77% completed").
-- Total balance with a wavy area; Saving with chunky bars; My goal with a striped progress; Budget as stacked rounded bars in three pastel colours (Income/Expense/Saving).
-- Card stack: three coloured tabs peeking above the lilac debit card (which carries a geometric pattern). Premium subscription card in pink with a black CTA. Pill tab nav, active black.
-- Pastel but disciplined: three data colours + black. Shows "playful" can still be systematic.
 ## 072 Multipliiier (ElevenSpace) — desktop, white + yellow
 - Sidebar: active item is a yellow filled pill (the only yellow besides the + button and reward icon). Light/Dark toggle at the bottom of the sidebar as a segmented control.
 - Balance with currency chips (US Dollar / EURO) and an outlined "↗ Withdraw". Quick actions as three tall tiles with a tinted icon square top-left and a label bottom-left. Contracts as logo tiles; "Create contract" as three radio rows with title + one-line description + chevron.
 - Cards: two card designs side by side (white / pale green) with "Account number ****9934", cardholder, valid thru — flat card designs, not 3D.
 - Recent transactions: each row has THREE labelled columns ("To Miriad systems / LogicBox", "Request date / 09/09/2026", "Status / Pending") — label-over-value cells make a list readable without a header row.
 - Rewards: referral card with "Copy link". Search placeholder "Search anything or ask AI ⌘S".
-## 073 Fintech dashboard (Arounda) — desktop, warm beige + orange + black card
-- Top nav as pills (Overview active) + search "⌘+F" + "Refresh data", black "Export", "Share". Left icon rail in a rounded column.
-- "My cards" with a dark 3D card (card number, name, balance); "Application tokens" dark card with a big number (decimals faded), two deltas, an area chart and two footer buttons (Send / Invoice) that split the card's bottom edge. Footer-split buttons on a card.
-- Total Expenses (red bars) / Total Income (blue bars) as two stacked mini cards with bar sparklines and deltas. Recent Contacts avatars + "Add new" black + "Manage contacts" ghost. "Add or Manage Widgets" dashed-style footer button. Promo tile "Powering Your Business Potential" with a 3D render — contained to one tile.
-## 074 Voiceon AI voice (Oripio) — desktop, white, blue hero
-- Greeting with italic serif name ("Welcome, Alex Carter 👋") — a single typographic flourish again. Helper sentence under it; black "+ Create Voice" right.
-- Blue hero card with mixed-weight headline ("Turn Any Script Into *Natural Speech*") and a black pill CTA; Popular Services as three illustration tiles; Trending voices as rows (gradient orb avatar, name — tone, style, flag + language). Handpicked cards with 3D icons.
-- Sidebar: workspace switcher, nav with "New" chip, Pinned section, "Invite team members" card. Low information density is appropriate for a creative tool home.
 ## 075 Enrolliq edtech (Filllo) — desktop, white, AI-heavy
 - Header: search ⌘K, "AI Brain" pill with gradient icon, theme toggle, refresh. Page actions: "Courses: All Courses ▾" combined chip + blue "Analyze My Courses".
 - KPI strip as ONE card with four cells: eyebrow in small caps (AVG. COMPLETION RATE), number + chip, and a third line (Target: 70% / 27 haven't logged in for 7+ days). Three-line KPI with target context.
@@ -440,42 +310,13 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Full-bleed warm gradient header (deep red → orange) holding the greeting, two white pill actions (Deposit/Withdraw) and a glassy card stack with "$12,680.42" (decimals faded). Everything below the header is white cards. Gradient as a header band, not a page wash.
 - Overview: thin-bar histogram (hundreds of bars) with a selected cluster darker and a black tooltip "$1,548.24 ↗2.46% for April 2026". Category tiles 2x2: name + tiny icon, amount with faded decimals, delta with ↗/↘ and "from last month". Faded decimals = recurring Nixtio signature.
 - Pill nav centred in the header with the active tab in a translucent pill. Investment Performance as mini bars with a "1.5%" black pill.
-## 077 Fintech dashboard (Nabil) — desktop, white + orange, dashed cards
-- Pill nav with the active one filled orange; Notifications pill with a red count. Left icon rail with the active icon as a black circle.
-- KPI strip as one card, three cells with icon circles + delta chips. Segmented "Full Statistic / Result Summary".
-- Three mid cards: dashed-border "Team Payments" (date chip + avatar stack +20), "Income Statistics" with four fat rounded bars in four colours, and an orange promo "Choose Best Plan" with "Upgrade Now". Dashed borders mark "configurable/placeholder" cards.
-- Total Sales and Cost: two KPI tiles with ↗ circle buttons beside a step-area chart with a "$65.00" tooltip. Black "Submit Tax Information" alert card with a yellow warning icon — one dark card for the urgent task.
-## 078 QNBpay (WLITZ) — desktop, Turkish payments, pink brand
-- Bar chart in navy with the selected day in magenta; donut in green/red/grey/orange (semantic: success/refund/fail/dispute) with "Toplam İşlem 109" centre. Semantic colours for payment outcomes.
-- Table with uppercase micro headers (SİPARİŞ ID / DURUM ⇅ / TARİH ⇅ / KART SAHİBİ / HAKEDİŞ / TUTAR), status chips (BAŞARILI green tint, BEKLEYEN İADE red filled, BAŞARISIZ grey), copy icons per row. Localised UI keeps the same anatomy.
-- Shortcuts card as four icon+label rows; promo tile in brand gradient; announcements card. Brand ribbon decoration sits BEHIND the panel. Pastel pink page tint from the brand.
-## 079 Jiron time tracker (Nixtio) — desktop, periwinkle, kanban + calendar
-- Team cards in four saturated pastels (violet/blue/amber/pink) with avatar stacks, a title, a one-line description and a progress bar in a darker shade of the card colour. Colour per team.
-- Kanban columns (Draft / In Progress / Editing / Done) with avatar initials chips (UI/PD/FD) per task, attachment/comment counts, a star, and green checks in Done. Week calendar with time rows, "now" line in blue, event blocks coloured by team with avatars + counts.
-- Strong colour but systematic: 4 team colours, each used identically. Weak: pastel saturation + white text in events strains contrast.
-## 080 Skymetrics (Maria M) — desktop, white, green/grey
-- Sidebar grouped Analytics / Product / Customers / System with small-caps labels and a "Version 2.0" footer; "Invite team" tinted button. Header: "Last 14 days ▾", "All Brands ▾".
-- KPI tiles: title + delta chip on the same line, number with a coloured dot, "vs previous 14 days". Revenue over time: two smooth lines (current green / previous grey) with a dual tooltip. Traffic by source: donut with external labels + counts and % via dotted leaders.
-- Recent orders / Top products as compact tables with avatars/thumbnails. Everything 12–13px, one accent. A model of a quiet analytics dashboard.
 ## 081 Vanta business (Odama) — desktop, white, serif numerals, mountain backdrop
 - Serif numerals for KPIs ("$284,892") with small 3D icons right; "Compared with Aug 01 – Aug 17, 2026" meta top-right. Serif numbers signal "finance/wealth".
 - Revenue & Profit: three lines with a hover band and a 3-row tooltip; Cash Flow: barcode-style thin bars with the selected one black, Incoming green / Outgoing red, and a metric row beneath (Previous / Current). Revenue by Channel: labelled thin bars with amounts and %; Operating Expenses: stacked segment bar + legend rows + total footer.
 - Customer Growth: number + delta + a "You're on track to hit your 70k customer goal" chip + weekly bars with Week 5 highlighted. Goal-tracking copy next to the number.
-## 082 Paystay (Yscale) — desktop, soft pastel KPIs
-- Four KPI tiles each on a different PASTEL tint (blue/lilac/peach/green) with an icon — category-coloured tiles; readable because tints are light and text is dark.
-- Sidebar: greeting at the top ("Hello again, Emily Johnson! We're glad to see you back!"), nav with the active item as a black pill, "Current Account Balance $4,200.75" at the bottom. Balance in the sidebar footer is a nice persistent anchor.
-- Transaction Log rows: icon, title + subtitle, status chip (Completed/Pending/Failed/Archived), amount + method. Quick Actions as four small outlined tiles. Activity Summary as a 4-colour segment bar with counts under. Launch banner with "Create a reminder".
 ## 083 Personal finance banking (Nixtio) — desktop, red→orange gradient CARDS
 - Variant of 076: the gradient is on two hero cards (Overview, Credit Cards) rather than the header, page is cream. Overview chart = thin-bar histogram with a white tooltip. Credit Cards: amount, delta chip, "Credit Limit: $1000.00" chip, two white pill buttons (Deposit/Withdraw) with a swap icon between, glass card stack.
 - Black "Create Report" button top-right; categories 2x2 tiles; Recent Transactions rows with status chip + masked card + signed amount. Shows how one system flexes: gradient-as-header vs gradient-as-cards.
-## 084 Wallet dashboard (Ihor Ryzhak) — laptop, dark + green
-- Total balance "569,324 USD" big; Credit limit / Internet limit as two green progress bars with "562$ / 1200$" ends. Limits as bars again.
-- Filter chips (All / Incomes / Expenses) + date range chip + search + download icons on one row; bar chart of 9 days with the selected one green and a "↗ $200" chip.
-- Transfer + Mobile top-up as two mini forms: input with a card icon and a green arrow button; helper text under each ("VISA/MasterCard Ukrainian or foreign banks", "Book of contacts"). Mini forms with helper lines. Digital Card tile with two 3D cards. Round icon buttons (≫, ⇄, +) top-right.
-## 085 BorderFlow cross-border payments (Gurvinder) — desktop, white + indigo
-- Sidebar with GENERAL / TOOLS / ACCOUNT groups (Exchange Rates, Verification, Security). Header: search with ⌘K, gift/bell/plus icons, avatar with role "Individual".
-- KPI tiles: icon in a tinted circle, title + (i), big number, delta chip, "vs. last month". Transfers & Volume: paired bars (sent USD / received INR) with a dual axis + a line. Recent Transfers: flag avatar, name, "Country • Method", amount, status chip (Completed/In Progress/Failed), date/time, chevron. Country flags as avatars for cross-border.
-- Sales Distribution donut with a country legend %; Transfer Methods as rows with % and counts; Quick Actions as three rows with icon, title, one-line description and chevron. Action rows with descriptions > icon grids when actions need explaining.
 ## 086 Sensia landing (One Week Wonders) — web, dark + acid lime, serif
 - Landing page: hero with a cut-out athlete, serif headline with an italic word ("Move With *Meaning*"), a chat-style input with suggestion chips (Energize/Recover/Focus/Calm/Reset), partner logos row, acid-lime section, then dark sections with photo trios and product cards. Serif+italic headline, one acid accent, dark/lime alternation.
 - Phone mock embedded mid-page shows a real app screen (score gauge 75, stats). Marketing pages should show real UI, not abstractions.
@@ -515,3 +356,105 @@ landing hero) read the matching entries for concrete anatomy before designing. S
 - Huge serif two-line headline ("One platform for all your underwriting needs"), two-line subhead, dark "Request a demo" + light "Learn more" (both with a tiny dot prefix), then a product screenshot (Workflows canvas with nodes). Serif display + sans body + real product UI = credible fintech B2B.
 ## 100 Butter (Awwwards) — web, grey, product hero
 - Minimal: nav pill left, Login/"Try for free" pill right, a floating timeline UI component with 3D app icons tumbling out of it, giant ghosted script logo behind, one caption "A whole new timeline". The product component IS the hero; no headline needed. Only passes because the timeline component is real UI.
+
+# Analytics and tool dashboards (101-144)
+
+Collected 2026-10-18 for tool mode. Searches: product analytics, funnel, retention cohort, web
+analytics, dark analytics, data dashboard, marketing analytics. 73 candidates, 44 kept on a first pass, then cut to 18 on a second pass against the tool-mode rubric (16 references + 2 negatives). Rejected numbers are gaps in the sequence; their files are in `reference/_rejected/`. These are the
+evidence for `tools-and-analytics.md`; the chart-type entries (funnel, cohort, events, experiments) are
+flagged.
+
+## 101 Vectra product analytics (Cansaas) — light, insight builder
+- Three-column: nav · main · a right **Insight Builder** panel with tabs (Metrics / Compare / Filters /
+  Display), lettered series rows ("A · Active Users · Total unique users"), "+ Add event", a property
+  filter row ("Country is Singapore or United States"), and "Run Analysis" as the one filled primary.
+  Textbook query-builder anatomy.
+- Activity timeline as hourly columns with a 4-step legend "Less active → More active" and tiny
+  summary bars under each hour. Feature engagement table: feature (icon + name + description),
+  platform, user group chip, avg engagement as a mini bar + ratio, delta chip. Date-range picker as
+  a chip row (Today / Yesterday / 7D / 30D / 3M / 6M / 12M).
+## 103 Trace AI observability (Odama) — light, dark sidebar · LIVE EVENTS
+- Four KPI tiles with sparkline/ring; a stepped multi-line chart (requests / input / output tokens)
+  with a 3-row tooltip; a donut of model usage with a legend table; **Live Event Feed**: timestamp
+  (ms), event-type chip (LLM_CALL / GUARDRAIL / TOOL_USE / ANOMALY / COMPLETED), latency + tokens, a
+  one-line description. Prompts table with success-rate bars and sparklines. The best event-log
+  anatomy in the set.
+## 108 RevenuePulse funnels (Insoftex) — light, lavender · FUNNEL
+- Funnel page IA: five KPIs (Overall conversion, Completions, Users, Avg time to convert,
+  Abandonment) each with a sparkline; filter chips (All Funnels / Daily / All Devices / All Segments)
+  + a Compare toggle + view-type icons; the funnel as **stepped columns with a sloping drop-off
+  area** between them, step name + count + % per step, and a footer strip (Overall rate · Total
+  drop-offs · Biggest drop-off in red · Improvement opportunity). Funnel Performance table with
+  sparkline trends; Funnel Trend as four lines with a legend; AI insights as three cards; drop-off
+  reasons as bars from survey data. The most complete funnel screen in the set.
+## 109 Lead magnet funnel (Alamgir) — light, violet · FUNNEL + STEP SETTINGS
+- Funnel builder: step cards across the top (Landing Page 100% / Thank You 45% / Order Form 100%)
+  with URL chips; "Funnel Drop-off" as five columns with step label, %, count, and a bar coloured on
+  a violet→green scale; right panel **Step Settings** form (Page type, Step name, URL match, Goal
+  type, Form, Goal conversion rate as a slider with a recommendation line). Builder + preview in one
+  view.
+## 110 RevenuePulse funnels, dark variant (Insoftex) · FUNNEL
+- Same anatomy as 108 on near-black; drop-off area as a gradient wedge. Shows the tool-mode dark
+  recipe: surfaces one step lighter, categorical palette lifted, text at 85-90% white.
+## 112 Sales funnel (Octet) — light, teal · FUNNEL (stream)
+- Funnel drawn as a flowing stream: width ∝ users, with step labels and counts above each
+  transition. Devices donut and audience as stacked segment bars by age with %. A legible stream
+  funnel because every step is labelled with its number.
+## 114 Retention cohorts (Mohammadi) · COHORT TRIANGLE
+- The classic: rows = cohort first day with user count; columns Day 0+ … 7+; a header row with the
+  column average %; cells show % bold and count small, coloured on a single blue sequential scale;
+  Day 0 column fully saturated; the lower-right triangle empty. Simple / Revenue / Advance view
+  toggle. This is the anatomy tool-mode §5 describes.
+## 115 Retention widget (Shift Studio) — light, orange/navy · COHORT (stacked)
+- Retention as **stacked unit bars**: each month a column of hatched blocks, first-time buyers
+  (orange) above zero and loyal (navy) below, with a 100…0…100 axis on the right; "40% after 8
+  months" as the headline. Countries table with flags. A compact, countable retention device.
+## 117 LeonAnd revenue intelligence (Paperpillar) — light, editorial
+- "The week in revenue." as a 48px headline with an issue line ("VOL. IV · ISSUE 117 · MON, APR 27
+  2026"), one insight paragraph with inline bold numbers, four KPI cells with sparklines and a
+  footnote each, then "SECTION 01 · TOP-LINE" with a sentence headline and a single area chart with
+  a quarterly-target dashed line. A report-as-dashboard; the editorial lens applied to a tool and it
+  works because the data is weekly, not live.
+## 122 Privacy-first web analytics (Sokhovich-Kanarovskiy) — light, lime/cyan/red · TREEMAP
+- Browser-chrome framing; four KPIs on a hairline strip; **Activity** as a GitHub-style yearly
+  heatmap with red cells for anomalies; **Top Pages as a treemap** (lime /home, cyan /how-it-works,
+  red-outlined /changelog) with monospaced paths and counts in the corners; Geography and Privacy
+  Compliance sections below. Distinctive and honest; mono for paths is the right call.
+## 125 Core Web Vitals (Nuvelabs) — light, violet/blue · WEB VITALS
+- Cloudflare-style nav (Analytics & logs › Web Analytics); KPI tiles with "from last month"; a
+  **Core Web Vitals** tile with a 92.7 score and a 3×4 block matrix for LCP / INP / CLS; Performance
+  Overview as grouped bars (Good / Needs improvement / Poor) with a 3-row tooltip; Key Performance as
+  a radar (this vs previous period); a pages table with per-column deltas and row actions. A real
+  developer-analytics page.
+## 126 Reporting overview (Untitled UI) — light, black line
+- Three KPI cards (icon, label, value, delta); website traffic as a black line over a hatched area
+  with a dotted previous period and range tabs (12m / 30d / 7d / 24h / Custom); a customers table
+  with status chips, progress bars and star ratings. The neutral-grotesk floor for tool mode.
+## 129 Beast insights (Anna Z.) — near-black, white
+- Monochrome dark: four KPI tiles; a sales table with inline progress bars; a cashflow key-value
+  panel with a bold total; an overview with three selectable KPIs above a single area chart (the
+  selected KPI is the one drawn). Zero colour; hierarchy by weight alone. A strong tool-mode dark
+  reference.
+## 133 OTT analytics (Sunil) — dark sci-fi
+- HUD-styled: angled card corners, cyan outlines, gradient bars, a pie, a map with % bubbles, an
+  "evaluation" strip. Kept as a **negative** for tool mode: the chrome shouts and the data whispers;
+  every chart uses a different palette.
+## 139 Zolatto (Dipa) — light, violet/mint
+- Toolbar with "Edit Widget" and "All Channels"; KPI tiles with "40% of 20K goal met" lines; average
+  sales as **dot-and-stem bars** with a selected month filled and an insight sentence beneath;
+  total transactions as a semicircle gauge with a hatched remainder; AI recommendations as rows with
+  category chips. The goal-progress line under every KPI is good practice.
+## 142 eye (Rasel) — light, rainbow KPI tiles
+- Eight KPI tiles in eight gradient fills, three-colour area chart, coloured world map, multiple
+  donuts. Kept as the **tool-mode negative** alongside 028: every tile a different colour means the
+  deltas (the only thing that matters) are invisible.
+## 143 KLO experiments (Tvardovska) — light, yellow brand · EXPERIMENTS
+- Experiments table: name + segment, status chip (Active / Completed), **Lift, ROI, P-value with a ✓
+  or ✕ for significance**, period; completed experiments with budget; segments lists (AI-generated
+  vs manual) with churn-risk chips; trends with a tab per metric; anomalies and notifications as
+  rows with a probable cause. Ukrainian UI; the anatomy is the point.
+## 144 MetricFlow (Korobova) — light, blue/coral
+- Tilted but legible: KPIs with deltas; two-line performance with a tooltip; **funnel conversion
+  breakdown as capsule columns with drop-off % chips** on each step; spend by channel as horizontal
+  bars with platform icons; campaign performance as a semicircle gauge with three buckets. The
+  capsule funnel is a clean variant.

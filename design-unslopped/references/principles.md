@@ -17,7 +17,7 @@ or colour.
 Test: squint. If two or more things compete, the hierarchy is unresolved. Fix it by demoting, not
 by making the winner louder.
 
-The screens that fail this (028, parts of 058) have four equally loud KPI tiles, a loud chart and a
+The screens that fail this (028, parts of ) have four equally loud KPI tiles, a loud chart and a
 loud table. Nothing leads.
 
 ## 2. Colour is a budget, and most of it goes unspent
@@ -25,25 +25,25 @@ loud table. Nothing leads.
 Across the set, the designs that feel expensive use colour the same way:
 
 - A neutral base (white, bone, warm grey, or a near-black like #141414 / #1c1c1e; never pure #000
-  for surfaces, rarely pure #fff for cards on white).
+ for surfaces, rarely pure #fff for cards on white).
 - One brand accent, used for the primary action and the "selected" state and almost nothing else
-  (003 terracotta, 029 acid lime, 037 red, 040 yellow, 045 lime, 072 yellow, 077 orange).
+ (003 terracotta, 029 acid lime, 037 red, 040 yellow, 045 lime, 072 yellow, orange).
 - Semantic green/red (and sometimes amber) reserved for meaning: positive/negative deltas,
-  success/failed status, in/out money. Always as a tint or a small element, never as a card fill.
+ success/failed status, in/out money. Always as a tint or a small element, never as a card fill.
 - Optionally a second or third categorical colour for data series, fixed across the whole product
-  (030 orange + navy, 059 orange + violet + green, 069 one orange in three tints).
+ (030 orange + navy, 059 orange + violet + green, 069 one orange in three tints).
 
 That is the whole palette. Six or seven values. Monochrome data palettes (one hue in three tints, as in
 052, 069, 081) are the safest and still look rich because hatching, dots and weight do the second
 encoding. When you want more categories than you have colours, use texture (hatching for
-projected/inactive/other: 011, 035, 048, 059, 069), shape, or position before adding a hue.
+projected/inactive/other: 011, 059, 069), shape, or position before adding a hue.
 
 The negative example is 028: rainbow gradients on every KPI tile, a different bright fill for every
 chip, a three-colour donut. Structurally fine, visually meaningless because colour carries no
 information.
 
 Gradients are allowed, as one contained region: a header band (076), one hero card (083, 012), one
-promo tile (041, 073), a glow anchored to a single edge (012, 025). Never a page wash, never on
+promo tile, a glow anchored to a single edge (012, 025). Never a page wash, never on
 data.
 
 ## 3. Numbers are typography
@@ -51,25 +51,25 @@ data.
 Finance and analytics screens are mostly numbers, and the good ones treat digits as the display type:
 
 - The hero figure is large; its unit, currency code or decimals are smaller and lighter
-  (001 "17.0 tCO2e", 011 "£24,769.42", 015 "83 %", 076 "$12,680.42" with faded decimals, 010
-  "1:12.171" with grey hundredths). The eye lands on the integer.
+ (001 "17.0 tCO2e", 011 "£24,769.42", 015 "83 %", 076 "$12,680.42" with faded decimals, 010
+ "1:12.171" with grey hundredths). The eye lands on the integer.
 - Deltas sit beside the number as a small tinted chip or a tiny arrow and text, never as a second
-  big number (every dashboard from 027 to 085).
+ big number (every dashboard from 027 to ).
 - Context lines under the number say what it is compared to: "vs last month", "Since Last Week",
-  "Prev: $210,450" (063 shows the previous value, which is clearer than a percentage for money),
-  "Target: 70%" (075).
+ "Prev: $210,450" (063 shows the previous value, which is clearer than a percentage for money),
+ "Target: 70%" (075).
 - Tabular figures in tables so columns align. Right-align amounts.
-- A serif for headings or numerals is the recurring cue for "premium bank / wealth" (017, 027, 071,
-  081, 099). Sans for everything else. One flourish, used consistently.
+- A serif for headings or numerals is the recurring cue for "premium bank / wealth" (017, 027,
+ 081, 099). Sans for everything else. One flourish, used consistently.
 
 ## 4. Status is text first, colour second
 
 Status chips appear in nearly every list. The ones that scan fastest carry a word and a glyph with a
 tint behind them, not a coloured dot alone: "✓ Completed" teal, "✕ Failed" red, "⏱ Pending" amber
-(055, 068, 092). Where space is tight, a dot plus a word (045, 085) is lighter than a chip and still
+(068, 092). Where space is tight, a dot plus a word (045) is lighter than a chip and still
 reads. Define the whole status vocabulary once (005 shows New / Active / Paused / Completed / Due
 Soon / Overdue / Cancelled as a set) and reuse it everywhere. Use tints, not fills: filled status
-chips (068, 078) shout in a dense table.
+chips (068) shout in a dense table.
 
 The same goes for direction of money: a sign and colour (+$1,200.00 green / -$55.00 black or red)
 plus a word where ambiguity is possible ("Received", "Withdrawn", "Refund").
@@ -79,42 +79,41 @@ plus a word where ambiguity is possible ("Received", "Withdrawn", "Refund").
 Lists and tables are where generic designs fall apart. The references that work:
 
 - Group by time with day headers and, when it helps, a day subtotal ("Today · 4 transactions ·
-  −$100.01": 004, 017, 066, 068).
+ −$100.01": 004, 017, 068).
 - Each row has fixed slots: leading glyph or avatar → primary text + grey secondary line → middle
-  metadata (method chip, masked card, category) → right-aligned amount → status → actions. Once the
-  slots are fixed, 50 rows read as one object.
-- Label-over-value cells (072) or a two-line "id / amount" cell (053) let a list carry more columns
-  without a header row.
+ metadata (method chip, masked card, category) → right-aligned amount → status → actions. Once the
+ slots are fixed, 50 rows read as one object.
+- Label-over-value cells (072) or a two-line "id / amount" cell let a list carry more columns
+ without a header row.
 - Tables have sortable headers (⇅), a toolbar (search, filter chips, export), and a footer with
-  "Page 2 of 16", numbered pagination, and "7 / page" (065). Row height 40-48px, hairline
-  separators, no zebra striping.
-- Key-value panels (017 breakdown, 026 info panel, 004 card details) use label left in grey,
-  value right in black, grouped by hairlines, with inline editable values where editing is allowed.
+ "Page 2 of 16", numbered pagination, and "7 / page" . Row height 40-48px, hairline
+ separators, no zebra striping.
+- Key-value panels (017 breakdown, info panel, 004 card details) use label left in grey,
+ value right in black, grouped by hairlines, with inline editable values where editing is allowed.
 
 ## 6. Forms tell you what will happen before you submit
 
-The payment and transfer forms in the set are small and all do the same four things (040, 055, 068,
-084): amount field with the currency, recipient or account with a way to change it, a helper line
+The payment and transfer forms in the set are small and all do the same four things (040, 068): amount field with the currency, recipient or account with a way to change it, a helper line
 with the available balance or limit ("Available to send: $62,690.67"), and a meta block before the
 button: exchange rate, fee ("$0.00 (free transfer)"), balance after. Then one primary button.
 
 Confirmation flows show a timeline (Sent → Processing → Cleared with timestamps: 017) rather than a
-single status. Choice screens use radio cards with a title and a one-line description (038, 072),
+single status. Choice screens use radio cards with a title and a one-line description (072),
 not bare radio buttons. Multi-step flows put the stepper in the toolbar (070) or as a thin
 segmented progress bar (015), not as dots.
 
 ## 7. Actions: verbs, few, one primary
 
 Quick actions are four to six verbs (Add, Send, Convert, Request, Pay Bills, Scan) as equal tiles or
-a chip row, icon above or beside a short label (004, 011, 020, 022, 051). One of them, or a separate
-header button, is filled with the accent; the rest are outlined or ghost. 065 shows the failure
+a chip row, icon above or beside a short label (004, 011, 020, 022). One of them, or a separate
+header button, is filled with the accent; the rest are outlined or ghost. shows the failure
 mode: three filled primaries side by side.
 
 Primary / secondary pairs are filled + outlined (023, 045, 091, 095). On a coloured surface the pair
 is filled-white + ghost (003). Destructive or urgent actions get a reserved colour and position
-(006 full-width red emergency bar, 077 single black alert card).
+(006 full-width red emergency bar, single black alert card).
 
-AI entry points are a header button with a sparkle glyph (056, 064, 075) or a right-rail panel
+AI entry points are a header button with a sparkle glyph (075) or a right-rail panel
 (042, 054), never a floating bubble over the content.
 
 ## 8. Charts earn their place or they go
@@ -122,19 +121,19 @@ AI entry points are a header button with a sparkle glyph (056, 064, 075) or a ri
 The honest charts in the set share habits:
 
 - A selected point or bar is highlighted and labelled with a value callout; everything else is
-  muted (007, 027, 047, 048, 054, 076). The chart answers "what is this number" on hover.
+ muted (007, 027, 054, 076). The chart answers "what is this number" on hover.
 - Legends double as controls (checkbox legend in 036) or scorecards (accuracy stats in 033), or
-  are replaced by direct labels at line ends (039).
+ are replaced by direct labels at line ends .
 - Axes are minimal: a few gridlines, labels at the edge, dual axes labelled both sides when there
-  are two units (063, 085).
+ are two units (063).
 - A one-sentence insight sits under or beside the chart ("Most expenses come from Activity and
-  Meals": 054, 032, 058, 066).
-- Breakdown widgets are a segment bar plus legend rows with amounts and percentages (029, 047,
-  052, 081), not a donut, unless the donut is small and labelled externally (052, 080).
+ Meals": 054).
+- Breakdown widgets are a segment bar plus legend rows with amounts and percentages (029,
+ 052, 081), not a donut, unless the donut is small and labelled externally (052).
 - Area composition with more than four parts is a treemap (023), not a pie.
 - Unusual forms (Sankey 037, activity grid 037, hexagon heatmap 069, cohort dots 030, capsule bars
-  054/059, dot-matrix bars 040, diverging in/out bars 049) are used because the data has that
-  shape, and each is used once.
+ 054/059, dot-matrix bars 040, diverging in/out bars 049) are used because the data has that
+ shape, and each is used once.
 
 Remove any chart that restates a number already on screen (the three-slice pie in 001). Keep
 legends to five items or fewer; past that, split the chart or move encodings to a footnote. Never
@@ -144,8 +143,8 @@ draw a reading as a control (a slider handle for "7 s typical"): readings are do
 
 Sidebars: grouped with small-caps section labels (MAIN MENU / TOOLS / ACCOUNT), the active item the
 only filled element, counts as small grey numbers or a single tinted badge, a plan or promo card at
-the bottom, user card last (027, 031, 047, 057, 080, 085). Icon rails (044, 050, 054, 077) when the
-product has fewer than eight destinations. Top pill navs (038, 045, 056, 071) for consumer-facing
+the bottom, user card last (027,, 057). Icon rails (050, 054) when the
+product has fewer than eight destinations. Top pill navs (045) for consumer-facing
 products.
 
 Headers carry: page title or greeting, a helper sentence, a period picker ("Last 30 days ▾"), a
@@ -165,7 +164,7 @@ renders, illustration, photography and glass. Banking, payments, insurance and e
 tilted devices and ambient backgrounds are presentation, not product; never design for them.
 
 When you do decorate: confine it to one region behind the data layer (033's fluid art behind a dark
-card, 050's map, 073's promo tile), make it relevant to the domain (015's wireframe car, 005's logo
+card, 050's map, 's promo tile), make it relevant to the domain (015's wireframe car, 005's logo
 construction grid), and keep it off anything that carries a number.
 
 ## 11. Density is a choice, made once
@@ -180,17 +179,17 @@ padding, and hold them.
 ## 12. Copy is part of the layout
 
 Greeting + helper sentence is the standard header for a logged-in home ("Good morning, Oripio.
-Stay on top of your tasks, monitor progress, and track status." 045; 047, 049, 063, 072, 085).
+Stay on top of your tasks, monitor progress, and track status." 045;, 049, 063, 072).
 Card titles can be benefit sentences ("Forecast your end-of-month balance in seconds": 046).
 Empty states, insights and AI output are plain sentences with a specific number ("Your Transaction
-Volume has increased by 5% since last month"; "You saved €26 this week": 025, 032, 058).
+Volume has increased by 5% since last month"; "You saved €26 this week": 025).
 Section eyebrows are small caps. Microcopy under inputs says what the input accepts. Typos (016
-"Fry", 041 "Withers", 053 "This Munt") are the fastest way to look generated: proofread.
+"Fry", "Withers", "This Munt") are the fastest way to look generated: proofread.
 
 ## 13. Consistency beats taste
 
 The strongest signal that a design is considered is that the same thing looks the same everywhere:
-every KPI tile has the same anatomy (016, 027, 043, 063), every status uses the same chip, every
+every KPI tile has the same anatomy (016, 027, 063), every status uses the same chip, every
 chart highlights the selection the same way, every card has the same corner radius and padding.
-Theming tests (035 vs 041: identical widgets in violet and orange) prove the system. When
+Theming tests ( vs : identical widgets in violet and orange) prove the system. When
 tempted to make one card special, make its content special, not its styling.
