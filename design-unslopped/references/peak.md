@@ -82,7 +82,7 @@ Test: zoom to 200% on any card. If nothing new appears, add two details that car
 Peak screens read as a live product: plausible company names, mixed amounts with sensible
 precision, one failed and one pending row, dates in sequence, a greeting that names a task,
 insight sentences with a specific number, a disclaimer where one belongs. Lorem, "John Doe",
-round numbers and uniform rows break the spell instantly (028, show the cost of typos).
+round numbers and uniform rows break the spell instantly (028), and so do typos (016 "Fry").
 
 ## 8. Confidence
 

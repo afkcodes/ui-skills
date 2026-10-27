@@ -28,25 +28,25 @@ workflow.
 
 Lenses (pick six that fit; the reference beside each shows the lens working):
 1. **Lead with the change, not the state.** The hero is the delta or the insight; the balance is
- secondary. (092 "+2.6%" at 64px; orange insight card)
+ secondary. (092 "+2.6%" at 64px with a two-line explanation beneath)
 2. **Make the data a countable thing.** Units, squares, dots, portions, coins. (040 dot-matrix;
  014 calorie portions; 046 barcode bars; 030 cohort dots)
 3. **Composition as area.** Treemap, mosaic, stacked blocks. (023 treemap of contracts; 069 order
  status as three wide blocks)
 4. **Map it onto its real shape.** A circuit, a floor plan, a body, a country, a calendar grid.
- (010 drivers on the track; Australia heat map; 024 body silhouette; 016 avatars on dates)
+ (010 drivers on the track; 024 body silhouette; 016 avatars on dates)
 5. **The screen answers a question.** A calculator, a simulator, a slider with live result. (046
  cash-flow calculator; 063 strategy sliders; 040 keypad transfer)
-6. **Time as the spine.** Timeline, stepper, lifecycle, "now" line. (017 payment lifecycle; 
- calendar with the now line; 054 relative times)
+6. **Time as the spine.** Timeline, stepper, lifecycle, "now" line. (017 payment lifecycle;
+ 054 relative times)
 7. **One object, big.** The product, the card, the car, the device, rendered and centred; data
  around it. (015 car; 006 lamp dial; 025 Cubee device)
 8. **Sentences instead of widgets.** Card titles that say what they do; insights as prose with the
- number inside. (046; 060 "Improve 32% in morning engagement…"; )
+ number inside. (046; 060 "Improve 32% in morning engagement…")
 9. **Invert one surface.** One dark card on a light page or one light card on dark, and it is the
- action. (092 exchange panel; 046 calculator; tax alert)
+ action. (092 exchange panel; 046 calculator)
 10. **Texture as encoding.** Hatching, dots, stripes for projected / pending / other instead of a
- colour. (011 hatched bars; 059 hatched potential; hatched segments)
+ colour. (011 hatched bars; 059 hatched potential; 046 hatched vs solid expense bars)
 11. **Steal a print idea.** Ledger rules, small-caps eyebrows, a ticket stub, a receipt tear-off, a
  stamped status, a numbered index. (046 Swiss ledger; 023 boxed grid; 017 "Transactions." as a
  magazine title)
@@ -57,11 +57,11 @@ Lenses (pick six that fit; the reference beside each shows the lens working):
 15. **Split the screen by meaning.** State above (dark), activity below (light); summary left,
  action right. (004; 040; 024)
 16. **Make the status physical.** Coloured header strips, stamps, rings, progress you can read from
- across the room. ( rent strips; 023 "B+" grade; 068 limits as bars)
+ across the room. (023 "B+" grade; 068 limits as bars)
 17. **Give it a voice.** Notifications and empty states that sound like a person with a number.
  (025 "You saved €26 this week"; 075 recommendation cards)
 18. **Borrow from another domain.** A bank statement as a boarding pass; a budget as a seed tray;
- savings as a thermometer; approvals as a kanban. ( cases as kanban; 014 scan as AR labels)
+ savings as a thermometer; approvals as a kanban. (014 scan as AR labels)
 19. **Remove the obvious component.** No tab bar, no donut, no KPI row; what replaces it? (093 has
  no cards; 069 has no KPI tiles)
 20. **Make the empty state the hero.** Design for zero first; the full state inherits its idea.

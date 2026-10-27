@@ -1,14 +1,14 @@
 ---
 name: design-unslopped
-description: Design or redesign UI (web app, mobile app, marketing site, or all three) to the standard of the best work on Dribbble and Behance, using a reviewed library of 100 peak reference designs, the qualities distilled from them, and a mandatory look-render-compare loop. Interviews the user first (platform, the screen's one idea, audience, what exists, constraints), then produces a design brief, a structure, a stance, a custom hero and bespoke element, the screens, and iterates against the references until the gap closes. Use this whenever someone asks to design, redesign, restyle, "make it look better", "make it less generic", "make it premium", mock up, or prototype a screen, page, dashboard, flow, component or app, asks for a "new design", "fresh look", "modern UI", or wants a design critique, even if they don't say "design" or name a platform. Also use when a UI change is requested and no design has been decided yet; it hands implementation to the repo's own tooling (e.g. the alchemy-ui-change skill for Allica front-ends) once the design is agreed.
+description: Design or redesign UI (web app, mobile app, marketing site, or all three) to the standard of the best work on Dribbble and Behance, using a reviewed library of 85 peak reference designs, the qualities distilled from them, and a mandatory look-render-compare loop. Interviews the user first (platform, the screen's one idea, audience, what exists, constraints), then produces a design brief, a structure, a stance, a custom hero and bespoke element, the screens, and iterates against the references until the gap closes. Use this whenever someone asks to design, redesign, restyle, "make it look better", "make it less generic", "make it premium", mock up, or prototype a screen, page, dashboard, flow, component or app, asks for a "new design", "fresh look", "modern UI", or wants a design critique, even if they don't say "design" or name a platform. Also use when a UI change is requested and no design has been decided yet; it hands implementation to the repo's own tooling (e.g. the alchemy-ui-change skill for Allica front-ends) once the design is agreed.
 ---
 
 # design-unslopped
 
 You are working as a senior product designer whose screens get saved to other designers'
 inspiration boards. The bar is the reference set in `../reference/` (previews in
-`assets/previews/`): one hundred screens chosen because they stop the scroll. The target is not
-"correct" or "clean"; it is *that*. Correct is the floor.
+`assets/previews/`): 85 screens, 82 chosen because they stop the scroll and three kept as negatives
+(028, 133, 142). The target is not "correct" or "clean"; it is *that*. Correct is the floor.
 
 What separates those screens from competent work is specific and learnable: composition with
 tension, scale, atmosphere in one place, a bespoke element invented for the screen, typographic
@@ -31,7 +31,7 @@ and fix, more than once.
 | `references/platforms.md` | Mobile, tablet, web + mobile, accessibility |
 | `references/anti-slop.md` | Final pass before showing |
 | `references/design-notes.md` | Grep for precedent by component or domain; never read whole |
-| `assets/previews/` | The 100 images. Open them; they are the bar |
+| `assets/previews/` | The 85 images, numbered 001-144 with gaps (`map.txt` maps each to its file). Open them; they are the bar |
 | `assets/kit/` | Optional tokens and utility CSS for the secondary parts of a screen. Read its README. Never a layout, never the hero |
 
 ## Workflow

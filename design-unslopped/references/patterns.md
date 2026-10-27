@@ -39,7 +39,7 @@ copy pixel values.
  $3,600 Left ›").
 - Optionally a thin histogram/sparkline under it; selected bar darker with a value callout.
 
-## 2. KPI tile and KPI strip [016, 027, 052, 063, 075, ]
+## 2. KPI tile and KPI strip [016, 027, 052, 063, 075]
 Single tile anatomy, top to bottom:
 1. Title row: icon in a tinted circle or square (left or right), label, optional (i) or kebab.
 2. Number (24-32px) with delta chip beside it (tinted green/red, tiny arrow, "+12%").
@@ -54,14 +54,14 @@ Strip variants:
  stays dark.
 - Numbers directly on the page surface, no cards, for airy wealth products (069, 093).
 
-## 3. Quick actions [004, 011, 020, 022, ]
+## 3. Quick actions [004, 011, 020, 022]
 - 4-6 verbs: Add/Deposit, Send/Transfer, Request, Pay Bills, Convert, Scan/QR, Create Invoice.
 - Mobile: equal square tiles or round icon buttons with the label below; monochrome icons.
 - Desktop: a chip row in the header with the primary filled, or four bordered tiles in a card.
-- When actions need explaining, use rows: icon, title, one-line description, chevron .
+- When actions need explaining, use rows: icon, title, one-line description, chevron.
 - "See All" link at the row end if there are more.
 
-## 4. Transaction / activity row and grouped list [004, 012, 017,, 068]
+## 4. Transaction / activity row and grouped list [004, 012, 017, 068]
 Row slots left to right:
 1. Leading: merchant logo, avatar, or direction glyph (↙ in / ↗ out) in a 36-40px circle.
 2. Primary: merchant/person name. Secondary (grey, 12px): category • time, or "Transfer to…".
@@ -74,7 +74,7 @@ Row slots left to right:
 List rules: day headers ("Today", "Yesterday", "Mar 4") optionally with a count and subtotal; 56-64px
 rows mobile, 44-52px desktop; hairline separators; "View all" link in the card header.
 
-## 5. Data table [029, 036, 057, ]
+## 5. Data table [029, 036, 057]
 - Toolbar: title left; search field, filter chips with icons ("Processed Date", "All Category ▾"),
  "Filter", "Export" (outlined) right. Tabs above the table for state (All / Unpaid / Paid).
 - Header: 12px grey, sortable columns show ⇅, subtle vertical dividers optional, checkbox column
@@ -115,7 +115,7 @@ only with external labels and counts (052).
 - Dual series: current solid, previous grey or dashed (081). Projection: dashed or hatched.
 - Footer: optional one-sentence insight.
 
-## 9. Limit / budget / goal progress [, 068, ]
+## 9. Limit / budget / goal progress [068]
 - Label ("Credit limit", "Monthly spending limit", "Daily Limit").
 - Bar: track grey, fill accent; value pill on the fill when space allows ("72%").
 - Ends: "$7,189 / $10,000" or "$2,500.00 spent of $20,000.00", percent right.
@@ -123,7 +123,7 @@ only with external labels and counts (052).
 Goal copy next to the number is encouraged: "You're on track to hit your 70k customer goal" (081),
 "You're close to A- just 1 thing left" (023).
 
-## 10. Transfer / payment form [040, 068, ]
+## 10. Transfer / payment form [040, 068]
 1. Recipient: avatar row of recents (selected ringed) or a recipient row with "Change".
 2. Source: card/account selector dropdown showing brand + masked number.
 3. Amount: large input, currency selector inline; helper line "Available to send: $62,690.67".
@@ -147,7 +147,8 @@ right-aligned and a swap button on the seam; rate and fee rows; one CTA (092).
 - Card art: flat (072) or a restrained 3D render (027); never tilted. Shows brand, masked
  number, holder, expiry; an "Active" chip if multiple.
 - Below the card: 3-4 square outlined actions (Top Up / Transfer / Request / History).
-- Card stack: coloured edges peeking above the active card with a "4 cards" chip .
+- Card stack: coloured edges peeking above the active card with a "4 cards" chip; 076 has a glass
+ variant in its header.
 - Accounts sheet / list: icon, name, masked number, balance; "+ Add Account" last (011).
 - Sensitive details as a key-value list with copy icons; CVV hidden by default (004).
 
@@ -157,7 +158,7 @@ right-aligned and a swap button on the seam; rate and fee rows; one CTA (092).
  Cancel (013).
 - Segmented controls for 2-4 mutually exclusive views; pill tabs for 4-7.
 
-## 14. Sidebar and header chrome [027, 057, 063, ]
+## 14. Sidebar and header chrome [027, 057, 063]
 Sidebar (240-260px): logo + workspace switcher; search with ⌘K; groups with small-caps labels; items
 28-36px with icon + label; active item filled (black, accent, or tint); counts as small grey numbers
 or one tinted badge; nested items indented with a guide line; promo/plan card; user card.
@@ -166,7 +167,7 @@ Header: title or greeting + helper sentence left; period/date range chips, "Add 
 outlined + one filled action right; bell with dot, avatar with role. Data freshness chip when data
 is not live.
 
-## 15. AI surfaces [, 042, 054, 060, 063, 075, 089]
+## 15. AI surfaces [042, 054, 060, 063, 075, 089]
 - Entry: header button with ✦ ("Ask Finexa", "Get AI Insight") or a right-rail panel.
 - Insight card: one sentence with a specific number; optional dots pagination; optional ↗.
 - Recommendation card (best anatomy, 075): severity chip + timestamp → title → problem sentence →
@@ -196,7 +197,7 @@ strong banking mental model: state above, activity below.
 - Onboarding headline may carry one typographic flourish (italic word); body copy plain.
 - Chips as a word cloud for interests; one primary CTA + a text link ("I already have an account").
 
-## 19. Kanban and calendar [, ]
+## 19. Kanban and calendar [016]
 - Columns with pill headers; cards = avatar/initials chip, title, one meta line, a trailing icon that
  changes by column (⋯ / clock / check).
 - Calendar: time rows left, day columns, "now" line, events coloured by team/category with avatars

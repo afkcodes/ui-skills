@@ -34,7 +34,7 @@ Choose one per product and avoid the one you used last time; the roster is long 
 - Roster: Inter, Geist, Schibsted Grotesk, Hanken Grotesk, Public Sans, IBM Plex Sans, Instrument
  Sans, Onest, Figtree, Albert Sans, Be Vietnam Pro, Mona Sans.
 - Settings: titles 600 at 16-18, body 400 at 14, labels 500 at 12, eyebrows 11-12 uppercase +0.06em.
- Hero numbers 600, −0.02 to −0.em. Line-height 1.5 body, 1.1 numbers.
+ Hero numbers 600, −0.02 to −0.035em. Line-height 1.5 body, 1.1 numbers.
 - Seen: 046 sets everything in one grotesk and gets character from benefit-sentence titles and black
  fills; 011 from weight and the pence; 057 from nothing but discipline.
 - Avoid: adding a serif "for warmth"; pairing with a rounded geometric; weight 700 on numbers.
@@ -56,11 +56,11 @@ Choose one per product and avoid the one you used last time; the roster is long 
  600; chips 500; hero numbers 600 at 32-40 on mobile with same-size decimals (004, 012, 020).
 - Seen: 013 DailyMe pairs a geometric sans with a serif *italic* on the onboarding headline only and
  serif labels on the method chooser; the home screen is all sans. 072 Multipliiier: a geometric at
- 500 with wide tracking in small caps for labels. : geometric with pastel tiles.
+ 500 with wide tracking in small caps for labels.
 - Allowed flourish: one italic or serif word on an onboarding or empty-state headline (013), never
  on the money screen.
 - Avoid: pairing with Instrument Serif or Playfair on product screens; 24px+ radii on every card; the
- milky pastel trio (use 's saturated pastels or 's four small tiles).
+ milky pastel trio (use saturated pastels, or pastel on four small tiles only).
 
 ### Humanist sans
 - Roster: Inter (humanist cut), Source Sans 3, Noto Sans, Fira Sans, PT Sans, Lato, Atkinson
@@ -84,11 +84,10 @@ Choose one per product and avoid the one you used last time; the roster is long 
  Source Serif 4 600, Libre Caslon Display, Gelasio 600, Young Serif, Instrument Serif only for
  titles on marketing pages (see next voice), DM Serif Display sparingly.
 - Pair with a neutral grotesk for data (Inter, Hanken, Public Sans).
-- Settings: serif numerals 32-44 at 500-600 (081 Vanta ~36px, Novera ~40px); serif page or
- card titles 20-28 at 400-500 (027 "Card Overview", "Transaction history"); everything else
+- Settings: serif numerals 32-44 at 500-600 (081 Vanta ~36px); serif page or
+ card titles 20-28 at 400-500 (027 "Card Overview"); everything else
  sans 400-500 at 13-14. Hairlines, not cards (093).
-- Seen: 081 serif KPI numerals with sans labels; serif titles + serif numerals with saturated
- pastels; 017 serif page title "Transactions." over a sans data UI; 093 reaches the same quietness
+- Seen: 081 serif KPI numerals with sans labels; 017 serif page title "Transactions." over a sans data UI; 093 reaches the same quietness
  with a sans only.
 - Avoid: thin serif at 60px+; serif for table figures or chips; italic words on a product screen;
  serif + rounded geometric.
@@ -151,12 +150,12 @@ it, cited by number.
 - A greyed or shrunk currency symbol (not in the set).
 - An italic word on a product-screen headline (allowed: onboarding 013; marketing 086).
 - Plus Jakarta Sans paired with any display serif (not in the set).
-- The milky lilac/mint/peach/pale-blue set across a screen (allowed: 's saturated pastels; 's
- four small tiles).
+- The milky lilac/mint/peach/pale-blue set across a screen (allowed: saturated pastels as
+ whole-card fills, or pastel on four small tiles only).
 - Four or more equal display-size numbers in a row (not in the set).
 - 24px+ radii on every card and 999px on every button (allowed: pill tab bars and chips).
 - A bento grid of uniform tiles with an icon or emoji in each (not in the set).
-- Glass blur on every card (allowed: one overlay or one hero region, 020/).
+- Glass blur on every card (allowed: one overlay or one hero region, 020).
 - Centred everything on a desktop tool (allowed: marketing heroes).
 - The same face as your last product when the brands differ.
 

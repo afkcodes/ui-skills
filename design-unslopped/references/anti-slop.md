@@ -1,7 +1,7 @@
 # Anti-slop: the tells, and what to do instead
 
 "Slop" is the generic default: output that could be any product, made by nobody, for no one in
-particular. These tells come from comparing the 100 kept references against the 77 rejected ones
+particular. These tells come from comparing the 85 kept references against the 173 rejected ones
 and against template work like 028. Scan a design against this list before showing it.
 
 ## Tells that a design was generated rather than designed

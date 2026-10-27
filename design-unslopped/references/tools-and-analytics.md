@@ -3,8 +3,8 @@
 Product analytics (PostHog, Mixpanel, Amplitude, Firebase, Matomo, GA4), observability, admin
 consoles, ops and dev tools are a different kind of object from the reference set's hero-led
 dashboards. People work inside them for hours, build their own views, and read eight series at
-once. The bar is clarity at density, and the peak examples in the set are the quiet ones: 
-Skymetrics, 036 Sypher, 052 Alignify, Shopeers, 060 Insighta (dark), 063 Buildly, 081 Vanta,
+once. The bar is clarity at density, and the peak examples in the set are the quiet ones:
+036 Sypher, 052 Alignify, 060 Insighta (dark), 063 Buildly, 081 Vanta,
 and in the analytics batch 101 Vectra, 103 Trace, 108 RevenuePulse, 114 cohorts, 117 LeonAnd, 122
 privacy analytics, 125 web vitals, 126 Untitled UI, 129 Beast. 028, 133 and 142 are the negatives. When the brief is a tool, read this file after `peak.md` and apply the
 adjustments in §1 before anything else.

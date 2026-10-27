@@ -1,8 +1,8 @@
 # Platform guidance: web, mobile, both
 
 What changes when the brief is a website, a mobile app, or a product that spans both. Based on how
-the references handle each (mobile 001-025, web app 026-085, marketing web 086-100), with 066 and 095
-showing paired web + mobile designs.
+the references handle each (mobile 001-025, web app 027-083, marketing web 086-100, tools 101-144),
+with 095 showing a paired web + mobile design.
 
 ## Mobile app (iOS / Android)
 
@@ -49,8 +49,8 @@ titles, 24-32 KPI numbers, 32-48 hero numbers or page display.
 
 Navigation
 - Sidebar groups with small-caps labels; active item filled; counts muted. Workspace switcher
-  under the logo. Pill top nav for consumer-facing dashboards (038, 045, 056).
-- Breadcrumb above the page title when depth > 1 (034, 038).
+  under the logo. Pill top nav for consumer-facing dashboards (045, 076).
+- Breadcrumb above the page title when depth > 1.
 - Period and scope controls live in the header, right-aligned; per-card period pickers only when
   cards genuinely differ.
 
@@ -59,7 +59,7 @@ Content
 - Charts get legends, gridlines, dual axes when needed, hover tooltips with multiple values.
 - Forms may be two columns for short fields; labels above fields; helper text under; one primary
   button right-aligned in a footer bar.
-- Inline edit-in-place for list items that are frequently edited (034).
+- Inline edit-in-place for fields that are frequently edited (017's tax and accounting fields).
 - Data freshness and "last updated" in the chrome.
 
 ## Marketing website
@@ -79,7 +79,7 @@ Content
 When the brief covers web and mobile:
 1. Design the data model and the component vocabulary first (status chips, KPI anatomy, row slots,
    palette). These are shared.
-2. Design the desktop dashboard and the mobile home side by side (066, 095) so the same card appears
+2. Design the desktop dashboard and the mobile home side by side (095) so the same card appears
    in both at different densities: e.g. a transaction row keeps leading glyph, name, amount, status on
    mobile and adds method, masked card, date on desktop.
 3. Decide what is mobile-only (scan, biometrics, push-driven alerts) and desktop-only (bulk actions,
@@ -92,9 +92,9 @@ When the brief covers web and mobile:
 ## Accessibility baseline (all platforms)
 
 - Text contrast 4.5:1 for body, 3:1 for large text and UI glyphs. Check tinted chips and grey
-  secondary text on tinted cards (044, 079 are borderline).
+  secondary text on tinted cards; they are the usual borderline cases.
 - Never colour alone for status, direction, or series; add text, glyph, hatch or position.
 - Tap/click targets 44px mobile, 32px desktop minimum; 8px between adjacent targets.
 - Focus states visible on web; reduced-motion respected for animated charts and gradients.
 - Numbers formatted for the locale (thousands separators, currency position, date order); the
-  Turkish (078) and Russian (097) references show the same anatomy surviving localisation.
+  Russian-language landing page (097) shows the same anatomy surviving localisation.

@@ -4,7 +4,7 @@
 Usage:
     python3 find_refs.py payments table status
     python3 find_refs.py --any mobile banking      # match any keyword instead of all
-    python3 find_refs.py --list                     # list all 100 entries (number + title)
+    python3 find_refs.py --list                     # list all entries (number + title)
 
 Searches references/design-notes.md (one '## NNN Title' block per design) and prints the matching
 blocks with the path of the image in ../reference/ so you can open it.

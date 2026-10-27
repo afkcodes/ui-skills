@@ -1,13 +1,13 @@
-# Design notes: 100 reviewed references
+# Design notes: 85 reviewed references
 
-One entry per reference image in `../../reference/` (same numbering as `reference/INDEX.csv` order:
-app-designs/dribbble, app-designs/behance, website-designs/dribbble-dashboards, website-designs/dribbble,
-website-designs/behance, website-designs/awwwards). Each entry records what the design does, what it
-teaches, and where it is weak. These are observations, not rules; the rules distilled from them live in
-`principles.md`, `patterns.md`, `anti-slop.md` and `platforms.md`.
+One entry per reference image in `../../reference/`. Numbers are fixed: where a reference was later cut,
+its number is a gap and its file is in `reference/_rejected/`. `../assets/previews/map.txt` maps each
+number to its file. Each entry records what the design does, what it teaches, and where it is weak.
+These are observations, not rules; the rules distilled from them live in `principles.md`, `patterns.md`,
+`anti-slop.md`, `platforms.md` and `tools-and-analytics.md`.
 
-Numbers 001-025 are mobile apps. 026-085 are web-app dashboards (mostly banking, fintech, payments, SaaS).
-086-100 are marketing sites and AI tool homes.
+Numbers 001-025 are mobile apps. 027-083 are web-app dashboards (mostly banking, fintech, payments, SaaS).
+086-100 are marketing sites and AI tool homes. 101-144 are analytics and tool dashboards (tool mode).
 
 How to use this file: when a brief resembles one of these (a payments table, a balance card, a kanban, a
 landing hero) read the matching entries for concrete anatomy before designing. Search by keyword
