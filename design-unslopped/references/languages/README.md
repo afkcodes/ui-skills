@@ -22,7 +22,7 @@ to before step 3.
    then the stance.
 
 Tools (analytics, admin, ops, dev tools) also read `../tools-and-analytics.md` whatever their
-language.
+language; admin, access, approval and agent screens use its workflow variant (§11).
 
 ## 2. How the layers stack
 
@@ -37,6 +37,23 @@ language.
 Allowed stacks: native + brand (a themed Material or iOS app); system + brand (a Polaris app with a
 merchant's brand; Carbon for an IBM partner); custom + movement. Not allowed: two languages on one
 screen, or a movement worn over native chrome.
+
+A mode (tool, service) is not a language: it sits beside the stack and decides the screen's
+structure and rubric, while the language decides the look. The combined cases:
+
+| Brief | Language (the look) | Mode (structure and rubric) | Score |
+|---|---|---|---|
+| Identity check or application inside a native app | Platform-native (+ brand) | Service mode: one thing per screen, check answers, errors, every ending | Service rubric, with the platform's adjustments in §3 |
+| Shop: product page, basket, checkout | Custom + stance (or a movement) | Consumer for product and basket; service mode for checkout and payment | Peak eight for the first two; service rubric for checkout |
+| Admin, team access or settings inside Carbon, Polaris or Atlassian | The system | Tool mode, workflow variant (`../tools-and-analytics.md` §11) | Workflow rubric, plus the system's sloppy-version checks (`systems.md` §8) |
+| AI agent console, approvals, ops queue | Custom (or the company's system) | Tool mode, workflow variant | Workflow rubric |
+| Analytics inside an enterprise system | The system | Tool mode, analytics | §10 of the tools file, plus the system checks |
+| Marketing site for a developer tool | Custom + movement | Marketing (not tool mode, whatever the product is) | Peak eight, with the movement's rules |
+| Public service not hosted on GOV.UK (council, NHS trust, a company) | The organisation's own brand on GOV.UK patterns, no crown or GDS Transport | Service mode | Service rubric |
+
+Where the language and the mode still collide (the platform asks for atmosphere on chrome, service
+mode asks for none), the language wins on how things look and the mode wins on what is on the
+screen and in what order. Every rubric has the same pass bar: nothing missing, at most one weaker.
 
 ## 3. What each family changes in the peak rubric
 

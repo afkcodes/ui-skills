@@ -100,7 +100,10 @@ button: exchange rate, fee ("$0.00 (free transfer)"), balance after. Then one pr
 Confirmation flows show a timeline (Sent → Processing → Cleared with timestamps: 017) rather than a
 single status. Choice screens use radio cards with a title and a one-line description (072),
 not bare radio buttons. Multi-step flows put the stepper in the toolbar (070) or as a thin
-segmented progress bar (015), not as dots.
+segmented progress bar (015), not as dots. These two are for custom products; in service mode
+(`languages/systems.md` §2) choices are plain radios with hints, one question per page, and
+progress is a caption or a task list, not a stepper, and on a native platform choices use its own
+controls.
 
 ## 7. Actions: verbs, few, one primary
 

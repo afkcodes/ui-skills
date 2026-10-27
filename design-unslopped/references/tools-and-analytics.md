@@ -7,14 +7,15 @@ once. The bar is clarity at density, and the peak examples in the set are the qu
 036 Sypher, 052 Alignify, 060 Insighta (dark), 063 Buildly, 081 Vanta,
 and in the analytics batch 101 Vectra, 103 Trace, 108 RevenuePulse, 114 cohorts, 117 LeonAnd, 122
 privacy analytics, 125 web vitals, 126 Untitled UI, 129 Beast. 028, 133 and 142 are the negatives. When the brief is a tool, read this file after `peak.md` and apply the
-adjustments in §1 before anything else.
+adjustments in §1 before anything else. Admin, settings, access, approval and agent screens are the
+**workflow variant**: read §1 and §7, then §11, which replaces §2-6 and the §10 rubric.
 
 ## 1. What changes in tool mode
 
 | Rule elsewhere in the skill | In tool mode |
 |---|---|
 | One hero taking 35-45% of the screen | A **north-star row** (2-4 metric cards) or one **primary insight at 2x width**; the rest is a grid of equal-weight insights. The user's saved layout is the composition. |
-| Largest text ≥ 4x body; hero number 56-104px | Metric cards 28-36px; body 13px; table 12-13px. Nothing above 40px. Scale contrast comes from the north-star row vs the grid, not from one giant figure. |
+| Largest text ≥ 4x body; hero number 56-84px (`typography.md` §3) | Metric cards 28-36px; body 13px; table 12-13px. Nothing above 40px. Scale contrast comes from the north-star row vs the grid, not from one giant figure. |
 | Atmosphere in one place (glow, gradient, grain) | None, or a 2% tint on the north-star row. Flat surfaces, hairlines, white or near-white page. Dark only if the product is dark by brand (060, 063). |
 | 0-2 data colours | A **categorical palette of 8-10** (§6) for breakdowns, plus semantic green/red for deltas; hover isolates one series and greys the rest. |
 | Signature move per screen | The signature is a **chart type rendered precisely**: a retention triangle, a funnel with drop-off, a path diagram. Precision is the flourish. |
@@ -162,4 +163,64 @@ Score these instead of the eight peak qualities:
  triangular, dates in sequence.
 8. **One accent, one primary**: "Add insight" or "Save" is the only filled button; selection uses the
  accent tint.
+Ready when nothing is missing and at most one is weaker (the bar for every rubric). For admin,
+settings, access, approval and agent screens, score §11 instead.
+
+## 11. Workflow variant: admin, settings, access, approvals, queues, agent consoles
+
+Most of this file is about reading many series. Admin and ops screens are about deciding and acting
+on records: who has access, which payments go, what an agent may do next, which failed items to
+retry. They keep tool mode's density, flat surfaces, type sizes and one accent (§1, §7), and change
+the rest:
+
+| Analytics default | In the workflow variant |
+|---|---|
+| North-star row of 2-4 metric cards | **The decision is the hero**: the thing waiting for this user (an approval with its amount, payee and consequence; the access risks; the failed items). No KPI row that repeats the table's counts. |
+| Grid of equal insights | **Records + detail**: a table or queue with row and bulk actions, and a side panel, page or modal for the one record being decided |
+| Chart precision as the flourish | **Consequence made visible** is the flourish: what will change, for whom, when, and whether it can be undone, drawn where the action is (a seat map, a run timeline narrowing to a gate) |
+| Query in every title | State in every row: who it waits for, since when, who or what acted last |
+
+Rules:
+- **The primary action is on the first screen.** The decision's button (Approve, Send invites,
+  Save) is visible without scrolling at 1440 x 900, or pinned in a sticky footer when the detail is
+  long. Check it on the `-fold.png` render.
+- **Act at the level the risk lives.** Approve, decline and retry apply to one item (one payment,
+  one member); bulk actions exist for convenience and show their scope and total before they run
+  ("Approve 12 payments · £48,210.00"). A run of 31 payments is approved per payment or per batch
+  with every item listed and any held item excluded by name.
+- **Reasons and reversal.** Decline, reject, remove and return-for-changes ask for a reason (a short
+  list plus free text) that lands in the log. Say whether the action can be undone and for how long.
+- **Every record state designed**: waiting for you, waiting for someone else (named), in progress,
+  held (why), failed (the error in words, with Retry, Edit and retry, or Skip), done, reversed;
+  plus empty and permission-denied states with a reason, not a hidden control.
+- **Who and when on every change**: the actor (a person by name and role, an agent, the system),
+  the time, and the why, in an audit log with no edit or delete affordance.
+- **Regulated actions** (money, access to customer data): maker-checker shown, not implied; the
+  approval limits stated; an AI never moves money without a person approving it.
+
+Anatomy lives in the pattern files: approvals, maker-checker and audit trail in
+`patterns/applications-and-onboarding.md` §7; agent runs, approvals, logs and failure in
+`patterns/content-social-ai.md` §11; team, roles and invites in `patterns/app-chrome.md` §9;
+settings in §4 and overlays (danger confirmations) in §6 of the same file. Inside an enterprise
+system (Carbon, Polaris, Atlassian), use the system's table, side panel and modal, and score its
+rubric on top.
+
+Ideation lenses that work here (`ideation.md` §2): 22 *the decision as the hero*, 21 *consequence
+made visible*, 6 *time as the spine* (a run or approval timeline), 19 *remove the obvious component*
+(no KPI row), 25 *design the failure path first*. Avoid *one object big* and *strip to numbers*.
+
+Workflow review rubric (score instead of §10):
+1. **Decision first**: the thing waiting for this user is the first read, and its primary action is
+   on the first screen.
+2. **Consequence before commit**: every consequential action says what changes, for whom, when, and
+   whether it can be undone, before the button is pressed.
+3. **Right granularity**: actions apply to the unit the risk lives in; bulk shows its scope and total.
+4. **Every state designed**: waiting, held, failed with reason and retry, done, reversed, empty,
+   denied with a reason.
+5. **Who, when and why**: actor and time on every change; a log that explains decisions.
+6. **Reasons and reversal**: declines and removals capture a reason; the undo or reversal path is
+   stated.
+7. **Density without fatigue**: as §10 item 5.
+8. **One accent, one primary**: the decision's action is the only filled button; destructive
+   actions are outlined red or behind a confirmation that lists the consequences.
 Ready when nothing is missing and at most one is weaker.

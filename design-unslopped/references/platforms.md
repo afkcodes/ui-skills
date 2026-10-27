@@ -10,6 +10,13 @@ is a native app.
 
 ## Mobile app (iOS / Android)
 
+This section describes **custom-styled** mobile apps, the 001-025 references, most of which predate
+iOS 26. A native app follows `languages/platform-native.md` instead wherever the two differ: on
+Android, the M3 flexible navigation bar, one FAB, 48dp targets, top app bars and M3 lists (§2); on
+iOS 26, the system tab bar and toolbars in Liquid Glass, the dominant verb in a toolbar or in
+content, 44pt targets (§3). The custom habits below (a floating pill tab bar, a raised centre
+button, chevron rows) are sloppy on native Android and on iOS 26.
+
 Layout
 - Single column, 16px side gutters (20px on larger phones), 8px grid.
 - Safe areas respected: status bar, notch, home indicator. Floating tab bars sit above the indicator.
@@ -18,11 +25,13 @@ Layout
 - Cards are full-width or in a 2-column grid of equal squares; never 3 columns of text.
 
 Type scale (typical in the references): 11-12 captions, 13-14 secondary, 15-16 body, 18-20 titles,
-28-40 display for the hero number. Minimum tap target 44x44.
+36-44 display for the hero number (`typography.md` §3). Minimum tap target 44x44pt on iOS and
+custom apps, 48x48dp on Android.
 
-Navigation
+Navigation (custom apps; native apps use the platform's bars, above)
 - Bottom tab bar, 4-5 items; active item labelled, others icon-only is acceptable (003, 008).
-- Centre raised action when the product has one dominant verb (014, 017, 022).
+- Centre raised action when the product has one dominant verb (014, 017, 022). Never on native
+  Android (one FAB with the nav bar) or iOS 26 (a prominent button in a toolbar or content).
 - Back and context actions top-left/top-right in 40px round buttons.
 - Bottom sheets with a grabber for secondary flows (011 accounts sheet); background dimmed and
   blurred, not replaced.
@@ -30,7 +39,9 @@ Navigation
 Content
 - Hero number is the screen's one idea; privacy toggle beside it on finance apps.
 - Quick actions as 4 tiles; status rows with count badges and chevrons.
-- Transactions with day headers; 56-64px rows; swipe actions implied by chevrons.
+- Transactions with day headers; 56-64px rows; swipe actions implied by chevrons on iOS and
+  custom apps. Android rows carry no chevrons; M3 list rows are 56, 72 or 88dp for one, two or
+  three lines.
 - Charts simplified: one series, 7-12 bars, selected bar labelled; no legends beyond two items.
 - Forms one field per row; helper text under the field; primary button pinned near the bottom.
 

@@ -17,6 +17,12 @@ brief before designing.
 1. **Platform.** Website (marketing) · Web app (logged in) · Mobile app (iOS / Android / both) ·
    Web + mobile · Desktop app (Windows / macOS) · Spatial (visionOS). Follow-up if web app or
    mobile: which breakpoints or devices matter most?
+   **1b. Where a service lives** (only for a form-heavy service or anything public-sector; ask it in
+   the Group D call, which has room): on GOV.UK (service.gov.uk) · on a council's, the NHS's or
+   another public body's own site · on a company's own site or app. Only a service on GOV.UK may use
+   the crown, the GOV.UK header and GDS Transport; everyone else keeps the patterns under their own
+   brand (`languages/systems.md` §3). Public-sector answers also trigger the Service Manual flag
+   (`languages/systems.md` §2).
 2. **The one idea of this screen.** What should the user see or do first? (A balance to check, a list
    to act on, a chart to read, a form to complete, a decision to make.) If they can't say, ask what
    they come here to do most often.
@@ -36,7 +42,9 @@ brief before designing.
 6. **Colours.** Do you have brand colours (give hex or a link)? If not: warm neutrals · cool neutrals ·
    dark · a specific hue you want as the accent · colours to avoid. Also: light, dark, or both.
 7. **Mood in three words.** e.g. "calm, precise, trustworthy" / "bold, energetic, young" / "quiet
-   luxury" / "playful but serious about money". Offer six example triplets as options.
+   luxury" / "playful but serious about money". Offer four example triplets as options, chosen to
+   differ from each other for this domain (the question tool takes four options; "Other" covers a
+   triplet of their own).
 8. **Type preference.** Grotesk / clean (Inter-like) · geometric / friendly · editorial serif + sans ·
    condensed / loud · mono / technical · "you choose from the references". Any fonts already in use
    or forbidden.
@@ -70,7 +78,8 @@ brief before designing.
 ## Group D: delivery (always)
 
 17. **Deliverable.** HTML prototype (artifact) · Figma · annotated mockup page · React components in a
-    repo · before/after page. Light and dark both? Mobile and desktop both?
+    repo · before/after page. Light and dark both? Mobile and desktop both? For a flow: which
+    failure endings must be designed (declined, referred, more documents needed, timed out)?
 18. **Review.** Who sees it next and how (a stakeholder deck, a PR, a design crit)? Deadline or
     time box?
 

@@ -126,6 +126,20 @@ https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
 - Mobile is a hub: identity card, then two or three titled groups of rows (Account: Manage
   subscription, Restore purchases; Preferences: App settings, Privacy & Security, Notifications,
   Language: 270); each row pushes a page.
+- Native Android (Material 3 / Expressive): a large or medium flexible top app bar titled
+  "Settings" that collapses on scroll; rows are M3 list items (56, 72 or 88dp for one, two or three
+  lines; 16dp start padding, 24dp end; 48dp targets), title in Body Large and the current value or
+  consequence as supporting text in Body Medium, on-surface-variant; a 24dp leading icon only when
+  every row in the group has one; the switch trailing, and tapping anywhere on the row toggles it.
+  Expressive groups related rows into a segmented list on a surface container: 4dp inner and 16dp
+  outer corners, a small gap between items, the selected item fully rounded at 16dp. Group labels
+  in Title Small or Label Large in primary, not uppercase. A feature with sub-settings gets a main
+  switch row in a primary container at the top of its page. No chevrons, no iOS-style inset
+  grouped tables. When the system blocks a feature (notifications off at OS level), say so in the
+  row and link to the system setting. Source: https://m3.material.io/components/lists/specs
+- Native iOS: inset grouped list, section headers in sentence case, chevrons on rows that push,
+  the switch on the right; the large title collapses into the navigation bar
+  (`languages/platform-native.md` §3).
 
 Section layout:
 - Heading + one helper sentence, rows split by hairlines, forms at a readable measure.

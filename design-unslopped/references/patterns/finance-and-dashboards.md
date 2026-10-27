@@ -29,8 +29,9 @@ copy pixel values. Other pattern areas are in the files listed in `README.md`.
 - Context control ABOVE the number: account selector pill ("Operational Account ▾"), currency tabs
  with flags, or a period picker. Switch first, then read.
 - Eyebrow label in small grey: "Available Balance", "Total balance".
-- The number: display size (32-56px desktop, 28-40px mobile), semibold. Decimals/pence smaller
- and lighter, or faded. Currency symbol same size as digits or slightly smaller.
+- The number: display size from the table in `typography.md` §3 (48-56px in a card, 56-84 on the
+ page surface, 36-44 mobile), semibold. Decimals/pence smaller and lighter, or faded. Currency
+ symbol the same size, weight and colour as the digits (`typography.md` §3).
 - Privacy toggle (eye-off) inline right of the number on consumer banking.
 - One delta chip + context ("↑ 10% from yesterday") or a secondary chip ("Available Limit •
  $3,600 Left ›").
@@ -165,12 +166,17 @@ outlined + one filled action right; bell with dot, avatar with role. Data freshn
 is not live.
 
 ## 15. Mobile home screen [002, 003, 004, 011, 012, 020, 022]
+For custom-styled apps. A native Android or iOS 26 app keeps the platform's top bar, navigation and
+primary action (`languages/platform-native.md` §2-3, §7) and puts this content order inside it.
 Top to bottom: avatar + greeting (or account selector) + bell; hero balance block (dark or tinted
 region on banking apps); 4 quick actions; one status/alert row if anything needs attention ("2 claims
 in progress ›"); recent list with day headers; tab bar. The dark-header/light-list split (004) is a
 strong banking mental model: state above, activity below.
 
 ## 16. Mobile tab bar [003, 008, 014, 017, 020, 022]
+For custom-styled apps only. Native Android uses the M3 flexible navigation bar with one FAB
+(`languages/platform-native.md` §2); iOS 26 uses the system tab bar (§3). A hand-drawn floating
+pill bar or a raised centre button is listed as sloppy on both.
 - 4-5 items. Floating pill bar or flush bar.
 - Active item: icon + label in a pill or a filled circle; inactive: icon only (003, 008) or
  icon + small label (012, 020).

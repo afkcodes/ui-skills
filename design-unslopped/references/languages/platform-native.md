@@ -46,6 +46,13 @@ times. Map body to surface and navigation to surface container at every breakpoi
 Sloppy: the baseline scheme (primary #6750A4, lilac containers) left unchanged (148; even 147 is a
 spec, not a product); a container colour used for text; roles picked by look. Instead: a brand seed
 or content-derived scheme, roles by meaning, tertiary only for the one contrasting accent.
+**Deriving the scheme**: never pick role hexes by eye. Each role is a fixed tone (CIELAB lightness)
+of a palette built from the seed: primary tone 40 in light and 80 in dark, on-primary 100 / 20,
+primary container 90 / 30, on-container 10 / 90; surface 98 / 6; surface containers lowest to
+highest 100, 96, 94, 92, 90 in light and 4, 10, 12, 17, 22 in dark; outline 50 / 60. Generate it
+with Material Theme Builder (https://material-foundation.github.io/material-theme-builder/) and cite
+it, or, offline, `scripts/m3_scheme.py "#seed"` for a close approximation as CSS variables. Say in
+the visual system block which you used.
 
 **Type scale** (sp, size/line height): Display 57/64, 45/52, 36/44 · Headline 32/40, 28/36, 24/32 ·
 Title 22/28, 16/24, 14/20 · Body 16/24, 14/20, 12/16 · Label 14/20, 12/16, 11/16. Fifteen baseline

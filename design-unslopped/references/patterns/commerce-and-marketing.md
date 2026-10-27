@@ -98,6 +98,14 @@ https://baymard.com/blog/number-of-items-loaded-by-default
    where relevant (37% of sites lack in-scale: Baymard, 2026); thumbnails, a video marked with a
    play glyph (290); on mobile a swipe carousel with dots (294). Goes wrong: five near-identical
    angles. Instead: front, back, detail, in use, in scale.
+   **When there is no photography** (a mockup before the shoot, or no image access): do not fake
+   it with stock-like illustration that pretends to be a photo. Use labelled placeholders that say
+   which shot goes there and why ("Front, on white · 4:5", "In a room, to scale · 4:5"), sized and
+   cropped exactly as the real images will be, in a neutral tone from the palette; or a precise
+   line drawing where the drawing is itself information (dimensions, a doorway check, a fabric
+   swatch at true colour). Put the craft into the parts that do not need photos: the buy box,
+   delivery dates, the bespoke element. Say in the presentation that imagery is a placeholder and
+   the page must be judged again with the real photos.
 3. **Buy box order**: eyebrow (brand or category: 291, 292) → name → rating and count linked to the
    reviews ("4.8 (1.2k)": 290) → price → variants → quantity → one primary → delivery, stock and
    returns lines → details. On a single-product brand page the name may be the hero (293: ~150px

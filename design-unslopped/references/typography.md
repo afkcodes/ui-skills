@@ -176,9 +176,26 @@ Choose one per product and avoid the one you used last time; the roster is long 
 
 ## 3. Numerals module (applies inside every voice)
 
-- Hero amount: 32-56 desktop, 28-40 mobile; exactly one per screen; the voice's display or body
- face at 500-600 (serif only in the editorial voice); tracking −0.02 to −0.04em (serif: 0 to
- −0.01em); `font-variant-numeric: tabular-nums`.
+- Hero amount or headline: exactly one per screen, sized by the display-scale table below; the
+ voice's display or body face at 500-600 (serif only in the editorial voice); tracking −0.02 to
+ −0.04em (serif: 0 to −0.01em); `font-variant-numeric: tabular-nums`.
+
+**Display scale: the one table for hero sizes.** Every other file points here.
+
+| Context | Hero number or headline | Test |
+|---|---|---|
+| Custom product, desktop, hero on the page surface | 56-84px (081, 093, 092 at ~64) | ≥ 4x body |
+| Custom product, desktop, hero inside a card among cards | 48-56px (076, 083, 093) | ≥ 3x body |
+| Custom product, mobile | 36-44px for a number; a headline may reach 48 if it stays within three lines | ≥ 2.5x body |
+| Marketing page hero headline | 56-80px desktop (287 at ~64, 200 at ~80), 36-48px mobile | ≥ 4x body |
+| Tool mode | Metric values 28-36px; nothing above 40 (`tools-and-analytics.md` §1) | Contrast comes from the north-star row, not one figure |
+| Platform-native | The platform's display roles (M3 Display 57/45/36; iOS Large Title 34); a content hero may go larger (149 at ~68pt) | ≥ 4x body in content |
+| Public or enterprise system | The system's largest heading (GOV.UK 48px on a start page, 36px on a question page: 170, 171; Carbon heading-04 to -07, 28-54px, lighter as it grows) | None beyond the system |
+| Service mode | The question as the h1; nothing on the page larger | None |
+| Movement | The movement's own range in `languages/movements.md`; else the custom rows | As the custom row |
+
+Below 48px on a desktop screen, a number is a KPI, not a hero. Two contexts on one screen (a
+marketing hero and a pricing table) use the larger row for the hero only.
 - Currency symbol: same face, size, weight and colour as the digits in 24 of 25 money references.
  Fade the decimals (55-65% size, 40-50% opacity) if you want a secondary element; never the symbol.
 - Secondary amounts (KPI tiles 24-32, legend and rows 14-16) in the body face at 500-600; never a row
@@ -214,7 +231,8 @@ it, cited by number.
 - The milky lilac/mint/peach/pale-blue set across a screen (allowed: saturated pastels as
  whole-card fills, or pastel on four small tiles only).
 - Four or more equal display-size numbers in a row (not in the set).
-- 24px+ radii on every card and 999px on every button (allowed: pill tab bars and chips).
+- 24px+ radii on every card and 999px on every button (allowed: pill tab bars and chips, and the
+ platform's own capsule buttons on iOS 26 and M3 Expressive, `languages/platform-native.md`).
 - A bento grid of uniform tiles with an icon or emoji in each (not in the set).
 - Glass blur on every card (allowed: one overlay or one hero region, 020).
 - Centred everything on a desktop tool (allowed: marketing heroes).

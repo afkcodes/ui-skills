@@ -14,12 +14,15 @@ Read `typography.md` first; it has the counts. Summary:
  you used last time. Load it. Never system-ui in a custom product, never a face the three chosen
  references would not use; native and system languages use the platform's or system's face.
 - When the language is platform-native or a system, its own numbers (type ramp, spacing grid,
- radii, elevation, targets) replace the values in this file; see `languages/`.
+ radii, elevation, targets) replace the values in this file; see `languages/`. A movement's rules
+ (`languages/movements.md`: neo-brutalism's hard borders and offset shadows, terminal's mono grid,
+ Swiss's grid) replace the values here that they cover, and this file fills in the rest.
 - Money and every number: the body sans at 500-600, `letter-spacing` −0.02 to −0.04em,
  `font-variant-numeric: tabular-nums`, line-height 1.0-1.1. Currency symbol same size, weight and
  colour as the digits. Decimals optionally at 55-65% size and 40-50% opacity.
-- Hero number 32-56px desktop, 28-40px mobile. Exactly one per screen. KPI numbers 24-32px,
- legend and row amounts 14-16px, all the same sans.
+- Hero number or headline: sized by the display-scale table in `typography.md` §3 (56-84px on a
+ desktop page surface, 48-56 inside a card, 36-44 mobile). Exactly one per screen. KPI numbers
+ 24-32px, legend and row amounts 14-16px, all the same sans.
 - Titles 16-18px 600; body 14px 400 line-height 1.5; secondary 12-13px grey; eyebrows 11-12px
  500-600 uppercase +0.06em in grey, above every hero number.
 - Display serif only when two of the three references use one, and then heavy and high-contrast

@@ -66,6 +66,23 @@ Lenses (pick six that fit; the reference beside each shows the lens working):
  no cards; 069 has no KPI tiles)
 20. **Make the empty state the hero.** Design for zero first; the full state inherits its idea.
 
+Lenses for services and workflow screens, where the data lenses above rarely fit:
+21. **Consequence made visible.** Before the button, show what changes, for whom and when: a seat
+ map that fills as people are invited, a run narrowing to an approval gate, a delivery timeline that
+ splits when one item is late. (017 lifecycle; 057 Needs Approval)
+22. **The decision as the hero.** The one thing waiting for this user, with every value that
+ matters and one button that names the act. (`patterns/content-social-ai.md` §11; 320 is the weak
+ form, with equal Confirm / Decline)
+23. **The question is the page.** One plain question as the heading, the input sized to the answer,
+ a hint that removes the doubt; nothing else competes. (171; 172)
+24. **Set the expectation before and after.** What you need, how long it takes, what happens next
+ and by when, as the hero of the start and end pages. (170 start page; 175 confirmation)
+25. **Design the failure path first.** The declined, referred, timed-out or needs-more-documents
+ ending gets a screen as considered as the success; the happy path inherits its clarity.
+
+Which lenses fit which mode: services take 6, 17, 21, 23, 24, 25; workflow tools take 6, 19, 21,
+22, 25; analytics tools are in `tools-and-analytics.md` §9.
+
 Random stimulus, when stuck: pick a reference number at random that is *outside* the brief's domain
 (e.g. 010 Formula 1 for a payments brief), open it, and ask what its idea would look like here.
 

@@ -23,11 +23,13 @@ device (portions, a grid, a chart), and cut what repeats what the hero already s
 
 ## 2. Scale
 
-The hero number or headline is bigger than feels safe: 56-84px on desktop, 36-44px on mobile, with
-the unit, decimals or eyebrow at a fifth of that size. Contrast of scale is what makes it premium.
+The hero number or headline is bigger than feels safe, with the unit, decimals or eyebrow at a
+fifth of that size. Contrast of scale is what makes it premium. The sizes per context (page
+surface, inside a card, mobile, tool, native, system) are in one table, `typography.md` §3.
 - 081 Vanta, 093 Portal, 049 Nueansa (digits with letter-spacing), 092 (+2.6% at ~64px with a two-line
  explanation beneath), 011 (£24,769 with the pence shrunk).
-Test: the largest text on screen should be at least 4x the body size. If it is 2x, double it.
+Test: the largest text on screen is at least 4x the body size on desktop (3x when the hero sits in a
+card, 2.5x on mobile). If it is 2x, double it.
 
 ## 3. Atmosphere
 
@@ -110,5 +112,6 @@ iOS), 145 (M3 Expressive), and 170-176 (GOV.UK service pages).
 ## The compare rubric
 
 When the render is beside the three references, score each of the eight above as "matches /
-weaker / missing" and fix the weakest first. A screen is ready when nothing is "missing" and at most
-two are "weaker". Two rounds minimum; most screens need three.
+weaker / missing", with the evidence beside each "matches", and fix the weakest first. A screen is
+ready when nothing is "missing" and at most one is "weaker" (the same bar for every rubric; see
+SKILL.md step 6). Two rounds minimum; most screens need three.

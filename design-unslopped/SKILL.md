@@ -29,7 +29,7 @@ and fix, more than once.
 | `references/languages/brand-systems.md` | Whenever a design system, token file or component library already exists (e.g. Alchemy) |
 | `references/peak.md` | Always, before designing; again as the rubric in the compare loop |
 | `references/ideation.md` | Always, after step 3: reframe, diverge through six lenses, converge, push 20% |
-| `references/tools-and-analytics.md` | When the brief is a tool: product analytics, observability, admin, ops, dev tools. Read right after `peak.md`; it swaps the hero/scale/atmosphere targets and the review rubric |
+| `references/tools-and-analytics.md` | When the brief is a tool: product analytics, observability, admin, ops, dev tools. Read right after `peak.md`; it swaps the hero/scale/atmosphere targets and the review rubric. Admin, settings, access, approval and agent screens use its workflow variant (§11) |
 | `references/stances.md` | Before step 4: the visual stance and the signature move |
 | `references/principles.md` | Before step 3: hierarchy, colour budget, numbers, status, lists, forms, actions, charts |
 | `references/typography.md` | Before step 4: classify the brief into a type voice (or take the one the design language sets), pick from that voice's roster, apply the numerals module, run the exclusion check |
@@ -37,9 +37,35 @@ and fix, more than once.
 | `references/patterns/README.md` | When building any region: the index of pattern files (dashboards and finance; applications and onboarding; app chrome; commerce and marketing; content, social and AI) and which to open |
 | `references/platforms.md` | Layout per platform: mobile, tablet, web, desktop and spatial apps, web + mobile, accessibility |
 | `references/anti-slop.md` | Final pass before showing |
-| `references/design-notes.md` | Grep for precedent by component or domain; never read whole |
+| `references/design-notes.md` | Search with `scripts/find_refs.py`, never read whole |
+| `scripts/find_refs.py` | Step 2: ranked search of the notes; prints preview paths |
+| `scripts/render.py` | Step 6: renders a screen at its true width (390 and 412 included), plus the fold and screen-by-screen slices |
+| `scripts/m3_scheme.py` | Material 3 apps: an approximate tonal scheme from a seed colour when Material Theme Builder is not to hand |
 | `assets/previews/` | The 187 images, numbered 001-324 with gaps (`map.txt` maps each to its file; `design-notes.md` lists the ranges). Open them; they are the bar |
 | `assets/kit/` | Optional tokens and utility CSS for the secondary parts of a screen. Read its README. Never a layout, never the hero |
+
+## When the files disagree
+
+The general files (`peak.md`, `principles.md`, `craft.md`, `typography.md`, `stances.md`,
+`platforms.md`, the pattern files) describe a custom product. When a more specific file says
+something else, the more specific one wins, in this order:
+
+1. The user's explicit instructions, then an existing design system (tokens, components, brand
+   book: `languages/brand-systems.md`).
+2. The design language file (`platform-native.md`, `systems.md`, `movements.md`) for everything it
+   specifies: chrome, components, type ramp, spacing grid, radii and shapes, targets, materials,
+   motion, borders and shadows.
+3. The mode (`tools-and-analytics.md` for tool mode, service mode in `systems.md` §2) for the
+   screen's structure, its hero, scale and atmosphere targets, and the review rubric.
+4. The pattern files for the anatomy of a region.
+5. The general files, which are the defaults for everything nobody above has set.
+
+Language decides how it looks and mode decides what the screen must do, so the two rarely collide.
+Where they do, the language wins on the look and the mode on the structure. Modes are chosen per
+screen, not per product: a shop's product page is a consumer screen and its checkout runs in
+service mode. `languages/README.md` §2 has the combined cases (a native app with a form flow, an
+admin page inside Carbon, a developer tool's marketing site). Sizes for the hero live in one place,
+`typography.md` §3; the pass bar for every rubric is in step 6.
 
 ## Workflow
 
@@ -53,13 +79,17 @@ question the first time. Skip one only when the conversation, repo, Figma or a s
 answers it, and say what you found. If the user says "just go", choose defaults and list every one
 in a line before designing. For a redesign, add the two redesign questions.
 
-Classify the product as **consumer app**, **marketing site**, **tool** (analytics, admin, ops,
+Classify each screen as **consumer app**, **marketing site**, **tool** (analytics, admin, ops,
 observability, developer tools, internal dashboards) or **service** (a form-heavy transactional
-flow: apply, register, claim, renew). Tools run in **tool mode**: read
+flow: apply, register, claim, renew, verify identity, pay). Tools run in **tool mode**: read
 `references/tools-and-analytics.md` after `peak.md`; its §1 table replaces the hero, scale,
-atmosphere and colour targets, and its §10 rubric replaces the eight qualities in step 6. Services
-run in **service mode** (`references/languages/systems.md`), which does the same for transactional
-flows. Say which mode you are in, in the brief.
+atmosphere and colour targets, and its §10 rubric replaces the eight qualities in step 6. Tool mode
+has two variants: **analytics** (reading many series) and **workflow** (admin, settings, team and
+access, approvals, queues, agent consoles: deciding and acting on records); §11 of that file covers
+the workflow variant and its rubric. Services run in **service mode**
+(`references/languages/systems.md` §2), which does the same for transactional flows. A marketing
+site for a developer tool is a marketing site, not tool mode. Say which mode each screen is in, in
+the brief.
 
 Then choose the **design language** with `references/languages/README.md` and read the file it
 points to. Languages stack: a native app themed with a brand system reads both
@@ -75,11 +105,16 @@ constraints, must-haves, deliverable. For a redesign, add an honest critique of 
 ### 2. Look at the references (not the notes)
 
 Run `scripts/find_refs.py` with 3-6 keywords from the brief (domain, platform, design language,
-pattern: e.g. `checkout mobile`, `material settings`, `brutalist pricing`). From the matches, choose
-**three** images that are closest to the brief in domain, platform, language and tone, and **Read
+pattern: e.g. `checkout mobile furniture`, `material settings`, `brutalist pricing`). Results are
+ranked by how many keywords an entry matches, with title matches first; quote a phrase to match it
+in order (`"check your answers"`), and run two or three searches from different angles (domain;
+language; pattern) rather than one long one. Entries marked `[NEGATIVE]` show what to avoid and are
+never one of the three. From the matches, choose **three** images that are closest to the brief in domain, platform, language and tone, and **Read
 all three**. At least one should share the brief's design language when the library has one. For each,
 write four lines: the composition (what takes the space), the scale move, the one atmospheric
-element, and the bespoke element. This is the bar for this screen. Keep these three open for the
+element, and the bespoke element. This is the bar for this screen. When nothing in the library
+shares the brief's domain or language, say so in the brief, take the closest by pattern and by
+language separately, and lean on the language file's official sources for the rest. Keep these three open for the
 compare loop in step 6; they are not optional and they are not to be summarised from
 `design-notes.md` instead of viewed.
 
@@ -119,8 +154,10 @@ heatmap, a diverging in/out chart, a radio-card chooser with consequences). It i
 this product. If you cannot name it in one sentence a first-time user would understand, go back to
 step 3b.
 
-Then set the visual system in a block the user can keep, and **derive every value from the three
-references chosen in step 2, citing the number beside it**: palette (neutral base, one saturated
+Then set the visual system in a block the user can keep. Values the design language or design
+system fixes (type ramp, spacing grid, radii, colour roles, components) come from it, cited by token
+or spec name ("M3 Title Large 22/28", "Carbon $spacing-05"). **Derive every other value from the
+three references chosen in step 2, citing the number beside it**: palette (neutral base, one saturated
 accent, semantic colours, 0-2 data colours, with hex and "from 046"), type (classify the brief into a voice in `references/typography.md`, choose one face from that
 voice's roster that you did not use last time, a second face only in the role the voice allows
 and only if two of the three references have one; the scale per platform; how numbers are set
@@ -136,8 +173,8 @@ its tokens, say which you used, and list any departures.
 Read `references/craft.md` for the numbers. Build in this order:
 
 1. **The hero and the bespoke element first**, by hand: custom markup, hand-drawn SVG, CSS
-   grid; sized to the scale rule in `peak.md` (largest text ≥ 4x body) unless the language or mode
-   adjusts it; with the one atmospheric element (a lit gradient, a glow, a scrim over imagery,
+   grid; sized by the display scale in `typography.md` §3 (the one table for hero sizes, with the
+   language and mode rows); with the one atmospheric element (a lit gradient, a glow, a scrim over imagery,
    grain on dark) applied here and nowhere else, or the platform's own material where the language
    is native. This is where the time goes.
 2. **Supporting regions** from the matching file in `references/patterns/` (the README says
@@ -148,25 +185,48 @@ Read `references/craft.md` for the numbers. Build in this order:
 3. **Copy**: greeting plus a sentence that names a task, insight sentences with a number, helper
    text under inputs, plausible names and amounts, at least one failed and one pending row. Proofread
    every label.
-4. **States**: one non-happy state per screen where it matters.
+4. **States**: one non-happy state per screen where it matters. In a flow, design the failure
+   ending too, not just the success: declined, referred to a person, timed out, needs more
+   documents.
+5. **The first screen**: the screen's primary action, or the decision the screen exists for, is
+   visible without scrolling at every width (pinned to the bottom on mobile when the content is
+   long). Check it on the fold render in step 6.
 
 Load real fonts. Draw charts by hand or with `assets/kit/charts.js` following `craft.md`; never a
 library's defaults, never plain divs for data. No device frames, no tilted mockups, no hands.
-Mobile screens at 390px wide (412 for an Android-first design); desktop at 1440.
+Mobile screens at 390px wide (412 for an Android-first design); desktop at 1440. Use fixed or `svh`
+heights rather than `100vh` for anything taller than the first screen, so full-page renders do not
+stretch.
 
 ### 6. Render, compare, fix (minimum two rounds)
 
-Render the output to a PNG with headless Chrome (1440 or 390 wide; a scaled browser pane cannot
-show type and spacing) and Read it. Put it beside the three reference images from step 2 and
-score the eight qualities in `references/peak.md` as matches / weaker / missing (in tool mode,
-score the eight items in `tools-and-analytics.md` §10 instead; in service mode, the service rubric in
-`languages/systems.md`; for a native or system language, apply that file's adjustments to the
-eight; inside a brand system, add the rubric in `languages/brand-systems.md` §8). Run the structural checks in
-`references/anti-slop.md` in the same round, not after; most of them are cheaper to fix before
-the second render. Fix the weakest
-first. Re-render. Repeat until nothing is "missing" and at most two are "weaker"; this takes two
-rounds at least and often three. Write the score table down each round; it is part of the
-deliverable so the user can see the gap close.
+Render with `scripts/render.py page.html out.png --width 390 --slices` (or `--width 1440`; add
+`--dark` for a dark variant). Do not call Chrome with `--window-size` directly: headless Chrome will
+not lay out narrower than 500px, so a direct 390 render is silently a crop of a 500px layout, and
+it follows the computer's dark mode. The script writes the full page, `-fold.png` (the first
+screen) and with `--slices` one PNG per further screen of scroll. Read the fold and the slices;
+the full-page PNG of a tall screen is shrunk too far to judge type and spacing. A scaled browser
+pane is no substitute.
+
+Put the renders beside the three reference images from step 2 and score one rubric as matches /
+weaker / missing:
+- a custom product: the eight qualities in `references/peak.md`;
+- tool mode: `tools-and-analytics.md` §10 (analytics) or §11 (workflow), instead of the eight;
+- service mode: the service rubric in `languages/systems.md` §2, instead of the eight;
+- then, on top of whichever applies: a native or system language's adjustments
+  (`languages/README.md` §3) and, inside a brand system, `languages/brand-systems.md` §8.
+A screen that is both native and a service (an in-app identity check) scores the service rubric with
+the platform's adjustments; a checkout inside a shop scores the service rubric for the pay step
+only.
+
+Score honestly: next to each "matches", write the evidence in a few words (what on the render
+matches what in which reference: "hero 64px over 15px body, as 093"). A first round where
+everything matches means the scoring is lenient, not that the screen is done; score it again
+against the references at full size. Run the structural checks in `references/anti-slop.md` in
+the same round, not after; most of them are cheaper to fix before the second render. Fix the
+weakest first. Re-render. **A screen is ready when nothing is "missing" and at most one is
+"weaker"**, in every rubric and mode; this takes two rounds at least and often three. Write the
+score table down each round; it is part of the deliverable so the user can see the gap close.
 
 Then the quick passes: `references/anti-slop.md`; the squint test (one thing dominates); the colour
 audit (every hue maps to a meaning); the justification pass (one sentence per visible decision).

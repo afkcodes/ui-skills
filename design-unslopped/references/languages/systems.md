@@ -43,6 +43,15 @@ Use for anything a person completes once or rarely: apply, register, claim, open
 report, pay, renew. Add **service** to the step 1 classification beside consumer app, marketing
 site and tool. GOV.UK's patterns (170-176) are the bar whatever the brand.
 
+Service mode decides the structure and the rubric; it does not replace the design language. Inside
+a native app (an identity check or application in a banking app), the platform's chrome and
+components replace GOV.UK's: a large title as the question, native text fields, pickers and the
+camera sheet, the platform's buttons, and the content stays matte. Score this rubric with the
+platform's adjustments from `README.md` §3. Inside a shop, only the checkout and payment steps run
+in service mode; the product pages and basket stay consumer screens. Ask in the interview whether
+the service will be hosted on GOV.UK (`../questions.md` 1b): that decides the crown, GDS Transport
+and the header (§3).
+
 | Rule elsewhere in the skill | In service mode |
 |---|---|
 | One hero taking 35-45% of the screen | The hero is the question. One question per page, the h1 is its label or legend (171); nothing competes. Only the start page (170) and the confirmation panel (175) get a hero moment |
@@ -90,6 +99,16 @@ Page types, in journey order:
   the stricter of the brand's own target and these.
 - **Regulated services** (banking, insurance, lending at Allica): declarations, fees, consents and
   eligibility copy go through Compliance or Legal before publication; say so in the brief.
+- **Test with users, and the Service Manual**: a mockup is a hypothesis, not a finished service.
+  For any public-sector service (central government, councils, the NHS) say in the brief and the
+  presentation that it must follow the GOV.UK Service Manual and meet the Service Standard: research
+  with real users, including people with access needs and low digital confidence, before and during
+  build, and a service assessment before it goes live (https://www.gov.uk/service-manual,
+  https://www.gov.uk/service-manual/service-standard). For any other service, recommend testing the
+  flow with five or more users before launch and name the questions most likely to fail.
+- **Failure endings**: design the screens for declined, referred to a person, more documents
+  needed and timed out, each with what happens next, by when and how to get help, not only the
+  success confirmation.
 
 Service-mode review rubric (replaces the eight peak qualities in step 6):
 1. **One thing per page**: every page has one question or one bound group.
@@ -101,7 +120,8 @@ Service-mode review rubric (replaces the eight peak qualities in step 6):
 6. **Ending**: confirmation with reference, next step, who and when.
 7. **Plain English**: proofread, sentence case, no jargon, no sentence over 25 words unchecked.
 8. **Access**: WCAG 2.2 AA contrast, visible focus, works at 320px wide and at 400% zoom.
-Ready when nothing is missing and at most one is weaker.
+Ready when nothing is missing and at most one is weaker (the bar for every rubric). Item 6 covers
+every ending: success and the failure endings above.
 
 ## 3. GOV.UK Design System (govuk-frontend 6.6.0)
 

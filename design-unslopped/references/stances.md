@@ -38,7 +38,7 @@ most of this table is then out of bounds for chrome and applies only to the cont
 
 ## Signature moves (one per screen)
 
-- A hero number set at 48-56px in the body sans at 600 with faded decimals (076, 083, 093); or in a heavy serif at 36-44px (081).
+- A hero number set at 48-56px in a card, or larger on the page surface (`typography.md` §3), in the body sans at 600 with faded decimals (076, 083, 093); or in a heavy serif at 36-44px (081).
 - A treemap for composition instead of a pie (023).
 - A dot-matrix or barcode bar chart (040, 046, 081).
 - Capsule bars with the selected one filled and labelled inside (054, 059, 092).
