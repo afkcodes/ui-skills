@@ -1,0 +1,29 @@
+file	decision	number	reason
+dribbble-26155318-Dribbble-Improved-Sign-up-Flow.png	keep	230	Shipped identifier-first sign-up: social + one email field + black primary; legal line quiet
+dribbble-26806158-Zevoa-Mobile-App-Password-Reset-Flow.png	keep	231	OTP and reset anatomy: destination shown, resend on screen, rule above field, show toggles
+dribbble-26848569-Sign-up-flow-Untitled-UI.jpg	keep	232	Intake step with a permanent support rail (response times, hours, Online chip) and first-person choice cards
+dribbble-27534011-Book-Summary-App-Onboarding-UI.png	keep	233	Personalisation onboarding with a live consequence (minutes -> books per year) and sectioned progress
+dribbble-25215143-blockfy-AI-Crypto-Investing-Trading-App-KYC-Verification-UI.jpg	keep	234	ID capture with live status pill + fixed instruction; biometric opt-in with skip; typo noted
+dribbble-27653428--Identity-Verification-Flow-Minimal-Mobile-UI.png	keep	235	Verification as bottom sheets over the blurred app; requirement line on the document choice
+dribbble-14141322-Loan-Application-Form-Design.jpg	keep	236	UK loan application + offers with APR, total repayable and representative example; figure mismatches noted
+dribbble-7090837-Loan-application-form.png	keep	237	Live repayment box beside the controls; confirm step restates every number; mislabelled buttons noted
+dribbble-25213247-Multistep-Forms-Vehicle-info.png	keep	238	Desktop stepper rail with step descriptions; why-we-ask column; one identifier prefills five fields
+dribbble-21103964-BuildStream-Application-Form.png	keep	239	Short application: (optional) marking, answers carried forward as completed rows, pay chips on options
+dribbble-5105049-Loan-Application-Form.png	keep	240	Business finance documents: formats and size first, one dropzone per named document, per-file progress
+dribbble-27140228-Crypto-Trading-Platform-Sign-Up-Flow.png	negative	241	Strong visual, broken form: two heading typos, error on a valid email, Buy BTC as sign-up primary
+dribbble-26627818-Daily-Expense-App-Onboarding-Screen.jpg	negative	242	Generic onboarding carousel: milky lilac, same Get Started on every slide, copy contradicts picture, no skip
+dribbble-25108727-swiftbank-AI-Digital-Banking-App-KYC-User-Verification-UIUX.png	reject		Near-duplicate of 234 (same author, same ID chooser); generic blue, cropped phones
+dribbble-25604271-Zaps-Fintech-App-Onboarding-Page.png	reject		Tilted 3D phone mockups; UI text at an angle
+dribbble-26220016-Proof-of-Humanity.jpg	reject		Web3 points dashboard, not identity verification; glow on every card; typos (PINTS)
+dribbble-26327714-Biometric-Authentication-Mobile-UI.png	reject		One screen shown twice; mostly a face photo; no flow
+dribbble-26333071-AI-Writing-Assistant-App-Onboarding.png	reject		Generic value-prop carousel; phone-in-phone screens; emoji icons; fourth screen cropped
+dribbble-27032179-ExamBot-AI-Study-Assistant-Landing-Page-UI.png	reject		Tilted laptop render with a 3D robot; marketing hero, no upload flow
+dribbble-27186107-AI-Family-Organizer-App-Onboarding-Experience.png	reject		Polished but generic three-slide carousel, no skip; 242 is the stronger negative
+dribbble-27353552-Email-Marketing-SaaS-Dashboard-UIUX-Multi-Step-Form-Creation.jpg	reject		Generic SaaS wizard: Step 1/Step 2/Final labels, John Doe, unrelated AI button
+dribbble-27659530-Deskchain-Mobile-Crypto-Portfolio-Product-Allocation.png	reject		Tilted phone on a leather render; portfolio screen, off-area
+dribbble-27743079-Real-estate-mobile-application-ui-design.png	reject		Off-area (property listing); presentation board with framed phones
+dribbble-27807802-KYC-Onboarding-ID-Document-Review-Quality-Check.png	reject		Tilted phone on a rock render; the quality checklist is good but the shot fails the mockup rule
+dribbble-6337480-Stepper-Multi-Step-form.jpg	reject		Thin; typos (Summery, mapp); placeholder title Example with Steps UI
+dribbble-6530619-Upload-Document-UI-animation.gif	reject		400x300 still of one row; too small to teach
+dribbble-7091781-Loan-application-form.jpg	reject		Generic car-loan form; selected tile grows in size; 68 months option; 236 covers preset tiles better
+dribbble-7150952-Bank-Account-Opening-Screen.png	reject		Two empty tiles (new / saved application) with no detail; Jane Doe; too thin

@@ -4,6 +4,10 @@ What changes when the brief is a website, a mobile app, or a product that spans 
 the references handle each (mobile 001-025, web app 027-083, marketing web 086-100, tools 101-144),
 with 095 showing a paired web + mobile design.
 
+This file covers layout per platform. What makes a screen feel *native* (Material 3, Apple HIG and
+Liquid Glass, Fluent 2, visionOS) is in `languages/platform-native.md`; read it whenever the brief
+is a native app.
+
 ## Mobile app (iOS / Android)
 
 Layout
@@ -73,6 +77,15 @@ Content
 - Closing section: coloured band with one CTA. Footer with sitemap, legal, and a disclaimer where the
   product is regulated (033 shows the disclaimer habit).
 - Long-scroll landing pages still need a consistent accent and photography that carries trust (097).
+
+## Desktop app (Windows / macOS) and spatial (visionOS)
+
+- Desktop apps follow the platform's window chrome, menus, keyboard shortcuts and materials (Mica
+  and Acrylic on Windows, the macOS toolbar and sidebar); the content area is laid out like a web app
+  (12-column grid, 24-32px padding) inside it. Density sits between web app and tool mode.
+- Spatial apps are windows of glass in a room: content first, controls in ornaments, no full-bleed
+  backgrounds, generous targets for eye-and-pinch input.
+- Details and numbers for both: `languages/platform-native.md`.
 
 ## Designing for both
 

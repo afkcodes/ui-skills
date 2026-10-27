@@ -18,6 +18,48 @@
       "prompt": "design a landing page and a dashboard for a new spend-management product for SMEs. web + mobile. go.",
       "expected_output": "Because the user said 'go', states its defaults in one line each rather than asking a long list (may ask the single most important open question). Produces a shared component vocabulary first, then a marketing hero (headline, subhead, filled+outlined CTAs, real product UI as the visual, logo strip), a desktop dashboard (KPI strip as one connected card, hero chart with selection callout, breakdown as segment bar + legend, table with footer pagination) and a mobile home at 390px using the same chips and row anatomy. One accent, semantic colours only for meaning, no gradient wash, proofread copy, and a short 'what I chose not to do' list.",
       "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Design the home screen and settings for an Android habit tracker. It should feel properly native, Material 3 Expressive, not like an iOS app ported over.",
+      "expected_output": "Names the language as platform-native (Material 3 Expressive) and reads languages/platform-native.md. Brief states dynamic colour from a seed (not the purple baseline), the M3 type scale, shape scale and spring motion. Keeps native chrome (top app bar, navigation bar, FAB where there is one dominant verb, M3 switches and lists in settings) and puts the hero and bespoke element in the content area (e.g. a streak drawn as discrete shapes, not a library ring). Cites platform keepers by number. Renders at 412dp-equivalent width without a device frame, shows one non-happy state, and avoids iOS tells (centred large titles, iOS toggles, glass tab bar).",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We're building a GOV.UK-style online service: 'Apply for a street trading licence'. Design the start page, the question pages, check your answers and the confirmation page.",
+      "expected_output": "Classifies it as systems / service mode and reads languages/systems.md. Uses one thing per page, question pages with the question as the h1, hint text, error summary and inline errors, a task list or linear flow chosen with a reason, check your answers with change links, and a confirmation panel with a reference number and what happens next. No atmosphere, no bespoke chart, plain English, GOV.UK type and spacing (with the font restriction noted). Scores the service-mode rubric instead of the eight peak qualities, and flags that the real service must follow the GOV.UK Service Manual and be tested with users.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Landing page and pricing page for a developer tool that lints SQL. The founders want it loud: neo-brutalist, not another gradient SaaS site.",
+      "expected_output": "Reads languages/movements.md (neo-brutalism) and patterns/commerce-and-marketing.md. Commits to the movement's tokens (hard borders, hard offset shadows without blur, flat saturated fills, a grotesk plus mono pairing) applied consistently, with a real product visual (a lint result on real SQL) as the hero rather than an illustration. Pricing has plan cards with one recommended plan, a monthly/annual toggle stating the saving, and a comparison table. Avoids the brutalist slop (random rotations, every element a different colour, unreadable contrast) and states what was not done. Cites movement and commerce keepers by number.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Product page, cart and checkout for an online furniture shop. Desktop and mobile.",
+      "expected_output": "Reads patterns/commerce-and-marketing.md. Product page with gallery, variants, price and stock, a delivery promise with dates, reviews, and a sticky add-to-basket on mobile. Cart with editable quantities, delivery estimate and totals that add up. Checkout with guest checkout, few steps, an order summary that stays visible, payment and trust signals placed next to the action, and error recovery. Real product names, prices and an out-of-stock variant. Mobile at 390px, desktop at 1440, shared component vocabulary.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Design the screen where a finance team watches an AI agent reconcile invoices and pay suppliers. It must never pay anyone without a human approving it.",
+      "expected_output": "Reads patterns/content-social-ai.md (AI agents) and principles on consequences. Hero is the run and its pending approvals, not a chat box. Shows step-by-step progress with timestamps, what the agent did and why, a human-in-the-loop approval card per payment stating amount, payee, source and consequence, approve/reject with reasons, logs, failure and retry states, and honest labelling of AI output. Flags that payment and customer-facing copy may need Compliance review.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "We use IBM Carbon. Design a 'team access' settings page where admins invite people, assign roles and remove access.",
+      "expected_output": "Reads languages/brand-systems.md and languages/systems.md (Carbon) and patterns/app-chrome.md (settings, roles and permissions, overlays). Inventories the Carbon tokens and components it uses, keeps Carbon chrome and type (IBM Plex) untouched, puts character in content (a clear role matrix or access summary drawn from tokens), uses a modal or side panel chosen by the overlay rules, and a destructive confirmation for removing access. Lists any departures from Carbon with reasons, or states there are none, and scores the system rubric.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "Opening a business bank account on iPhone: we need the identity check and document upload steps. Make it feel like a native iOS 26 app.",
+      "expected_output": "Reads languages/platform-native.md (HIG, Liquid Glass) and patterns/applications-and-onboarding.md. Glass only on the navigation and control layer, never on content; SF Pro sizes and 44pt targets. Flow states what is needed up front, shows progress, guides document capture and selfie checks with clear retry and manual-review states, supports save and resume, and ends with a check-your-answers step and an outcome screen with what happens next. Masks personal data, keeps regulatory copy present but quiet, and flags that identity and account-opening copy needs Compliance or Legal review.",
+      "files": []
     }
   ]
 }

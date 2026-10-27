@@ -17,12 +17,24 @@ screen is noise; zero is slop.
 | **Dark with one acid** | #141416 surfaces, cards one step lighter, a single acid accent (lime, electric blue, orange, violet) on selection and the primary only; capsule bars; hatching for inactive | Fintech, analytics, crypto, ops | 029, 037, 054, 059, 060, 092 |
 | **Pastel block colour** | Three or four *saturated* pastels (lilac, cyan, hot pink, acid yellow) as whole-card fills by category, black type and black buttons on top; or pastel on four small tiles only. Never the milky lilac/mint/peach set | Consumer finance, neobanks, playful SaaS | 092 |
 | **Serif wealth** | A heavy, high-contrast serif for the page title or (rarely) numerals at 32-44px, sans for everything else; generous white; hairlines instead of cards; numbers on the page surface. 093 achieves it with no serif at all | Wealth, investing, premium accounts | 081, 027, 017, 093 |
-| **Editorial** | Magazine headline (small eyebrow + huge display), a floating insight card, asymmetric grid, big type as the hero | Reporting dashboards, insights products, marketing | 042, 049, 069, 009 |
+| **Editorial** | Magazine headline (small eyebrow + huge display), a floating insight card, asymmetric grid, big type as the hero | Reporting dashboards, insights products, marketing | 042, 049, 069, 009, 117, 209 |
 | **Monochrome data** | One hue in three tints for all data; hatch, dot and weight as the second encoding; everything else grey | Any dense dashboard where legibility wins | 052, 069, 011 |
-| **Swiss boxes** | Square corners, 1px rules, flat primaries, a treemap or grid as the hero, uppercase micro labels | Insurance, contracts, admin | 023, 046, 036 |
+| **Swiss boxes** | Square corners, 1px rules, flat primaries, a treemap or grid as the hero, uppercase micro labels | Insurance, contracts, admin | 023, 046, 036, 197, 199 |
 | **Brand-loud** | Saturated brand colours, illustration, condensed uppercase type, chunky outlines; everything follows the same loud rules | Hospitality, consumer brands, campaigns | 007, 010, 014 |
 | **Analyst's grid** | White or near-white page, hairline cards on a 12-column grid, a north-star metric row, a categorical palette that holds at eight series, 12-13px type, borders not shadows; the flourish is a chart type drawn precisely (retention triangle, funnel). The default for product analytics, admin and ops tools; see `tools-and-analytics.md` | Analytics, observability, admin, dev tools | 036, 052, 063, 060 (dark) |
 | **Soft glass on gradient** | One ambient gradient page, frosted cards, soft shadows; use sparingly and keep text dark | Wellness, lifestyle, onboarding | 024 |
+| **Neo-brutalist** | Black 1.5-3px outlines, flat fills, a hard offset shadow (4-6px, no blur) on what can be pressed, one loud colour on the action region; square corners for tools. Raw variant: no colour, the grid drawn as rules, mono facts | Consumer, education, community, dev-tool marketing; quiet variant for small B2B tools | 195, 196, 197, 007 |
+| **Bento** | 5-7 unequal tiles, one hero at least 1.5x the next, each tile a real product fragment or one magnified control; neutral tiles plus one accent tile | Feature sections, launch heroes; dashboards as unequal cards | 198, 199, 200, 046; negative 201 |
+| **Tactile object** | Flat screen with one lit physical control (knob, dial, roller) the user operates, its value repeated as a flat number in the accent | Device, home, media and camera control | 202, 200, 006 |
+| **Retro source** | One period medium (printed menu, 90s desktop) shapes the grid or the IA; one ink and one spot colour; period display for headlines only; texture on the ground | Hospitality, music, culture, campaigns, youth commerce | 203, 204 |
+| **Terminal** | Mono, #0A0A0A ground, one phosphor accent, `key : value` facts, scales under bars, logs with timestamps, a wireframe of the real object | Dev tools, ops, security, infra, crypto, hardware | 205, 206, 122, 015; negative 133 |
+| **Collage** | Palette sampled from the product, one condensed display face, four or five collage devices repeated, loud and quiet bands alternating, plain chrome | Food and drink, fashion, music, D2C brands | 207, 007; negative 208 |
+| **Spatial object** | One rendered object (the product or the reading) behind flat, frontal UI; motion on interaction only; static fallback | Hardware, automotive, launches; one render on a home screen | 013, 015, 027, 091, 100 |
+
+The last seven rows are aesthetic movements; their tokens, domain limits and sloppy versions are in
+`languages/movements.md`, which must be read before choosing one. When the design language is
+platform-native or a public / enterprise system (`languages/README.md`), the stance works inside it:
+most of this table is then out of bounds for chrome and applies only to the content area.
 
 ## Signature moves (one per screen)
 

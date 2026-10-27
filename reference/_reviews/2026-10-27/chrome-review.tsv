@@ -1,0 +1,36 @@
+file	decision	number	reason
+dribbble-16507609-File-Manager-UI.png	reject		Decorative pastel folders, passcode screen and fashion photos; no list, sort, upload or file actions to learn from
+dribbble-22815138-Filter-UI-Component-for-Module-Level-Power-Electronics-platform.jpg	keep	263	High-cardinality facets: per-facet search, Show N more, Reset only on touched facets; placeholder data noted
+dribbble-24349503--Smart-Search-Command-Palette.png	keep	260	Palette with actions above results, action built from the match, letter accelerators, footer key contract
+dribbble-24477891-slothUI-World-s-Laziest-Design-System-SaaS-File-Manager-Grid.png	negative	272	File manager whose sizes cannot add up; no breadcrumb, search, upload or list view; folders paginated to 99
+dribbble-24532743-Search-Something.png	keep	256	Removable scope chips, typed result groups, standing advanced-search fallback, idle state with ⌘K
+dribbble-24684457-freud-AI-Mental-Health-App-Modal-Dialog-Popup-UIUX.jpg	reject		Illustrated brand modals with typos and an exclamatory crisis alert; overlay-misuse lesson already carried by 271
+dribbble-25082288-Dialog-Modal-UI.jpg	reject		Four placements of one generic dialog; destructive action labelled "Continue"; nothing beyond design-system docs
+dribbble-25203339-Flight-Search-Results-UI-Flytkt.jpg	keep	258	Results page anatomy: editable query, sort apart from filters, +3 overflow, count sentence; placeholder fares noted
+dribbble-25528706-User-profile-settings-Untitled-UI.jpg	keep	269	Profile record: stat strip, label-left form rows, verification state on the field, prefix addon
+dribbble-25673467-sandow-v3-AI-Fitness-Nutrition-App-Explore-Search-Result-UI.png	keep	257	Only mobile search: zero-query recents with fill-in arrow, category chips as scope shortcuts
+dribbble-25747701-Business-Hours-Management-UI.png	keep	265	Settings rows with consequence helpers, master toggle, off state written as content, autosave
+dribbble-25955378-Filter-UI-Components-Rental-Management-Dashboard.png	keep	264	AND/OR condition builder as field-operator-value sentences with one nesting level
+dribbble-26099531-Misales-Open-Notification-View.png	reject		Notification popover weaker than 266: no unread state, no inline actions, no mark-all-read
+dribbble-26397069-Sales-Analytics-Dashboard-Notification-UI-Design.jpg	reject		Every notification "2 min ago", "A payment was failed" with no amount or action, identical table rows
+dribbble-26470157-Coinstax-Portfolio-Empty-State-Dark-Mode.png	keep	268	First-use empty state as ranked ways to bring data in; no illustration
+dribbble-26514864-Settings-Page-UI-UX-Design-User-Role-Management.png	reject		Generic users table on a cloud backdrop; "roles" are job titles; names truncated with space to spare
+dribbble-26716124-Command-Palette-Light-Mode.png	keep	261	Pre-query palette: source tabs + type chips, counted groups, file rows with size/modified/by, verb footer
+dribbble-26779541-Empty-State-UI.png	reject		3D bell and a vague sentence with no action; mostly illustration
+dribbble-26781674-WellNest-Healthcare-App-UI-User-Profile-Settings.png	reject		Typos ("Pilicy", "Califontnia"), flat ungrouped settings list, unmasked health and contact data
+dribbble-26891426-Settings-Page-Ui.png	reject		Labels and values swapped ("New York" / "City"), placeholder data, typos ("percipient", "Suport")
+dribbble-26895871-Mobile-App-Modal-UI-System.png	negative	271	Every state forced into a buttonless modal; body copy pasted between cards
+dribbble-27046227-Notification-Center-UI-Clean-Organized-Actionable-Updates.jpg	keep	267	Mobile notifications: day groups, unread as fill + bar + coloured time, specific object copy
+dribbble-27065739-Data-Table-Filter-in-School-Management-Dashboard.png	reject		Grouped filter dropdown is useful but chip hides its count, gender coded pink/blue, photo backdrop; 017/029 cover the row
+dribbble-27072462-Workel-Smart-Notification-Center-UI.png	keep	266	Notification as actor-verb-object with embedded preview and inline Accept; mark-all-read footer
+dribbble-27126629-Filter-Menu-UI-Design-for-Website.png	keep	262	Facet panel mapping each facet type to its control, light and dark
+dribbble-27205542-Go-Expenses-Vendor-Supplier-Management-Screens.jpg	reject		Generic table with rainbow pastel KPI tiles, "Add Customer" on a vendors page, "Supper Admin"
+dribbble-27225610-SaaS-Analytics-Dashboard-UI-Design.jpg	reject		Analytics dashboard, not chrome; date range ends before it starts (04.07.2026 - 29.02.2026)
+dribbble-27242395-Empty-State-UI-Finance-Dashboard-for-SaaS.png	reject		In-frame empty state with 3D coin clipart; subscriptions counted in zł; 268 teaches more
+dribbble-27385632-Filter-UI.png	reject		Adult-services marketplace filtering people by gender, nationality and body type; unsuitable as a reference
+dribbble-27450677-Nova-Studio-SaaS-Settings-Page-UI-with-Payment-Gateway-Trans.png	reject		Cropped zoom shot; marketing bullets inside settings; "Payment Getway"
+dribbble-27532943-Search-results.jpg	keep	259	Configuration in a non-modal side panel beside the data (columns, pivot); totals error noted
+dribbble-27548404-Settings-Page-UI-SaaS-Admin-Dashboard-Account-Settings.png	reject		Generic two-level settings; one Save for two sections, editable Role field, date-range chips on a settings page
+dribbble-27601774-Global-Search-Command-Palette-SaaS-Search-Experience.png	keep	255	Match highlighting in title and snippet, scope + sort row, AI and full-page handoff, zero state
+dribbble-27610742-AI-Email-Assistant-Smart-Inbox-Mobile-App-UI-Design.png	reject		Sparkle on every element, "Sent Email" as the send verb, a 98% score ring with no basis
+dribbble-27668539-User-Profile-Settings-UI-Mobile-App-Design.png	keep	270	Mobile account hub grouping, restore purchases beside subscription, avatar crop step

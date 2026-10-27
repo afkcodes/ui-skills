@@ -1,7 +1,7 @@
 # Anti-slop: the tells, and what to do instead
 
 "Slop" is the generic default: output that could be any product, made by nobody, for no one in
-particular. These tells come from comparing the 85 kept references against the 173 rejected ones
+particular. These tells come from comparing the 187 kept references against the 299 rejected ones
 and against template work like 028. Scan a design against this list before showing it.
 
 ## Tells that a design was generated rather than designed
@@ -45,7 +45,7 @@ references chosen for the brief do it, cited by number.
  perfect data has not been thought through. Sketch at least: empty list, zero balance, failed
  payment, no network.
 - **Actions without consequences stated.** A "Send" button with no fee, rate, or balance-after
- line. See `patterns.md` §10.
+ line. See `patterns/finance-and-dashboards.md` §10 and `patterns/commerce-and-marketing.md`.
 - **Status without time.** "Pending" with no "since" or "expected by". Add a timestamp or a
  relative time ("in 1 week": 054).
 - **Tables without sort, filter, or pagination.** A static list of 8 rows pretends to be a table.
@@ -78,6 +78,19 @@ references chosen for the brief do it, cited by number.
  sentence is answered only below the fold needs a link or a second beat; otherwise cut it.
 - **Signs that read backwards.** "↑ $4/day vs plan" (up = good or bad?); "You owe −$38" (the label
  already carries the sign). Write the comparison in words and let the label carry the sign.
+
+## Design-language tells
+
+Each file in `languages/` lists the sloppy version of its languages. These cut across all of them:
+
+| Tell | Why it reads as slop | Do instead |
+|---|---|---|
+| A language worn as a costume (glass tab bar on Android, brutalist borders on one card of a calm banking app) | The rules are borrowed for one surface, not held | Hold the language everywhere or drop it |
+| Two languages on one screen (a Material FAB under an iOS large title; Carbon tables in a Polaris page) | The user cannot predict how anything behaves | One language per product; stack only a brand layer on top of it |
+| A system's default theme unchanged (the purple Material baseline, the default template, placeholder copy) | Nobody made a decision; the system did | Theme from the brand or a seed colour; fill templates with the content inventory |
+| Native chrome restyled to look custom | Breaks platform expectations and accessibility for no gain | Character goes in the content area; chrome stays native |
+| A movement used where its mood harms the task (chaotic brutalism on a payment confirmation, Y2K chrome on a claims form) | The aesthetic fights the user's state of mind | Match the movement to the feeling in `ideation.md` §1; calm the moments that carry consequences |
+| The movement's surface without its discipline (offset shadows on a loose grid, bento of uniform tiles, terminal green on a page with no data) | Imitation of the look, not the logic | Read the movement's tokens and rules in `languages/movements.md` and apply all of them |
 
 ## What "unslopped" does NOT mean
 

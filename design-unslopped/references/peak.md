@@ -98,6 +98,15 @@ in them, builds their own layout, and reads many series at once. For those brief
 atmosphere tests above are replaced by the table in `tools-and-analytics.md` §1 and the rubric in
 its §10. The quiet references (036, 052) are the bar there, not the lit ones.
 
+## Design languages and service mode
+
+The eight qualities were read off custom products. Native apps, public and enterprise systems and
+transactional services keep all eight but move them: the platform's material is the atmosphere for
+chrome, the system's largest heading sets the scale, and in a service the question is the
+composition. `languages/README.md` §3 has the table; each language file gives the detail, and
+`languages/systems.md` has the service-mode rubric. The peak examples there are 149 and 151 (native
+iOS), 145 (M3 Expressive), and 170-176 (GOV.UK service pages).
+
 ## The compare rubric
 
 When the render is beside the three references, score each of the eight above as "matches /

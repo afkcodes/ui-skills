@@ -7,10 +7,14 @@ first. Apply these by default; deviate on purpose.
 ## Type
 
 Read `typography.md` first; it has the counts. Summary:
-- Classify the brief into one of the eight voices in `typography.md` (neutral grotesk, tight modern
- grotesk, friendly geometric, humanist, light rounded, editorial serif + sans, marketing display,
- condensed brand-loud) and choose from that voice's roster, avoiding the face you used last time.
- Load it. Never system-ui, never a face the three chosen references would not use.
+- Classify the brief into a voice in `typography.md` (neutral grotesk, tight modern grotesk,
+ friendly geometric, humanist, light rounded, editorial serif + sans, marketing display, condensed
+ brand-loud; or, when a design language sets it, platform-native, a system face, mono, heavy
+ grotesk, period display, condensed display) and choose from that voice's roster, avoiding the face
+ you used last time. Load it. Never system-ui in a custom product, never a face the three chosen
+ references would not use; native and system languages use the platform's or system's face.
+- When the language is platform-native or a system, its own numbers (type ramp, spacing grid,
+ radii, elevation, targets) replace the values in this file; see `languages/`.
 - Money and every number: the body sans at 500-600, `letter-spacing` −0.02 to −0.04em,
  `font-variant-numeric: tabular-nums`, line-height 1.0-1.1. Currency symbol same size, weight and
  colour as the digits. Decimals optionally at 55-65% size and 40-50% opacity.

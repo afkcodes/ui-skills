@@ -1,0 +1,47 @@
+file	decision	number	reason
+dribbble-10732025-M-Editorial-Website-Tokyo-Film-Photography.png	reject		800x600 animation still; magazine-spread overlap is good but body text is unreadable at full size
+dribbble-11077852-M-Editorial-Website-Animation.png	reject		800x600 still; bare serif headline hero; small text unreadable
+dribbble-12636206-Y2K-Inspired-Desktop-Website.jpg	keep	203	Y2K desktop OS metaphor as the site's navigation; real content; windows as sections
+dribbble-14108808-Music-App-Design-Skeuomorphism.png	reject		tilted composition; glow on every control; grey-on-black labels
+dribbble-17741015-Retro-Inspired-Website.jpg	keep	204	retro printed-menu grid: 1px rules, one spot colour, rubber-hose mascots, real price cells
+dribbble-18534574-NeuBrutalism-Website-UI.png	reject		mostly illustration; generic copy with a typo; tokens shown better by 195
+dribbble-19434351-Photographer-Portfolio-Landing-Page.jpg	reject		generic portfolio template; filler copy repeated; mostly photography
+dribbble-21063771-Light-Control-App-UI-Exploration.png	keep	202	tactile done well: one knob as input, value mirrored as a flat number
+dribbble-21099576-FigChallenge-What-s-New.png	reject		tilted multi-screen mockup
+dribbble-21485265-Font-Library-Landing-Page-In-Neubrutalism-Style.png	reject		laptop + phone device mockups; bare hero cropped at the fold
+dribbble-21523865-Neo-Brutalism-SaaS-Dashboard-App.png	keep	196	quiet product neo-brutalism: square corners, outlines, hard shadow on two elements only
+dribbble-21824712-Apple-Vision-Pro-Spatial-UI-NFT-Video-Player.png	reject		visionOS (platform batch); room render; third-party trademarks
+dribbble-23583586-Nike-Concept-Y2K-Website.png	reject		one sentence repeated five times as filler; real-brand trademark; sparkles and grain as costume
+dribbble-23591956-Bento-Layout-Trend.png	negative	201	uniform 3x2 bento: tint and glyph per tile, platitude copy, no hierarchy
+dribbble-23707072-Bento-Grid-Website-Hero-Section.png	reject		perspective laptop mockup; rainbow stock-photo tiles
+dribbble-23870293-Apple-Vision-Pro-Spatial-UI-Health-App.png	reject		visionOS (platform batch); eight identical cards over a room render
+dribbble-25161428-Almina-Luxury-Fashion-Ecommerce-Website-Design-Product-Detail.jpeg	reject		tilted presentation
+dribbble-25276613-CANDICE-Fashion-Ecommerce-Website.png	reject		mostly fashion photography; Y2K lives in the photos, not the interface
+dribbble-25484234-Neo-brutalism-mobile-app-concept.jpg	reject		mostly character illustration; the UI is one small menu card
+dribbble-25700671-Minimalist-Swiss-Style-Website-UI-Login-Page-Concept.jpg	reject		amateur: no grid, mixed faces, clip-art monitor
+dribbble-25828400-Spatial-UI-realtime-Unreal-3D-CGI-Animation-Vision-Pro-concept.png	reject		3D render scene; visionOS concept; panel cropped
+dribbble-25862451-Online-Education-Landing-Page.jpg	reject		generic neo-brutal slop (typos, stock cut-outs, sparkles); 208 is the stronger negative
+dribbble-25955789-Bento-grid-website-section-for-Framer.webp	reject		bento of 3D product renders with no interface; borrowed swoosh
+dribbble-26255865-Calendar-App-Hero-Section-2.png	keep	199	hero bento of product micro-visualisations, one ink per tile, cropped by the frame
+dribbble-26255974-Cross-Border-website-design.jpg	reject		bare split hero in a tablet frame; same author as 199 and thinner
+dribbble-26386603-Satelite-Panel-Terminal-UI.png	keep	205	terminal instrument: one phosphor accent, key:value facts, wireframe hero with readings
+dribbble-26409004-Ghia-Professional-Bold-Beverage-Website-Design-About-Us-Page.jpeg	keep	207	maximalist collage with a system: palette from the product, one display face, repeated devices
+dribbble-26487589-Y2K-Pink-Shopify-Theme-Retro-Neon-Pink-Gen-Z-E-commerce.png	reject		overlapping presentation collage; mostly photography; agency copy on a store
+dribbble-26691327-Drone-Control-App-UI-3D-Skeuomorphic-Pro-Camera-Flight-Contr.png	keep	200	marketing bento of magnified tactile controls; one accent across tiles
+dribbble-26767482-Dashboard-Terminal.png	keep	206	terminal for a dense tool: logs as content, AI lines inside the approval panel (theme not to copy)
+dribbble-27017620-Website-Design-For-Hair-Salon.png	reject		templated: sparkle stars, stock portraits, typo; 207 shows maximalism better
+dribbble-27031236-Bento-Grid-Website-UI-Home-Electrification-Planning.png	keep	198	feature bento where each tile is a cropped live UI fragment sized to its content
+dribbble-27162192-Vintage-Product-Landing-Page-Hero-Section-UI-Design.png	reject		bare hero; same template as 27322521; italic serif eyebrow
+dribbble-27322521-Retro-Radio-Product-Landing-Page-UI-Vintage-Audio-Website-Desi.png	reject		bare hero with adjective filler; the dial-in-the-o wordmark is the only idea
+dribbble-27395433-Axis-Brutalism-Architectural-Agency-Website.png	keep	197	raw brutalism: exposed grid rules, type as architecture, mono facts, no colour
+dribbble-27427883-Community-Website-Design-with-Blog-Partner-Sponsor-Pages.png	keep	209	zine editorial: condensed display + mono body, handwritten marginalia, dimmed grid
+dribbble-27581522-Pet-Adoption-Caf-Website-Hero-Design-Concept-Coffee-Shop.png	reject		bare hero, mostly illustration; letter-spaced body text
+dribbble-27640617-Neo-Brutalism-Pet-Adoption-App.png	keep	195	full neo-brutalist component set: outline, flat fill, hard shadow, loud colour on the action region
+dribbble-27721928-3D-UI-Concept-Spreadsheet-Table-Stand.png	reject		3D render of a spreadsheet as an object; not an interface
+dribbble-27747111-3D-UI-Concept-Close-Up-Timesheet-Widget.png	reject		3D render close-up; not an interface
+dribbble-27820780-Maximalism-Bold-Vibrant-Website-Design.png	negative	208	maximalism with no system: every border and every number a different colour, confetti
+dribbble-9756710-Collage-website-Landing-Page-UI-Design.png	reject		generic 2017 college template; not collage
+site-igloo-inc.png	reject		https://www.igloo.inc/ (Awwwards SOTD); headless capture shows only the WebGL2 fallback line
+site-shopify-editions-summer24.png	reject		https://www.shopify.com/editions/summer2024 (Awwwards SOTD); capture returned the site's 500 page twice
+site-abcdinamo.png	reject		https://abcdinamo.com/ (Awwwards HM); web-brutalist, not Swiss; hero photo and consent overlay dominate
+site-teenage-engineering.png	reject		https://teenage.engineering/ (Land-book); ~85% product photo; only the nav header is interface

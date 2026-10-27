@@ -1,0 +1,28 @@
+file	decision	number	reason
+dribbble-26305579-Daily-UI-009-Music-Player.png	keep	145	M3 Expressive button group by shape, wavy progress, per-cover dynamic colour
+dribbble-25913303-Mobile-App-Concept-Reservations-Material-3-Expressive.png	keep	146	Content-seeded M3 scheme (sage + tertiary yellow), untouched nav bar; shown in an iPhone frame (noted)
+official-m3-expressive-payments-list.png	keep	147	Official M3 Expressive containment on a payments list. Source: https://m3.material.io/blog/building-with-m3-expressive (image https://lh3.googleusercontent.com/taiH5nZn-gvTcyg-XSvatfEK34SP7NMoHSKxMXU0PydF2n2Y7Lw_THTIBTTIy7he3sTmAuMC_2c3yPkNYZKYBXdandtANoZYtQZIDhGqG-E=s0)
+dribbble-22523192-Dashboard-Analytics-Material-You-m3-Design-system.png	negative	148	M3 by default: unchosen lilac seed, black drawer, four equal tiles, separator typos
+dribbble-26749919-Booking-hotel-Native-iOS-26-App.png	keep	149	Glass controls over a photo hero, 68pt rating hero, CTA with consequence line
+dribbble-26749782-Modern-Housing-Rental-Experience.png	keep	150	Only clear iOS 26 floating glass tab bar with content beneath; same product as 149 but different screen and lesson
+dribbble-26543209-GitHub-iOS-26-Contributions-Graph-Feature-Concept-vs-Current-UI.png	keep	151	Bespoke hero inserted in the content area above a native inset-grouped list (current vs revised)
+official-ios-notes-format-sheet.png	keep	152	Official iOS 26 inset sheet, monochrome glass, one prominent tinted action. Source: https://developer.apple.com/design/human-interface-guidelines/sheets (image https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-nonmodal-notes-text-regular@2x.png)
+official-ipados-background-extension.png	keep	153	Official full-bleed hero with glass controls and background extension under the sidebar. Source: https://developer.apple.com/design/human-interface-guidelines/layout (image https://developer.apple.com/tutorials/images/com.apple.HIG/layout-background-extention-view@2x.png)
+official-macos-notes-toolbar.png	keep	154	Official macOS 26 window chrome: unified toolbar, glass groups, overflow menu. Source: https://developer.apple.com/design/human-interface-guidelines/toolbars (image https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-notes-app-expanded-icons@2x.png)
+official-visionos-music-sidebar.png	keep	155	Official visionOS window glass, vertical tab bar ornament, sidebar selection by fill. Source: https://developer.apple.com/design/human-interface-guidelines/sidebars (image https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-sidebar-music@2x.png)
+dribbble-21723869-VisionOS-App-Explorations.png	negative	156	Opaque white content window in passthrough, thin serif, custom top bar duplicating window controls, lorem ipsum
+dribbble-22405755-Booking-app-Airbnb-Material-You-m3-Design-system.png	reject		Airbnb clone on a photo backdrop; every price $100.95; little that is specifically M3
+dribbble-22405814-Settings-Material-You-m3-Design-system.png	reject		Same Setproduct kit as 148; two menu buttons, filler copy, identical row subtitles
+dribbble-25913316-Mobile-App-Concept-Reservations-Material-3-Expressive-Dark.png	reject		Near-duplicate of 146 (same author and app); screen too small to read details
+dribbble-27570405-Plant-Care-Tracker-App.png	reject		Tilted mockup; otherwise good M3 Expressive type and shape
+dribbble-27728005-App-Store-Screenshot-Pregnancy-Tracker-Period-Monitoring-App.jpg	reject		App Store marketing frames, tilted device, 3D illustration, headline typo
+dribbble-27727875-AI-Food-Scanner-Nutrition-Tracking-Mobile-App-UI-UX-Design.png	reject		Generic food app in iPhone frames with stock photo; nothing platform-specific
+dribbble-26175703-Apple-Liquid-Glass-iOS-26-Control-Center-UI-Kit.png	reject		Kit title cover with placeholder Title/Detail tiles
+dribbble-26297354-Liquid-Glass-iOS-Widgets.png	reject		Two widgets on a decorative backdrop; no product
+dribbble-26997828-Liquid-Glass-IOS-Widgets-Exploration-of-Liquid-Interfaces.png	reject		Hand-held mockup; text distorted and unreadable
+dribbble-27003221-Running-Progress-Summary-Minimal-iOS-Fitness-App-IOS-26.png	reject		Half-cropped single screen; generic ring; heatmap lesson better in 151
+dribbble-27457052-Apple-Vision-Pro-App-Design-UX-for-Spatial-Computing.png	reject		Phone-shaped weather panels, not spatial; 3D icons; glass-on-content tell already in anti-slop
+dribbble-14567707-Desktop-videogames-magazine.png	reject		Web magazine with game key art; not Fluent or platform-native
+dribbble-15015529-Web-mobile-Leo-Natsume.jpg	reject		3D art, no interface
+dribbble-27798057-ClipDock-Screenshot-Clipboard-Manager-for-Windows.png	reject		Promo poster; app window is a small illustration
+dribbble-21166332-Project-Budget-Job-Costing-Actual-SaaS-Web-App.png	reject		Web SaaS in a fake macOS frame; repeated $800.00 values; "$8,00.00" typo

@@ -1,0 +1,32 @@
+file	decision	number	reason
+dribbble-15731031-Music-Player-App-Design.png	reject		Tilted mockups; a splash and an illustrated player with little interface
+dribbble-16635856-Messaging-App.png	keep	315	Thread list states: filter chips, badges, selection bar, smart replies, date separators
+dribbble-22690036-Social-Media-App.png	keep	311	Stories as live cards, engagement on media, creator profile with counted segments
+dribbble-24131675-ConnectWorld-Social-Media-App-Home.png	keep	312	Feed card anatomy plus comments sheet and share sheet over the feed
+dribbble-24164213-SwiftShip-Logistic-App-Profile-Page.png	reject		Generic profile completion and settings list with 3D clip-art; nothing beyond app chrome
+dribbble-25605732-Music-Player-App.png	reject		Tilted device mockups; synced-lyrics screen is the only lesson
+dribbble-25876130-Landing-Page-for-AI-assistant-Website-for-AI-Chat-App.png	reject		Laptop and phone photographed on a sofa; tilted and unreadable
+dribbble-25898104-Social-Media-App.png	reject		3D avatar splash, generic feed and profile, typos; weaker than 317 as a negative
+dribbble-26327683-Music-Player-App-Concept.png	reject		Glass bubble art; the queue is skeleton bars with no content
+dribbble-26439303-AI-Chat-App-Conversation-Response-Flow.png	keep	318	Rotated collage, but the only candidate with generating state, inline citation, sources, rewrite, model picker
+dribbble-26510156-AI-Agent-Customer-Service-Dashboard.png	keep	316	Desktop support inbox with per-row AI provenance chips and a labelled AI summary
+dribbble-26525143-Messaging-app-Micro-animations.png	reject		iOS chat duplicating 314/315 in role; every time 10:24 am; device frames
+dribbble-26543418-Messages-Conversation-flow-Ui.png	negative	317	Per-bubble timestamps out of order, mislabelled typing state, uniform badges, typos
+dribbble-26609645-Elegant-Profile-Page-Mobile-App-UI-Design.png	reject		3D phone render on a plinth, tilted; generic settings list
+dribbble-26866025-Mobile-Chat-App.png	keep	314	Group chat grouping by sender and time, media stack with reactions, read ticks, mentions
+dribbble-26984317-Profile-Settings-Page-App-UI.png	reject		Typos (Mange profile), 3D illustration, generic settings list
+dribbble-27034766-Travel-Planning-Route-Discovery-Mobile-App-UI.png	reject		Typo in the primary CTA (Save this Palace); map and itinerary weaker than 323/324
+dribbble-27223326-Pet-Management-App-UI-Services-Feed.png	reject		Generic feed card and form, grammar errors, nothing new
+dribbble-27235336-Modern-Social-Feed-App-Mobile-UI-Design.png	keep	313	Short-video reel anatomy with the action rail, glass author pill, cover-and-avatar profile
+dribbble-27320546-AI-Agent-Control-Centre-Dashboard.png	keep	320	Agent run list with status words, human approval card, budget used against a cap
+dribbble-27462097-Molar-AI-Dental-AI-Agent-Dashboard.png	keep	321	Live agent band and a past-tense activity log with actor, time and awaiting-human states
+dribbble-27469414-Social-Feed-UI-Modern-LinkedIn-Redesign.png	keep	310	Desktop three-column feed, named ranking, top stories with recency and readers
+dribbble-27475444-Avero-AI-Agent-Dashboard.jpg	keep	322	Agent builder with Editor/Executions/Evaluation, test chat beside a log table
+dribbble-27486756-Social-Media-App-Design.png	reject		Clean creator tool but KPI tiles and week strip already covered by 016 and 052; cut on strictness
+dribbble-27511120-AI-Assistant-Mobile-App-Design.png	reject		Cropped collage of 9+ screens, decorative orb, typos; 319 is the clearer AI negative
+dribbble-27566513-Travel-Planning-App-Map-UI-Design.jpg	reject		Mostly photography and a tilted phone; route drawn on a photo, not a map
+dribbble-27606734-Deezer-Music-Player-App-AI-Music-Streaming-Personalization-UI.png	reject		Hand-held phone showing a splash screen only
+dribbble-27609611-Talkora-AI-Ai-Chat-App.png	negative	319	Orb as hero, typos in hero and suggestions, sparkles; voice state worth keeping
+dribbble-27619169-Event-Discovery-Booking-Social-Feed-App-Taiwanese-UI-UX.jpg	reject		Good mixed post and event feed in Traditional Chinese, but the same event card repeats; 310-313 cover feeds
+dribbble-27734500-Trip-Planner-Map-Mobile-App-UI-UX.jpg	keep	324	Map with floating controls above a card sheet, context menu with destructive split
+dribbble-6134805-Real-Estate-Search-App-UI-map.png	keep	323	Price pins with selected inversion synced to a carousel, histogram price filter

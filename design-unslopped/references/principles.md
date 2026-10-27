@@ -1,6 +1,6 @@
 # Principles: what the good work has in common
 
-Distilled from the 85 reference designs (see `design-notes.md` for the evidence behind each point).
+Distilled from the reference designs (see `design-notes.md` for the evidence behind each point).
 These are the reasons a screen reads as considered rather than generated. Apply them as judgement,
 not as a checklist to tick: a design can satisfy every line and still be dull, and the F1 concept
 (010) or tubik's restaurant app (007) break several and are excellent because they break them

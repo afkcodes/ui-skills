@@ -1,0 +1,34 @@
+file	decision	number	reason
+dribbble-22276265-SaaS-Pricing-Page.png	reject		Typos (Montly, Let's Talks!), no recommended plan, only filled CTA goes to Custom; weaker than 286/287
+dribbble-22377177-Dolens-Checkout-Page.png	keep	297	Subscription checkout split: Total due today, annual switch on plan row, mandate under Subscribe
+dribbble-22748023-FootWear-Sneakers-Ecommerce-Website.png	keep	289	Product card anatomy (rating + sold count, was/now) and inline filter bar with More Filter
+dribbble-25340642-Daily-UI-2-out-of-100-Checkout-Page.png	keep	296	Payment step: expanded radio card, amount in Pay button, sums reconcile
+dribbble-25341422-Camping-Gear-Ecommerce-Product-Page.png	keep	293	Brand-loud PDP: product name as hero, decisions in one column (tubik)
+dribbble-25427863-E-commerce-Checkout-page.png	reject		Total omits shipping, Order Summery typo, Pay now without amount; 296 covers the anatomy
+dribbble-25705869-Checkout-Page-Shipping-UI.png	reject		Both shipping radios shown selected, Lastt Name typo, required free-text Description
+dribbble-25980072-Shopping-app-Home-page.png	reject		Uses a real retailer's name, Chart for Cart in tab bar, generic yellow cards
+dribbble-26089412-Pricing-Page-Design.png	keep	285	Pricing + comparison table with tier colour carried into columns; confident stance
+dribbble-26109028-Ecommerce-Product-Page.png	keep	291	Delivery promise tiles with dates, compare table, bundles; many money errors noted
+dribbble-26114469-Upgrade-Plan-Pricing-Page.png	keep	286	Recommended plan marked four ways; annual toggle with saving chip
+dribbble-26163743-Ecommerce-Website-Design-for-Crockery-Kitchenware-Brands.png	reject		Hero copy is pasted chatbot text (Let me know if you'd like adjustments!); serif-italic signature
+dribbble-26207298-Ecommerce-Website-Checkout-Cart-UI-UX-Design.png	reject		Copy for a different product, price $44 on PDP vs $64 in cart, typos, cropped edge
+dribbble-26356688-Modern-Ecommerce-Website-UI-UX-Concept-Fashion-Retail-Shop.jpg	negative	300	Listing slop: one placeholder title and price on every card, banner soup, typos
+dribbble-26370258-Grocery-Mobile-App-UI-UX-Design-Online-Shopping-App.jpg	reject		Lorem ipsum, product images mismatch names, identical order rows
+dribbble-26670059-SaaS-Platform-Pricing-Page.png	reject		Low-res browser frame, gradient blob headers; cumulative lists already in 287
+dribbble-26679451-Eyewear-Website-Checkout-Page.jpg	reject		Costumer typo, reversed stepper (+ before -), Subtotal set above its adjustments
+dribbble-26808714-Pricing-sections-Untitled-UI.jpg	keep	288	Comparison table, FAQ, testimonial, logo strip, footer in one system
+dribbble-26831066-Modern-CCTV-eCommerce-Product-Page-UI.png	keep	290	PDP buy box: price, three trust lines, package radios, CTA microcopy
+dribbble-27064598-AI-SaaS-Pricing-Page-UI.png	keep	287	Cumulative tiers (Everything in X), plan-specific CTA verbs, two-layer plan card
+dribbble-27190142-AI-Project-Management-Assistant-SaaS-Landing-Page.png	reject		Duplicate of existing reference 096 (Deflexai)
+dribbble-27470073-Marketplace-Mobile-Shopping-App.png	reject		Tilted phone mockups; Adress typo; name and description disagree
+dribbble-27490669-Skipa-SaaS-Subscription-Checkout-Payment-Experience.jpg	negative	299	Right anatomy, numbers that do not reconcile across card, breakdown, button and terms
+dribbble-27571627-Ecommerce-Product-Page-Streetwear-Brand-Website.png	reject		Identical title and rating on every card, facet counts do not sum, 3,64662 malformed
+dribbble-27583624-Cira-Minimalist-Furniture-Store-Ecommerce-Product-Page-Website.jpeg	keep	292	Editorial PDP with grouped spec table, dual units, closing CTA and wordmark footer
+dribbble-27612413-E-commerce-Mobile-App-Online-Shopping-App-Fashion-Store-App.png	keep	294	Mobile PDP bottom bar (qty + add to cart), free-shipping threshold bar in cart
+dribbble-27639775-Lohncomputer-Swiss-Salary-Calculator-Finance-Web-Design.jpg	reject		Calculator hero with three fields mislabelled Alter in Jahren; Rechnerfür
+dribbble-27658466-Fashion-E-Commerce-Website-Product-Page-Shopping-Cart-UI-UX.png	reject		Laptop-on-sofa mockup; UI text too small to read
+dribbble-27736528-Subscription-Checkout-Experience.jpg	reject		Plan $14.99 vs Plan Price $199, Tax %2, total $220 unexplained; 3D render
+dribbble-27741678-Saffra-Food-Delivery-App-Cart-UI.png	keep	295	Cart states: filled, empty, undo toast; sticky total incl. fees; sums reconcile
+dribbble-27769580-Electric-Scooter-E-Commerce-Website.png	reject		Tablet device frame, mostly product photo, Diastance typo
+dribbble-27771494-Prioritywise-Saas-B2B-Website.png	reject		Tilted multi-panel presentation; table and pricing text too small
+dribbble-27785811-Subscription-Checkout-UX-Tare.jpg	keep	298	Subscription summary: due today vs then, cadence in words, exit stated; maths holds

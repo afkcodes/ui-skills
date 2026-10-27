@@ -21,6 +21,16 @@ Order of operations: 1) classify the brief into a voice; 2) take the voice's ros
 | Wealth, investing, premium accounts, hospitality · quiet luxury | **Editorial: heavy serif + sans** | 081, 017 (title only), 027 (headings only), 093 (achieves it with no serif) |
 | Marketing landing pages, campaigns, portfolios · persuasive, cinematic | **Display serif or display sans headline + sans body** | 086, 099, 091, 096, 098, 087 |
 | Hospitality, sport, food & drink brands, youth · loud, illustrated | **Condensed / uppercase brand-loud** | 007, 010 |
+| Native app on Android, iOS / iPadOS, macOS, Windows, visionOS | **Platform-native** | 145, 149, 151, 152, 154, 155 |
+| Built on a public or enterprise system (GOV.UK, Carbon, Polaris, Atlassian, NHS, USWDS) | **System face** | 170-181 |
+| Dev tools, ops, security, infra, hardware, agent logs · technical, raw | **Mono / terminal** | 205, 206, 122 |
+| Neo-brutalist products and sites · blunt, loud, playful | **Heavy grotesk** | 195, 196, 197 |
+| Retro / Y2K, period-inspired brands · nostalgic | **Period display + plain sans** | 203, 204 |
+| Collage and maximalist brands, zines, culture · abundant | **Condensed display + plain chrome** | 207, 209 |
+
+A design language (`languages/README.md`) can decide the voice outright: a native app takes the
+platform-native voice, a system takes its own face, and a movement takes the voice named in
+`languages/movements.md`. Classify by the table only when the language leaves type open.
 
 If a brief sits between two rows, pick by the tone adjectives the user gave; if they gave none, pick
 by the platform (mobile consumer → friendly geometric; desktop tool → neutral grotesk) and say so.
@@ -112,6 +122,57 @@ Choose one per product and avoid the one you used last time; the roster is long 
  (thin wide display "Formula 1" over photography, mono-ish lap times).
 - Avoid: using this voice for anything regulated; lowercase condensed body text; mixing two display
  faces.
+
+### Platform-native
+- Faces: Android uses Roboto or Roboto Flex unless the brand owns a face (then the brand face on
+ Display and Headline, a plain face on Body and Label: 145); Apple platforms use SF Pro (SF Compact
+ on watchOS) with Dynamic Type; Windows uses Segoe UI Variable. In a web prototype load Roboto Flex
+ from Google Fonts, use `-apple-system` for SF (renders on Apple machines), and Selawik as the open
+ stand-in for Segoe UI on non-Windows machines; name the native face in the spec.
+- Settings: the platform's own scale, in its units (M3 Display 57/64sp down to Label 11/16; iOS Body
+ 17pt, Large Title 34pt; Windows Body 14/20px). Exact ramps are in `languages/platform-native.md`.
+- Character: from weight and size contrast in the content area (149 sets a rating at ~68pt over a
+ 17pt body), never from restyling chrome type.
+- Avoid: an iOS large title on Android; SF on Android or Roboto on iOS; fixed sizes that ignore
+ Dynamic Type or the user's font scale.
+
+### System face
+- Faces: the system's own. GOV.UK: GDS Transport on gov.uk services only, otherwise the
+ organisation's font or Arial; Carbon: IBM Plex Sans and Plex Mono; Polaris: Inter, then the system
+ stack; Atlassian: Atlassian Sans and Atlassian Mono; NHS.UK: Frutiger inside NHS services, Arial
+ elsewhere; USWDS: Public Sans. Detail and versions in `languages/systems.md`.
+- Settings: the system's tokens only (GOV.UK headings bold and large; Polaris 13px body; Carbon
+ productive vs expressive sets). Character comes from content, never from a second face.
+- Avoid: swapping the system face for Inter "to modernise" (`languages/systems.md` §8); a display
+ face on top.
+
+### Mono / terminal
+- Roster: JetBrains Mono, IBM Plex Mono, Geist Mono, Martian Mono, DM Mono; optionally a tight
+ grotesk (Geist, Inter Tight) for headings only.
+- Settings: uppercase micro-labels 10-11px with +0.04-0.08em; facts as `key : value`; the largest
+ figure around 40px (205); timestamps with seconds and zone (206).
+- Avoid: paragraphs longer than two lines in mono; mono in a product whose users are not technical.
+
+### Heavy grotesk (neo-brutalist)
+- Roster: Archivo Black, Archivo 800, Rubik 800, Space Grotesk 700, Familjen Grotesk 700; a neutral
+ grotesk at 700 for the quiet product variant (196); mono numerals for facts in the raw variant (197).
+- Settings: titles 700-900, tight tracking, often uppercase for short statements; body a plain sans
+ at 400.
+- Avoid: two heavy faces; heavy weight on body text; the movement's type without its grid and
+ borders (`languages/movements.md` §1).
+
+### Period display + plain sans (retro / Y2K)
+- Roster: Bungee, Shrikhand, Righteous, Fraunces (soft axis) for headlines; any plain sans for body.
+- Settings: the display face on headlines only, at large sizes; body plain at 15-16 (204 sets body in
+ the display face and reads slowly).
+- Avoid: pixel or chrome type on body copy; the period face on anything regulated.
+
+### Condensed display + plain chrome (collage, zine)
+- Roster: Anton, Big Shoulders Display, Bebas Neue for headlines and manifestos; a plain sans for
+ navigation, inputs and buttons; mono for deks and metadata in the zine variant (209).
+- Settings: one display face, uppercase, tight; chrome stays quiet so the collage carries the noise
+ (207).
+- Avoid: a second display face; display type in form labels; 208's everything-loud page.
 
 ## 3. Numerals module (applies inside every voice)
 
